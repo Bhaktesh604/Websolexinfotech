@@ -1,80 +1,4 @@
-// import React, { useState } from 'react';
 
-// const portfolios = {
-//     Animation: [
-//         { id: 1, src: 'animation1.jpg', alt: 'Animation 1' },
-//         { id: 2, src: 'animation2.jpg', alt: 'Animation 2' },
-//     ],
-//     '3D Model': [
-//         { id: 1, src: '3dmodel1.jpg', alt: '3D Model 1' },
-//         { id: 2, src: '3dmodel2.jpg', alt: '3D Model 2' },
-//     ],
-//     'Game Development': [
-//         { id: 1, src: 'gamedev1.jpg', alt: 'Game Development 1' },
-//         { id: 2, src: 'gamedev2.jpg', alt: 'Game Development 2' },
-//     ],
-//     'Graphic Design': [
-//         { id: 1, src: 'graphicdesign1.jpg', alt: 'Graphic Design 1' },
-//         { id: 2, src: 'graphicdesign2.jpg', alt: 'Graphic Design 2' },
-//     ],
-//     'App Development': [
-//         { id: 1, src: 'appdev1.jpg', alt: 'App Development 1' },
-//         { id: 2, src: 'appdev2.jpg', alt: 'App Development 2' },
-//     ],
-//     'Web Development': [
-//         { id: 1, src: 'webdev1.jpg', alt: 'Web Development 1' },
-//         { id: 2, src: 'webdev2.jpg', alt: 'Web Development 2' },
-//     ],
-// };
-
-// const PortfolioSection = () => {
-//     const [activeTab, setActiveTab] = useState('Animation');
-
-//     return (
-//         <section className="portfolio-section">
-//             <div className="container">
-//                 <div class="row">
-//                     <div class="col-lg-12 text-center">
-//                         <div class="section_title portfolio_title text_center  mt-3 wow fadeInDown mb-4">
-//                             <div class="section_sub_title uppercase mb-3">
-//                                 <h6>PORTFOLIO</h6>
-//                             </div>
-//                             <div class="section_main_title">
-//                                 <h1>Our Latest Works For Your Business</h1>
-//                             </div>
-//                         </div>
-//                     </div>
-//                 </div>
-//                 <ul className="nav nav-tabs justify-content-start justify-content-lg-center  pt-3 pt-lg-4">
-//                     {Object.keys(portfolios).map(tab => (
-//                         <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
-//                             <button
-//                                 className={`nav-link ${activeTab === tab ? 'active' : ''}`}
-//                                 onClick={() => setActiveTab(tab)}
-//                             >
-//                                 {tab}
-//                             </button>
-//                         </li>
-//                     ))}
-//                 </ul>
-//                 <div className="tab-content">
-//                     <div className="portfolio-tab-content">
-//                         {portfolios[activeTab].map(image => (
-//                             <img
-//                                 key={image.id}
-//                                 src={image.src}
-//                                 alt={image.alt}
-//                                 className="portfolio-image"
-//                             />
-//                         ))}
-//                     </div>
-//                 </div>
-//             </div>
-//         </section>
-//     );
-// };
-
-// export default PortfolioSection;
 
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -104,13 +28,13 @@ import { Link } from 'react-router-dom';
 
 
 const portfolios = {
-    'Animation': [
-        { id: 1, name: 'animation', discri: 'animation', src: image1, alt: 'Rectangle 11.png' },
-        { id: 2, name: 'animation', discri: 'animation', src: image2, alt: 'Rectangle 12.png' },
-        { id: 3, name: 'animation', discri: 'animation', src: image3, alt: 'Rectangle 13.png' },
-        { id: 4, name: 'animation', discri: 'animation', src: image4, alt: 'Rectangle 14.png' },
+    'Web Design': [
+        { id: 1, name: 'web', discri: 'web', src: image1, alt: 'Rectangle 11.png' },
+        { id: 2, name: 'web', discri: 'web', src: image2, alt: 'Rectangle 12.png' },
+        { id: 3, name: 'web', discri: 'web', src: image3, alt: 'Rectangle 13.png' },
+        { id: 4, name: 'web', discri: 'web', src: image4, alt: 'Rectangle 14.png' },
     ],
-    'Game Development': [
+    'App Design': [
         { id: 1, name: 'game development', discri: 'game development', src: image5, alt: 'Rectangle 15.png' },
         { id: 2, name: 'game development', discri: 'game development', src: image6, alt: 'Rectangle 16.png' },
         { id: 3, name: 'game development', discri: 'game development', src: image7, alt: 'Rectangle 17 (2).png' },
@@ -122,13 +46,13 @@ const portfolios = {
         { id: 3, name: 'graphic design', discri: 'graphic design', src: image11, alt: 'Rectangle 21.png' },
         { id: 4, name: 'graphic design', discri: 'graphic design', src: image12, alt: 'Rectangle 22.png' },
     ],
-    'App Development': [
+    'Web Development': [
         { id: 1, name: 'app development', discri: 'app development', src: image13, alt: 'Rectangle 23.png' },
         { id: 2, name: 'app development', discri: 'app development', src: image14, alt: 'Rectangle 24.png' },
         { id: 3, name: 'app development', discri: 'app development', src: image15, alt: 'Rectangle 25.png' },
         { id: 4, name: 'app development', discri: 'app development', src: image16, alt: 'Rectangle 26.png' },
     ],
-    'Web Development': [
+    'App Development': [
         { id: 1, name: 'web development', discri: 'web development', src: image17, alt: 'Rectangle 27.png' },
         { id: 2, name: 'web development', discri: 'web development', src: image18, alt: 'Rectangle 28.png' },
         { id: 3, name: 'web development', discri: 'web development', src: image19, alt: 'Rectangle 29.png' },
@@ -137,150 +61,20 @@ const portfolios = {
 };
 
 const PortfolioSection = () => {
-    const [activeTab, setActiveTab] = useState('Animation');
+    const [activeTab, setActiveTab] = useState('Web Design');
 
     return (
-        // <section className="portfolio-section">
-        //     <div className="container">
-        //         <div className="row">
-        //             <div className="col-lg-12 text-center">
-        //                 <div className="section_title portfolio_title text_center mt-3 wow fadeInDown mb-4">
-        //                     <div className="section_sub_title uppercase mb-3">
-        //                         <h6>PORTFOLIO</h6>
-        //                     </div>
-        //                     <div className="section_main_title">
-        //                         <h1>Our Latest Works For Your Business</h1>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //         <ul className="nav nav-tabs justify-content-start justify-content-lg-center pt-3 pt-lg-4">
-        //             {Object.keys(portfolios).map(tab => (
-        //                 <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
-        //                     <button
-        //                         className={`nav-link ${activeTab === tab ? 'active' : ''}`}
-        //                         onClick={() => setActiveTab(tab)}
-        //                     >
-        //                         {tab}
-        //                     </button>
-        //                 </li>
-        //             ))}
-        //         </ul>
-        //         <div className="tab-content">
-        //             <div className="portfolio-tab-content">
-        //                 <div className="row col-12 d-flex flex-column flex-lg-row">
-        //                     {portfolios[activeTab].map(image => (
-        //                         <div className="card col-12 col-md-6  col-lg-3 mb-4  position-relative border-0" key={image.id}>
-        //                             <Link to="/portfolio" className="card_img overflow-hidden z-1 rounded-3 position-relative" >
-        //                                 <img
-        //                                     src={image.src}
-        //                                     alt={image.alt}
-        //                                     className="img-fluid portfolio-image"
-        //                                 />
-        //                                 <div className="overlay position-absolute col-12 overflow-hidden   d-flex  justify-content-center h-100 bg-primary rounded-3 ">
-        //                                     <div className="overlay_content text-center text-light">
-        //                                         <span>{image.name}</span>
-        //                                         <h2 className="pt-lg-3 pt-xxl-5"> {image.discri} </h2>
-        //                                     </div>
-        //                                 </div>
-        //                                 <div className="all_icon position-absolute d-flex align-items-center justify-content-center gap-3 gap-lg-2">
-        //                                     <Link to={image.src} className="text-bg-light rounded-5 d-flex align-items-center justify-content-center" >
-        //                                         <FaSearchPlus />
-        //                                     </Link>
-        //                                     <Link to="#" className="text-bg-light rounded-5 d-flex align-items-center justify-content-center" >
-        //                                         <CiLink />
-        //                                     </Link>
-        //                                 </div>
-        //                             </Link>
-        //                         </div>
-        //                     ))}
-        //                 </div>
-        //                 <div className="link col-12 text-center">
-
-        //                     <Link to="/portfolio" className=" p-2 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white"> view more</Link>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
-        // <section className="portfolio-section">
-        //     <div className="container">
-        //         <div className="row">
-        //             <div className="col-lg-12 text-center">
-        //                 <div className="section_title portfolio_title text-center mt-3 wow fadeInDown mb-4">
-        //                     <div className="section_sub_title uppercase mb-3">
-        //                         <h6>PORTFOLIO</h6>
-        //                     </div>
-        //                     <div className="section_main_title">
-        //                         <h1>Our Latest Works For Your Business</h1>
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //         <ul className="nav nav-tabs justify-content-start justify-content-lg-center pt-3 pt-lg-4">
-        //             {Object.keys(portfolios).map(tab => (
-        //                 <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
-        //                     <button
-        //                         className={`nav-link ${activeTab === tab ? 'active' : ''}`}
-        //                         onClick={() => setActiveTab(tab)}
-        //                     >
-        //                         {tab}
-        //                     </button>
-        //                 </li>
-        //             ))}
-        //         </ul>
-        //         <div className="tab-content">
-        //             <div className="portfolio-tab-content">
-        //                 <div className="row">
-        //                     <div className="d-flex flex-column flex-lg-row justify-content-between">
-        //                         {portfolios[activeTab].map(image => (
-        //                             <div className="card mb-4 position-relative border-0" key={image.id}>
-        //                                 <Link to="/portfolio" className="card_img overflow-hidden z-1 rounded-3 position-relative">
-        //                                     <img
-        //                                         src={image.src}
-        //                                         alt={image.alt}
-        //                                         className="img-fluid portfolio-image"
-        //                                     />
-        //                                     <div className="overlay position-absolute col-12 overflow-hidden d-flex justify-content-center h-100 bg-primary rounded-3">
-        //                                         <div className="overlay_content text-center text-light">
-        //                                             <span>{image.name}</span>
-        //                                             <h2 className="pt-lg-3 pt-xxl-5">{image.discri}</h2>
-        //                                         </div>
-        //                                     </div>
-        //                                     <div className="all_icon position-absolute d-flex align-items-center justify-content-center gap-3 gap-lg-2">
-        //                                         <Link to={image.src} className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
-        //                                             <FaSearchPlus />
-        //                                         </Link>
-        //                                         <Link to="#" className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
-        //                                             <CiLink />
-        //                                         </Link>
-        //                                     </div>
-        //                                 </Link>
-        //                             </div>
-        //                         ))}
-        //                     </div>
-        //                 </div>
-        //                 <div className="link col-12 text-center">
-        //                     <Link to="/portfolio" className="p-2 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
-        //                         View More
-        //                     </Link>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
-
 
         <section className="portfolio-section">
         <div className="container">
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="section_title portfolio_title text-center mt-3 mb-4">
-                        <div className="section_sub_title uppercase mb-3">
+                        {/* <div className="section_sub_title uppercase mb-3">
                             <h6>PORTFOLIO</h6>
-                        </div>
+                        </div> */}
                         <div className="section_main_title">
-                            <h1>Our Latest Works For Your Business</h1>
+                            <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
                         </div>
                     </div>
                 </div>

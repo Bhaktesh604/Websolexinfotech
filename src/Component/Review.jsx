@@ -74,6 +74,7 @@ import React from 'react';
 import Slider from 'react-slick';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { FaStar } from "react-icons/fa";
+import img1 from '../Assets/details.png'
 
 const Testimonials = () => {
     const settings = {
@@ -110,18 +111,22 @@ const Testimonials = () => {
     const testimonials = [
         {
             text: "Awesome service of web development. Thanks to Parth vaghani and Bhaktesh for their consultation. They guys made an amazing product for my business which helps me to automate my work easily.",
+            img: {img1},
             author: "Pramay Usadadiya",
         },
         {
             text: "Work with WebSolex infotech is pure amount of trust & reliability! They believe in quality in most cost effective way , we have gave them work for our website & that work is as perfect as our vision! Thanks for such great service you have provided to your customers! Give you 5 star rating with all my heart!",
+            img: {img1},
             author: "Dr Rahul Gelani",
         },
         {
             text: "The design process was seamless and collaborative. They took the time to listen to my ideas, preferences, and even my concerns. What impressed me the most was their ability to translate abstract concepts into a stunning and memorable logo. It's as if they took the essence of my business and transformed it into a work of art.",
+            img: {img1},
             author: "Mayur Sheliya",
         },
         {
             text: "Working with WebSolex Infotech was a pleasure! They had a clear vision for their video project and provided detailed feedback throughout the process. Their communication was excellent, and they were responsive to my suggestions. I'm thrilled with the final result and would highly recommend Naimish Kanani as a client.",
+            img: {img1},
             author: "Naimish Kanani",
         }
     ];
@@ -130,8 +135,8 @@ const Testimonials = () => {
         <section className="review_section py-5">
             <div className="container">
                 <div className="row">
-                    <div className="review_heading d-flex justify-content-center align-items-center mb-4">
-                        <h3 className="text-center">Clients Testimonial</h3>
+                    <div className="section_main_title text-center mb-5">
+                        <h1>Clients Testimonial</h1>
                     </div>
                     <Slider {...settings}>
                         {testimonials.map((item, index) => (
@@ -140,11 +145,20 @@ const Testimonials = () => {
                                     <div className="review_content_2 rounded-2">
                                         <ul className="d-flex mb-3">
                                             {[...Array(5)].map((_, i) => (
-                                                <li key={i} className='me-2'><FaStar className='icon_color'/></li>
+                                                <li key={i} className='me-2'><FaStar className='icon_color' /></li>
                                             ))}
                                         </ul>
                                         <p className="mb-3">{item.text}</p>
-                                        <h5 className="mb-0 fw-bold">{item.author}</h5>
+                                        <div className="d-flex">
+                                            <div className="image">
+                                                <img src={item.img} alt="" />
+                                            </div>
+                                            <div className="content">
+                                                <h5></h5>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                        {/* <h5 className="mb-0 fw-bold">{item.author}</h5> */}
                                     </div>
                                 </div>
                             </div>

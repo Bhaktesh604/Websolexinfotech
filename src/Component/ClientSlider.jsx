@@ -47,8 +47,11 @@ function Clientside() {
         // </div>
         <div className="container p-5">
             <div className="row mb-4 align-items-center justify-content-center">
-                <div className="section_sub_title clienttitle text-center text-uppercase mb-5">
-                    <h6>Our Valued Clients</h6>
+                {/* <div className="section_sub_title clienttitle text-center text-uppercase mb-5">
+                    <h6>Valued Clients</h6>
+                </div> */}
+                <div className="section_main_title text-center mb-5">
+                    <h1>Valued Clients</h1>
                 </div>
                 <div className="clients col-12 text-center mb-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">

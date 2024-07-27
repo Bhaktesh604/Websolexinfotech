@@ -1,6 +1,6 @@
 import React from 'react'
 import parthbhai from '../Assets/parthbhai.jpeg'
-import harshbhai from '../Assets/harshbhai.jpg'
+import harshbhai from '../Assets/Harsh.jpeg'
 import baktesh from '../Assets/bhaktesh.JPG'
 import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6";
