@@ -291,7 +291,7 @@ const Header = () => {
                                                         <div className="row">
                                                             <div className="megamenu_width border-right mb-4">
                                                                 <div className="d-flex ms-4 align-items-center">
-                                                                    <img src={webdevlopment} alt="" />
+                                                                    <img src={webdevlopment} alt="" className='megamenu_icon'/>
                                                                     <h6 className="d-flex align-items-center ms-0 mb-0">Web Development</h6>
                                                                 </div>
                                                                 <Link className="dropdown-item" to="/service">React js Development</Link>
@@ -307,7 +307,7 @@ const Header = () => {
 
                                                             <div className="megamenu_width border-right mb-4">
                                                                 <div className="d-flex ms-4 align-items-center">
-                                                                    <img src={graphic} alt="" />
+                                                                    <img src={graphic} alt="" className='megamenu_icon'/>
                                                                     <h6 className="d-flex align-items-center">Graphic Design</h6>
                                                                 </div>
                                                                 <Link className="dropdown-item" to="/service">Packaging Design</Link>
@@ -318,7 +318,7 @@ const Header = () => {
                                                             </div>
                                                             <div className="megamenu_width border-right mb-4">
                                                                 <div className="d-flex ms-4 align-items-center">
-                                                                    <img src={graphic} alt="" />
+                                                                    <img src={uiux} alt="" className='megamenu_icon'/>
                                                                     <h6 className="d-flex align-items-center">UI/UX Design</h6>
                                                                 </div>
                                                                 <Link className="dropdown-item" to="/service">App Design</Link>
@@ -327,13 +327,19 @@ const Header = () => {
                                                             </div>
 
                                                             <div className="megamenu_width border-right mb-4">
-                                                                <h6 className="d-flex align-items-center">Mobile Apps</h6>
+                                                                <div className="d-flex ms-4 align-items-center">
+                                                                    <img src={uiux} alt="" className='megamenu_icon'/>
+                                                                    <h6 className="d-flex align-items-center">Mobile Apps</h6>
+                                                                </div>
                                                                 <Link className="dropdown-item" to="/service">iOS</Link>
                                                                 <Link className="dropdown-item" to="/service">Android</Link>
                                                                 <Link className="dropdown-item" to="/service">Cross Platform</Link>
                                                             </div>
                                                             <div className="megamenu_width border-right mb-4">
-                                                                <h6 className="d-flex align-items-center">Degital Marketing</h6>
+                                                                <div className="d-flex ms-4 align-items-center">
+                                                                    <img src={uiux} alt="" className='megamenu_icon'/>
+                                                                    <h6 className="d-flex align-items-center">Degital Marketing</h6>
+                                                                </div>
                                                                 <Link className="dropdown-item" to="/service">iOS</Link>
                                                                 <Link className="dropdown-item" to="/service">Android</Link>
                                                                 <Link className="dropdown-item" to="/service">Cross Platform</Link>

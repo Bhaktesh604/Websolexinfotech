@@ -15,7 +15,7 @@ function home() {
     <Banner />
     <Clientside />
     <ServiceSection />
-    {/* <PortfolioSection /> */}
+    <PortfolioSection />
     <ChooseSection />
     <TechnologiesSection />
     <ReviewSection />

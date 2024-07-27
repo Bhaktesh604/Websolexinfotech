@@ -71,7 +71,9 @@ li {
 .megamenu-li {
     position: static
 }
-
+.megamenu_icon{
+    width: 20%;
+}
 .megamenu {
     position: absolute;
     width: 100%;
