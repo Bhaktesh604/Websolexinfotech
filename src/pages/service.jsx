@@ -196,11 +196,11 @@ function service() {
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
                       <img src={webflow} alt="" className='fs-2  img-fluid'/>
                     </div>
-                    <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Webflow Development</h4>
+                    <h4 className="mb-1 fw-bold  text-capitalize mb-2" >Webflow Development</h4>
                     <h6>Advanced Web Design with Webflow</h6>
                     <p className="mb-1 fs-14">Unleash your creativity with our Webflow development services. We build visually stunning and highly functional websites that are fully responsive and optimized for performance.
                     </p>
-                    <div className="social d-flex mt-4 justify-content-end gap-1">
+                    <div className="social d-flex  justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -234,7 +234,7 @@ function service() {
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
                       <img src={grafic} alt="" className='fs-2  img-fluid'/>
                     </div>
-                    <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Infographic Design</h4>
+                    <h4 className="mb-1 fw-bold  text-capitalize mb-2" >Infographic Design</h4>
                     <h6>Visual Storytelling with Infographics</h6>
                     <p className="mb-1 fs-14">Transform complex information into engaging visuals with our infographic design service. We create clear, informative, and visually appealing infographics that effectively communicate your message.
                     </p>
@@ -278,7 +278,7 @@ function service() {
                     <h6>Building Strong Brand Identities</h6>
                     <p className="mb-1 fs-14">Establish a powerful brand presence with our comprehensive branding identity service. From logo creation to visual style and messaging, we help define and communicate your brand's unique story and values.
                     </p>
-                    <div className="social d-flex mt-4 justify-content-end gap-1">
+                    <div className="social d-flex mt-5 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>

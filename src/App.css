@@ -1,6 +1,7 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
 /* common */
 body .bg-primary {
     background-color: #54a2d9 !important;
@@ -30,24 +31,10 @@ li {
 .navbar-brand img {
     max-width: 140px !important;
 }
-.nav-link svg{
+
+.nav-link svg {
     font-size: 25px;
 }
-/* .navbar-light .navbar-nav .nav-link {
-  color: #000;
-  transition: .3s;
-  padding: 28px 24px;
-  font-size: 18px;
-} */
-/* 
-.link_hover {
-  transition: all .3s;
-
-} */
-
-/* .link_hover:hover {
-  color: var(--bs-primary);
-} */
 
 .navbar-expand-lg .navbar-collapse {
     flex-grow: inherit
@@ -122,6 +109,18 @@ a.dropdown-item img {
 .megamenu {
     width: 100vw;
     /* Full width */
+}
+
+.megamenu_image {
+    font-size: 25px;
+}
+
+.megamenu_width {
+    width: 20%;
+}
+
+.nav-tabs .nav-link {
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
@@ -222,7 +221,7 @@ a.dropdown-item img {
     height: 100px;
     background-color: #fafafa;
     top: 230px;
-    left: 70%;
+    left: 80%;
     animation: up_down_rotate 3s linear infinite;
 }
 
@@ -583,7 +582,8 @@ a.dropdown-item img {
 .service {
     background-color: #54a2d91c;
 }
-.section_main_title h1{
+
+.section_main_title h1 {
     font-family: "Ubuntu", sans-serif;
 }
 
@@ -598,9 +598,11 @@ a.dropdown-item img {
     background-color: #fff;
     aspect-ratio: 3/1.5;
 }
-.service_sub_box svg{
+
+.service_sub_box svg {
     font-size: 32px;
 }
+
 .icon i {
     color: #54a2d9;
 }
@@ -1372,7 +1374,7 @@ a.dropdown-item img {
 
 .contact_form_sub {
     background-color: #f0f0f0;
-    padding: 50px 30px;
+    padding: 30px 30px;
 }
 
 .input_sub_box input {
@@ -3994,6 +3996,7 @@ a.dropdown-item img {
         top: 98px;
         left: -60px;
     }
+
     .megamenu {
         min-width: 100%;
         left: -20px;
@@ -4120,6 +4123,7 @@ a.dropdown-item img {
     .service_page .card-body {
         height: 440px;
     }
+
     .megamenu {
         min-width: 100%;
         left: -30px;
@@ -4196,7 +4200,7 @@ a.dropdown-item img {
     }
 
     .banner_img5 {
-        top: 65%;
+        top: 75%;
         left: 60%;
     }
 
@@ -4218,9 +4222,10 @@ a.dropdown-item img {
     .service_page .card-body {
         height: 400px;
     }
+
     .megamenu {
         min-width: 100%;
-        left: -100px;   
+        left: -100px;
     }
 }
 

@@ -255,10 +255,10 @@ import logo from '../Assets/Logo.png';
 import { Link } from 'react-router-dom';
 import { FaPhone } from "react-icons/fa";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
-// import webdevlopment from '../Assets/web.svg'
-// import graphic from '../Assets/graphics.svg'
-// import uiux from '../Assets/Uiux.svg'
-// import mobile from '../Assets/mobile.svg'
+import webdevlopment from '../Assets/web.png'
+import graphic from '../Assets/grafic.png'
+import uiux from '../Assets/ui ux.png'
+import mobile from '../Assets/mobile.png'
 
 const Header = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -289,10 +289,10 @@ const Header = () => {
                                                 <div className="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
                                                     <div className="container-fluid">
                                                         <div className="row">
-                                                            <div className="col-sm-6 col-lg-3 border-right mb-4">
-                                                                <div className="d-flex ms-4">
-                                                                    <HiMiniComputerDesktop />
-                                                                    <h6 className="d-flex align-items-center ms-0">Web Development</h6>
+                                                            <div className="megamenu_width border-right mb-4">
+                                                                <div className="d-flex ms-4 align-items-center">
+                                                                    <img src={webdevlopment} alt="" />
+                                                                    <h6 className="d-flex align-items-center ms-0 mb-0">Web Development</h6>
                                                                 </div>
                                                                 <Link className="dropdown-item" to="/service">React js Development</Link>
                                                                 <Link className="dropdown-item" to="/service">Node js Development</Link>
@@ -305,24 +305,35 @@ const Header = () => {
                                                                 <Link className="dropdown-item" to="/service">Webflow Development</Link>
                                                             </div>
 
-                                                            <div className="col-sm-6 col-lg-3 border-right mb-4">
-                                                                <h6 className="d-flex align-items-center">Graphic Design</h6>
+                                                            <div className="megamenu_width border-right mb-4">
+                                                                <div className="d-flex ms-4 align-items-center">
+                                                                    <img src={graphic} alt="" />
+                                                                    <h6 className="d-flex align-items-center">Graphic Design</h6>
+                                                                </div>
                                                                 <Link className="dropdown-item" to="/service">Packaging Design</Link>
                                                                 <Link className="dropdown-item" to="/service">Info Graphic Design</Link>
                                                                 <Link className="dropdown-item" to="/service">Logo Design</Link>
                                                                 <Link className="dropdown-item" to="/service">Branding Identity</Link>
                                                                 <Link className="dropdown-item" to="/service">Print Design</Link>
                                                             </div>
-
-                                                            <div className="col-sm-6 col-lg-3 border-right mb-4">
-                                                                <h6 className="d-flex align-items-center">UI/UX Design</h6>
+                                                            <div className="megamenu_width border-right mb-4">
+                                                                <div className="d-flex ms-4 align-items-center">
+                                                                    <img src={graphic} alt="" />
+                                                                    <h6 className="d-flex align-items-center">UI/UX Design</h6>
+                                                                </div>
                                                                 <Link className="dropdown-item" to="/service">App Design</Link>
                                                                 <Link className="dropdown-item" to="/service">UI/UX Design</Link>
                                                                 <Link className="dropdown-item" to="/service">Web Design</Link>
                                                             </div>
 
-                                                            <div className="col-sm-6 col-lg-3 border-right mb-4">
+                                                            <div className="megamenu_width border-right mb-4">
                                                                 <h6 className="d-flex align-items-center">Mobile Apps</h6>
+                                                                <Link className="dropdown-item" to="/service">iOS</Link>
+                                                                <Link className="dropdown-item" to="/service">Android</Link>
+                                                                <Link className="dropdown-item" to="/service">Cross Platform</Link>
+                                                            </div>
+                                                            <div className="megamenu_width border-right mb-4">
+                                                                <h6 className="d-flex align-items-center">Degital Marketing</h6>
                                                                 <Link className="dropdown-item" to="/service">iOS</Link>
                                                                 <Link className="dropdown-item" to="/service">Android</Link>
                                                                 <Link className="dropdown-item" to="/service">Cross Platform</Link>

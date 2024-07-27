@@ -207,9 +207,9 @@ const From = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-12 col-xl-6 pe-0 my-3">
+                            <div className="col-12 col-xl-6 pe-0 ">
                                 <div className="contact_company_details_box">
-                                    <h2 className="fw-bold text-center mb-4">Contact Details</h2>
+                                    <h2 className="fw-bold text-center mb-5">Contact Details</h2>
                                     {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ipsum officia.
                                     Tempore maxime eum at!</p> */}
                                 </div>
@@ -275,7 +275,7 @@ const From = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 d-flex flex-column flex-lg-row justify-content-between py-3 ps-3 py-sm-4  ps-sm-4 pe-0 align-items-center">
+                                <div className="col-12 d-flex flex-column flex-lg-row justify-content-between py-5 ps-3 py-sm-4   ps-sm-4 pe-0 align-items-center">
                                     <h6 className="fw-bold">Social Media:</h6>
                                     <ul className="social_main_menu d-flex">
                                         <li className="me-3">

@@ -285,9 +285,9 @@ const PortfolioSection = () => {
                     </div>
                 </div>
             </div>
-            <ul className="nav nav-tabs justify-content-center pt-3 pt-lg-4">
+            <ul className="nav nav-tabs justify-content-center pt-3 pt-lg-4 border-0">
                 {Object.keys(portfolios).map(tab => (
-                    <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
+                    <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0 " key={tab} >
                         <button
                             className={`nav-link ${activeTab === tab ? 'active' : ''}`}
                             onClick={() => setActiveTab(tab)}

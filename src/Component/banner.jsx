@@ -15,8 +15,9 @@ function Banner() {
             <div className="container">
                 <div className="row justify-content-center">
                     <div className="banner_main_menu col-12 col-lg-6 text-center">
-                        <h2 className="mb-4 fw-semibold">Easiest way to manage portfolio</h2>
-                        <p className="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae doloremque dolor laudantium corporis recusandae accusamus! Sed, saepe</p>
+                        <h2 className="mb-4 fw-semibold">Empowering Your Digital Transformation</h2>
+                        <h4 className='mb-3'>Comprehensive IT Solutions for Modern Businesses</h4>
+                        <p className="mb-5">At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
                         <Link to="#" className="border rounded-2 bg-primary text-white">Signup</Link>
                         <div className="banner_image d-none d-lg-block">
                             <img src={img8} alt="" className="banner_img1 position-absolute" />
