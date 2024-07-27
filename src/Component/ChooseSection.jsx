@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const ChooseSection = () => {
     const reasons = [
-        { id: 1, title: "High Quality Hardware", description: "We deliver exceptional quality in every project, ensuring your digital solutions are top-notch and effective." },
-        { id: 2, title: "Dedicated 24/7 support", description: "Our team is available around the clock to provide you with support and resolve any issues promptly and efficiently." },
-        { id: 3, title: "30-Day Money-back Guarantee", description: "We adopt an agile methodology, allowing us to work quickly and adapt to changes, ensuring timely delivery of projects." },
-        { id: 4, title: "Agile and Fast Working Style", description: "We prioritize user-friendly designs that offer seamless experiences, making your digital solutions easy to use and intuitive." },
-        { id: 5, title: "Some Apps are Free", description: "We utilize the latest technologies and design trends to create innovative solutions that set you apart from the competition." },
-        { id: 6, title: "High Level of Usability", description: "Our portfolio of successful projects and satisfied clients demonstrates our ability to deliver outstanding results consistently." }
+        { id: 1, title: "High Quality Work", description: "We deliver exceptional quality in every project, ensuring your digital solutions are top-notch and effective." },
+        { id: 2, title: "Dedicated 24/7 Support", description: "Our team is available around the clock to provide you with support and resolve any issues promptly and efficiently." },
+        { id: 3, title: "Agile and Fast Working Style", description: "We adopt an agile methodology, allowing us to work quickly and adapt to changes, ensuring timely delivery of projects." },
+        { id: 4, title: "High Level of Usability", description: "We prioritize user-friendly designs that offer seamless experiences, making your digital solutions easy to use and intuitive." },
+        { id: 5, title: "Innovative Solutions", description: "We utilize the latest technologies and design trends to create innovative solutions that set you apart from the competition." },
+        { id: 6, title: "Proven Track Record", description: "Our portfolio of successful projects and satisfied clients demonstrates our ability to deliver outstanding results consistently." }
     ];
 
     return (
