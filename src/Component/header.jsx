@@ -243,7 +243,7 @@ import { FaPhone } from "react-icons/fa";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import webdevlopment from '../Assets/web devlopment.png'
 import graphic from '../Assets/grafhics.png'
-import uiux from '../Assets/uiux.png'
+import UIUX from '../Assets/uiux.png'
 import mobile from '../Assets/mobile.png'
 import Digital from '../Assets/digital-marketing (1).png'
 
@@ -317,7 +317,7 @@ const Header = () => {
                                                             </div>
                                                             <div className="megamenu_width border-right mb-4 px-0 px-xl-2">
                                                                 <div className="d-flex ms-2 align-items-center">
-                                                                    <img src={uiux} alt="" className='megamenu_icon' />
+                                                                    <img src={UIUX} alt="" className='megamenu_icon' />
                                                                     <h6 className="d-flex align-items-center ms-2 mb-0">UI/UX Design</h6>
                                                                 </div>
                                                                 <Link className="dropdown-item" to="/service">App Design</Link>
