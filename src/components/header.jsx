@@ -243,7 +243,7 @@ import { FaPhone } from "react-icons/fa";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import webdevlopment from '../Assets/web devlopment.png'
 import graphic from '../Assets/grafhics.png'
-import UIUX from '../Assets/uiux.png'
+import UIUX from '../Assets/ui ux.png'
 import mobile from '../Assets/mobile.png'
 import Digital from '../Assets/digital-marketing (1).png'
 

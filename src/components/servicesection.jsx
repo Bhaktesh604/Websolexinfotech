@@ -3,7 +3,7 @@ import { FaDisplay } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import webdevlopment from '../Assets/web devlopment.png'
 import graphic from '../Assets/grafhics.png'
-import uiux from '../Assets/uiux.png'
+import uiux from '../Assets/ui ux.png'
 import wordPress from '../Assets/wordpres.png'
 
 const services = [
