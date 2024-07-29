@@ -125,7 +125,7 @@ const PortfolioSection = () => {
                         </div>
                     </div>
                     <div className="link col-12 text-center">
-                        <Link to="/portfolio" className="p-2 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
+                        <Link to="/portfolio" className="p-3 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
                             View More
                         </Link>
                     </div>

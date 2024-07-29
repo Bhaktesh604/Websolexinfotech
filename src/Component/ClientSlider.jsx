@@ -1,8 +1,8 @@
 import React from 'react';
-import logo1 from '../Assets/logo-dreamliner.png';
-import logo2 from '../Assets/omdiamond.png';
-import logo3 from '../Assets/Elan.png';
-import logo4 from '../Assets/Elysian-jewels.png';
+import logo1 from '../Assets/logo1.png';
+import logo2 from '../Assets/logo2.png';
+import logo3 from '../Assets/logo3.png';
+import logo4 from '../Assets/logo4.png';
 import '../App.css';
 
 function Clientside() {
@@ -51,7 +51,7 @@ function Clientside() {
                     <h6>Valued Clients</h6>
                 </div> */}
                 <div className="section_main_title text-center mb-5">
-                    <h1>Valued Clients</h1>
+                    <h1 className='fw-bold'>Valued Clients</h1>
                 </div>
                 <div className="clients col-12 text-center mb-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">

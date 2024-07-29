@@ -30,7 +30,7 @@ function service() {
             <div className="col-lg-12 text-center py-5">
               <div className="section_title portfolio_title text-center mt-3 mb-4">
                 <div className="section_main_title ">
-                  <h1 className="text-capitalize" >Explore by catagory</h1>
+                  <h1 className="text-capitalize fw-bold" >Explore by catagory</h1>
                 </div>
               </div>
             </div>

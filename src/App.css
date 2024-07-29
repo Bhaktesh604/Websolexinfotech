@@ -14,7 +14,9 @@ body .text-primary {
 li {
     list-style: none;
 }
-
+#root{
+    overflow-x: hidden;
+}
 /* header */
 .header {
     box-shadow: 0 1px 15px rgba(130, 158, 196, .15);
@@ -72,7 +74,7 @@ li {
     position: static
 }
 .megamenu_icon{
-    width: 20%;
+    width: 10%;
 }
 .megamenu {
     position: absolute;
@@ -190,7 +192,110 @@ a.dropdown-item img {
     border: none;
 }
 
+.bell {
+    animation-name: ring;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes ring {
+    0% {
+        transform: rotate(0);
+    }
 
+    1% {
+        transform: rotate(30deg);
+    }
+
+    3% {
+        transform: rotate(-28deg);
+    }
+
+    5% {
+        transform: rotate(34deg);
+    }
+
+    7% {
+        transform: rotate(-32deg);
+    }
+
+    9% {
+        transform: rotate(30deg);
+    }
+
+    11% {
+        transform: rotate(-28deg);
+    }
+
+    13% {
+        transform: rotate(26deg);
+    }
+
+    15% {
+        transform: rotate(-24deg);
+    }
+
+    17% {
+        transform: rotate(22deg);
+    }
+
+    19% {
+        transform: rotate(-20deg);
+    }
+
+    21% {
+        transform: rotate(18deg);
+    }
+
+    23% {
+        transform: rotate(-16deg);
+    }
+
+    25% {
+        transform: rotate(14deg);
+    }
+
+    27% {
+        transform: rotate(-12deg);
+    }
+
+    29% {
+        transform: rotate(10deg);
+    }
+
+    31% {
+        transform: rotate(-8deg);
+    }
+
+    33% {
+        transform: rotate(6deg);
+    }
+
+    35% {
+        transform: rotate(-4deg);
+    }
+
+    37% {
+        transform: rotate(2deg);
+    }
+
+    39% {
+        transform: rotate(-1deg);
+    }
+
+    41% {
+        transform: rotate(1deg);
+    }
+
+    43% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+
+}
 /* banner */
 .banner {
     padding: 200px 0;
@@ -282,7 +387,7 @@ a.dropdown-item img {
     content: '';
     width: 70px;
     height: 70px;
-    top: 70%;
+    top: 80%;
     left: 30%;
     animation: up_down_rotate3 3s linear infinite;
 
@@ -415,7 +520,13 @@ a.dropdown-item img {
     white-space: nowrap;
     flex-wrap: nowrap;
 }
-
+.technologies_section ul {
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-align: center;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
 .meet_our_team_img img {
     aspect-ratio: 3 / 2;
     object-fit: contain;
@@ -823,7 +934,7 @@ a.dropdown-item img {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 70%;
+    width: 56%;
     height: 70%;
 }
 
@@ -1473,10 +1584,10 @@ a.dropdown-item img {
     color: #fff;
 }
 
-.content {
+/* .content {
     border-bottom: 1px solid #ddd;
     display: none;
-}
+} */
 
 .content p {
     padding: 10px 15px;
@@ -1552,12 +1663,6 @@ a.dropdown-item img {
     height: 400px;
 }
 
-/* .card-body p{
-    display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-} */
 
 @media (min-width:575px) {
     .overlay_content {
@@ -3945,12 +4050,12 @@ a.dropdown-item img {
     }
 
     .banner_img5 {
-        top: 92%;
+        top: 86%;
         left: 70%;
     }
 
     .banner_img2 {
-        top: 0;
+        top: 110px;
         left: 60%;
     }
 
@@ -3965,7 +4070,7 @@ a.dropdown-item img {
     }
 
     .service_sub_box {
-        aspect-ratio: 3/2;
+        aspect-ratio: 3/1;
     }
 
     .banner {
@@ -3974,8 +4079,8 @@ a.dropdown-item img {
     }
 
     .banner_main_menu::before {
-        top: 0;
-        left: -100px;
+        top: 110px;
+        left: 20px;
     }
 
     .review_section .owl-prev span {
@@ -3999,7 +4104,14 @@ a.dropdown-item img {
         min-width: 100%;
         left: -20px;
     }
+    .dropdown-item{
+        padding: 4px 7px;
+    }
+    .megamenu_width {
+        width: 20%;
+    }
 }
+
 
 @media (min-width:1200px) {
     .container {
@@ -4106,16 +4218,18 @@ a.dropdown-item img {
     }
 
     .arrorw::before {
-        top: -20px;
-        left: 180px;
+        top: -60px;
+        left: 210px;
     }
 
     .arrorw_2::before {
-        left: 190px;
+        left: 200px;
+        top: -80px;
     }
 
     .arrorw_1::before {
-        left: 180px;
+        left: 190px;
+        top: -80px;
     }
 
     .service_page .card-body {
@@ -4125,6 +4239,12 @@ a.dropdown-item img {
     .megamenu {
         min-width: 100%;
         left: -30px;
+    }
+    .megamenu_width {
+        width: 20%;
+    }
+    .dropdown-item{
+        padding: 0.25rem 1.5rem;
     }
 }
 
@@ -4202,14 +4322,14 @@ a.dropdown-item img {
         left: 60%;
     }
 
-    .arrorw::before {
-        top: -20px;
-        left: 210px;
+        .arrorw::before {
+            top: -40px;
+            left: 250px;
     }
 
     .arrorw_2::before {
         top: -60px;
-        left: 210px;
+        left: 230px;
     }
 
     .arrorw_1::before {
@@ -4227,7 +4347,12 @@ a.dropdown-item img {
     }
 }
 
-
+@media (min-width:1920px){
+    .megamenu {
+        min-width: 100%;
+        left: -300px;
+    }
+}
 
 
 

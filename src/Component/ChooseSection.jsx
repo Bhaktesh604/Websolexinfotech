@@ -16,7 +16,7 @@ const ChooseSection = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center mb-5">
-                        <h1>Why Choose Us</h1>
+                        <h1 className='fw-bold'>Why Choose Us</h1>
                     </div>
                     {reasons.map(reason => (
                         <div key={reason.id} className="col-12 col-md-6 col-xl-4 mb-4">

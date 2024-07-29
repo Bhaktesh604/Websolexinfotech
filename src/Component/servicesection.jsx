@@ -1,34 +1,38 @@
 import React from 'react';
 import { FaDisplay } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
+import webdevlopment from '../Assets/web devlopment.png'
+import graphic from '../Assets/grafhics.png'
+import uiux from '../Assets/uiux.png'
+import wordPress from '../Assets/wordpres.png'
 
 const services = [
     {
         id: 1,
         title: 'Web Development',
         description: 'We build responsive, SEO-friendly websites that engage users and drive conversions for your business.',
-        icon: 'https://cdn.lordicon.com/qhgmphtg.json',
+        icon: webdevlopment,
         color: '#fa8c16',
     },
     {
         id: 2,
         title: 'UI/UX Design',
         description: 'Crafting intuitive, visually stunning interfaces that provide seamless and engaging user experiences.',
-        icon: 'https://cdn.lordicon.com/puvaffet.json',
+        icon: uiux,
         color: '#229342',
     },
     {
         id: 3,
         title: 'Graphics Design',
         description: 'Creating eye-catching graphics and branding materials that captivate your audience and enhance your brand.',
-        icon: 'https://cdn.lordicon.com/nobciafz.json',
+        icon: graphic,
         color: '#4285f4',
     },
     {
         id: 4,
         title: 'WordPress Development',
         description: 'Developing flexible and scalable WordPress sites tailored to your unique business needs and goals.',
-        icon: 'https://cdn.lordicon.com/ktxpktdd.json',
+        icon: wordPress,
         color: '#722ed1',
     },
 ];
@@ -59,7 +63,8 @@ const ServiceSection = () => {
                                 <div key={service.id} className="col-12 col-md-6 mb-5 mb-md-3">
                                     <div className="service_sub_box overflow-hidden  d-lg-flex p-3 me-0 me-lg-3">
                                         <div className="icon col-lg-1 me-0 me-lg-4 mb-4 mb-lg-0 d-flex d-lg-block align-align-items-center justify-content-center  col-12">
-                                            <FaDisplay className='col-12 text-primary' />
+                                            {/* <FaDisplay className='col-12 text-primary' /> */}
+                                            <img src={service.icon} alt="" className='col-12'/>
                                         </div>
 
                                         <div className="service_content col-12 col-lg-10">

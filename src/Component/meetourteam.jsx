@@ -1,7 +1,7 @@
 import React from 'react'
 import parthbhai from '../Assets/parthbhai.jpeg'
-import harshbhai from '../Assets/Harsh.jpeg'
-import baktesh from '../Assets/bhaktesh.JPG'
+import harshbhai from '../Assets/Harsh 1.png'
+import baktesh from '../Assets/bhaktesh 1.png'
 import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";

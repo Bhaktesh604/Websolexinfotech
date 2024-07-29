@@ -15,20 +15,12 @@ const Footer = () => {
                         <div className="col-lg-3 col-sm-6 footer-cms">
                             <div
                                 className="single-footer-widget  text-md-left footer-left wow fadeInLeft animated title">
-                                <div className="title-footer">
-                                    <h3 className="footer-block__heading footer-link-contact-us mb-2">Contact us</h3>
-                                </div>
                                 <div className="footer-toggle">
                                     <div className="footer-logo-main-black mb-3">
                                         <Link to="index.html">
                                             <img src={logo} alt="Logicgo-Logo" />
                                         </Link>
                                     </div>
-                                    {/* <div className="footer-logo-main-white">
-                                        <a href="index.html">
-                                            <img src="assets/images/logicgo-logo-white.svg" alt="Logicgo-Logo" />
-                                        </a>
-                                    </div> */}
                                     <p>Your ideas, Our Innovation</p>
                                     <ul className="contact-link ps-0">
                                         <li className='pt-3'>
@@ -79,7 +71,7 @@ const Footer = () => {
 
                                     <ul className="footer-quick-links pt-10 footer-toggle ps-0">
                                         <li className='mb-3'>
-                                            <Link to="/porfolio">Portfolio</Link>
+                                            <Link to="#">Portfolio</Link>
                                         </li>
                                         <li className='mb-3'>
                                             <Link to="#">Career</Link>
@@ -88,7 +80,7 @@ const Footer = () => {
                                             <Link to="/contact">Contact</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="/company">Company</Link>
+                                            <Link to="#">Company</Link>
                                         </li>
                                     </ul>
                                 </div>

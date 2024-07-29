@@ -108,7 +108,7 @@ const TechnologiesSection = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 mb-4 text-center">
-                        <h1>Technological Mastery</h1>
+                        <h1 className='fw-bold'>Technological Mastery</h1>
                     </div>
                     <div className="col-12">
                         <ul className="nav nav-tabs justify-content-center border-0">
