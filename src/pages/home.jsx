@@ -1,13 +1,13 @@
 import React from 'react';
-import Banner from '../Component/banner';
-import Clientside from '../Component/ClientSlider';
-import ServiceSection from '../Component/servicesection';
-import PortfolioSection from '../Component/portfoliosection';
-import ChooseSection from '../Component/ChooseSection';
-import TechnologiesSection from '../Component/technologies';
-import ReviewSection from '../Component/Review';
-import Process from '../Component/process';
-import Get from '../Component/get';
+import Banner from '../components/banner';
+import Clientside from '../components/ClientSlider';
+import ServiceSection from '../components/servicesection';
+import PortfolioSection from '../components/portfoliosection';
+import ChooseSection from '../components/ChooseSection';
+import TechnologiesSection from '../components/technologies';
+import ReviewSection from '../components/Review';
+import Process from '../components/process';
+import Get from '../components/get';
 
 function home() {
   return (
