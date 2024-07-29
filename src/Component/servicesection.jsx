@@ -62,9 +62,9 @@ const ServiceSection = () => {
                             {services.map(service => (
                                 <div key={service.id} className="col-12 col-md-6 mb-5 mb-md-3">
                                     <div className="service_sub_box overflow-hidden  d-lg-flex p-3 me-0 me-lg-3">
-                                        <div className="icon col-lg-1 me-0 me-lg-4 mb-4 mb-lg-0 d-flex d-lg-block align-align-items-center justify-content-center  col-12">
+                                        <div className="icon col-lg-1 me-0 me-lg-4 mb-4 mb-lg-0 d-flex d-lg-block align-align-items-center justify-content-center">
                                             {/* <FaDisplay className='col-12 text-primary' /> */}
-                                            <img src={service.icon} alt="" className='col-12'/>
+                                            <img src={service.icon} alt="" className='col-1 col-md-12'/>
                                         </div>
 
                                         <div className="service_content col-12 col-lg-10">

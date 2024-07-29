@@ -77,7 +77,7 @@ const Footer = () => {
                                             <Link to="#">Career</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="/contact">Contact</Link>
+                                            <Link to="#">Contact</Link>
                                         </li>
                                         <li className='mb-3'>
                                             <Link to="#">Company</Link>
@@ -93,8 +93,6 @@ const Footer = () => {
                                     <div className="title-footer">
                                         <h3 className="footer-block__heading mb-4">Services</h3>
                                     </div>
-
-
                                     <ul className="footer-quick-links pt-10 footer-toggle ps-0">
                                         <li className='mb-3'>
                                             <Link to="#">Web Development</Link>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import photoshop from '../Assets/adobe-photoshop.png'
 import illustrator from '../Assets/illustrator copy.png'
-import figma from '../Assets/figma copy.png'
+import figma from '../Assets/figma.png'
 import cdr from '../Assets/cdr.png'
 import indesign from '../Assets/adobe-indesign.png'
 import aftereffect from '../Assets/after-effects.png'
@@ -18,12 +18,12 @@ import angular from '../Assets/Angular-Js.png'
 import nextjs from '../Assets/next-js.svg'
 
 import android from '../Assets/android copy.png'
-import reactnative from '../Assets/react_native.svg'
+import reactnative from '../Assets/react.png'
 import flutter from '../Assets/flutter.png'
 import ios from '../Assets/ios copy.png'
 import dart from '../Assets/dart copy.png'
 import kotlin from '../Assets/kotlin copy.png'
-import xcode from '../Assets/xcode_alt_macos_bigsur_icon_189542.png'
+// import xcode from '../Assets/xcode_alt_macos_bigsur_icon_189542.png'
 
 
 import html from '../Assets/html.png'
@@ -58,16 +58,14 @@ const TechnologiesSection = () => {
             { id: 6, name: 'aftereffect', src: aftereffect, alt: 'after-effects.png' },
         ],
         'Web Devlopment': [
-            { id: 1, name: 'wordpress', src: wordpress, alt: 'wordpress.png' },
-            { id: 2, name: 'bootstrap', src: bootstrap, alt: 'bootstrap.png' },
-            { id: 3, name: 'shopify', src: shopify, alt: 'shopify.png' },
-            { id: 4, name: 'webflow', src: webflow, alt: 'webflow.png' },
-            { id: 5, name: 'framar', src: framar, alt: 'framar.png' },
+            { id: 1, name: 'html', src: html, alt: 'wordpress.png' },
+            { id: 2, name: 'css', src: css, alt: 'bootstrap.png' },
+            { id: 2, name: 'nodejs', src: nodejs, alt: 'bootstrap.png' },
             { id: 6, name: 'laravel', src: laravel, alt: 'laravel.png' },
             { id: 7, name: 'vue js', src: vuejs, alt: 'vuejs.png' },
             { id: 8, name: 'angular', src: angular, alt: 'angular.png' },
             { id: 10, name: 'react js', src: reactnative, alt: 'reactjs.png' },
-            { id: 9, name: 'nextjs', src: nextjs, alt: 'nextjs.png' },
+            { id: 9, name: 'next js', src: nextjs, alt: 'nextjs.png' },
 
         ],
         'App Development': [
@@ -77,17 +75,18 @@ const TechnologiesSection = () => {
             { id: 4, name: 'ios', src: ios, alt: 'ios.png' },
             { id: 5, name: 'dart', src: dart, alt: 'dart.png' },
             { id: 6, name: 'kotlin', src: kotlin, alt: 'kotlin.png' },
-            { id: 7, name: 'xcode', src: xcode, alt: 'xcode.png' },
+            // { id: 7, name: 'xcode', src: xcode, alt: 'xcode.png' },
         ],
         'Fremwork': [
-            { id: 1, name: 'html', src: html, alt: 'php.png' },
-            { id: 2, name: 'css', src: css, alt: 'php.png' },
-            { id: 3, name: 'bootstrap', src: bootstrap, alt: 'bootstrap.png' },
-            { id: 4, name: 'nodejs', src: nodejs, alt: 'nodejs.png' },
-            { id: 5, name: 'Javascript', src: Javascript, alt: 'nodejs.png' },
-            { id: 6, name: 'typescript', src: typescript, alt: 'typescript.png' },
             { id: 7, name: 'php', src: php, alt: 'php.png' },
             { id: 8, name: 'python', src: python, alt: 'python.png' },
+            { id: 1, name: 'wordpress', src: wordpress, alt: 'php.png' },
+            { id: 2, name: 'shopify', src: shopify, alt: 'php.png' },
+            { id: 3, name: 'bootstrap', src: bootstrap, alt: 'bootstrap.png' },
+            { id: 4, name: 'webflow', src: webflow, alt: 'nodejs.png' },
+            { id: 4, name: 'framar', src: framar, alt: 'nodejs.png' },
+            { id: 5, name: 'Javascript', src: Javascript, alt: 'nodejs.png' },
+            { id: 6, name: 'typescript', src: typescript, alt: 'typescript.png' },
         ],
         'Database': [
             { id: 1, name: 'mysql', src: mysql, alt: 'mysql.png' },
@@ -113,7 +112,7 @@ const TechnologiesSection = () => {
                     <div className="col-12">
                         <ul className="nav nav-tabs justify-content-center border-0">
                             {tabs.map(tab => (
-                                <li className="nav-item px-lg-3" key={tab}>
+                                <li className="nav-item px-1 px-lg-3" key={tab}>
                                     <a
                                         className={`nav-link ${activeTab === tab ? 'active' : ''}`}
                                         href="#!"

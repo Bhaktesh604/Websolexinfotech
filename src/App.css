@@ -589,7 +589,7 @@ a.dropdown-item img {
 /* media-query */
 @media (max-width:575px) {
     .banner {
-        padding: 50px 0;
+        padding: 50px 0 !important;
     }
 
     .banner_main_menu h2 {
@@ -628,7 +628,7 @@ a.dropdown-item img {
 
 @media (min-width:576px) {
     .banner {
-        padding: 50px 0;
+        padding: 50px 0 !important;
     }
 
     .banner_main_menu h2 {
@@ -814,7 +814,7 @@ a.dropdown-item img {
 }
 
 .technologies_section img {
-    border-radius: 50% !important;
+    border-radius: 40% !important;
 }
 
 .portfolio-section .nav-link,
@@ -1102,7 +1102,9 @@ a.dropdown-item img {
     border-radius: 4px;
     padding: 5px;
 }
-
+.review_sub_box{
+    cursor: pointer;
+}
 .review_sub_box ul {
     padding: 0;
 }
@@ -2942,7 +2944,8 @@ a.dropdown-item img {
 
     .nav-tabs .nav-link {
         font-size: 18px !important;
-        margin-bottom: 9px
+        margin-bottom: 9px;
+        padding: 10px 20px !important;
     }
 
     .nagative_margin3 {
@@ -3255,6 +3258,14 @@ a.dropdown-item img {
         -webkit-line-clamp: 4;
     }
 }
+@media (min-width:320px) {
+    .service_sub_box {
+        aspect-ratio: 3 / 1.9;
+    }
+    .get-button a {
+        padding: 15px 30px
+    }
+}
 
 @media (min-width:375px) {
     .container {
@@ -3547,7 +3558,7 @@ a.dropdown-item img {
     }
 
     .banner {
-        padding-top: 150px !important;
+        padding-top: 150px;
         padding-bottom: 140px;
     }
 
@@ -3579,7 +3590,7 @@ a.dropdown-item img {
     .banner_main_menu::after {
         width: 60px;
         height: 60px;
-        top: 350px;
+        top: 380px;
     }
 }
 
@@ -3701,7 +3712,7 @@ a.dropdown-item img {
     }
 
     .banner {
-        padding-top: 150px !important;
+        padding-top: 150px;
         padding-bottom: 140px;
     }
 
@@ -4111,8 +4122,6 @@ a.dropdown-item img {
         width: 20%;
     }
 }
-
-
 @media (min-width:1200px) {
     .container {
         width: 1140px;
@@ -4318,7 +4327,7 @@ a.dropdown-item img {
     }
 
     .banner_img5 {
-        top: 75%;
+        top: 85%;
         left: 60%;
     }
 
@@ -4357,4 +4366,3 @@ a.dropdown-item img {
 
 
 
-/* dfdjfds````````````````````````````````````````````````````````````````` */

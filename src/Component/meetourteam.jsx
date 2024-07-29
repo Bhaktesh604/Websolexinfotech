@@ -32,13 +32,13 @@ function Meetourteam() {
                                         <h4 className="mb-1" >Harsh Vegad</h4>
                                         <p className="mb-1 fs-14">Founder & CFO</p>
                                         <div className="social d-flex mt-2 justify-content-center gap-1">
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.linkedin.com/in/harsh-vegad-499166251/" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaLinkedinIn />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.instagram.com/vegad_harsh_84/" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaInstagram />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.facebook.com/harsh.vegad.779" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
                                             </Link>
                                         </div>
@@ -56,13 +56,13 @@ function Meetourteam() {
                                         <h4 className="mb-1" >Parth Vaghani </h4>
                                         <p className="mb-1 fs-14">Founder & CEO</p>
                                         <div className="social d-flex mt-2 justify-content-center gap-1">
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.linkedin.com/in/parth-vaghani-ui-ux-graphics-design-websolex-infotech/" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaLinkedinIn />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.instagram.com/_parth_vaghani/" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaInstagram />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.facebook.com/vaghani.parth.129" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
                                             </Link>
                                         </div>
@@ -80,13 +80,13 @@ function Meetourteam() {
                                         <h4 className="mb-1" >Baktesh Gadhiya</h4>
                                         <p className="mb-1 fs-14">Founder & CTO</p>
                                         <div className="social d-flex mt-2 justify-content-center gap-1">
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.linkedin.com/in/bhaktesh-gadhiya-213b28235/" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaLinkedinIn />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.instagram.com/bhaktesh_gadhiya_" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaInstagram />
                                             </Link>
-                                            <Link to="" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
+                                            <Link to="https://www.facebook.com/bhakatesh.gadhiya" className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
                                             </Link>
                                         </div>

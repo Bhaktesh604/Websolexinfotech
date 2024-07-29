@@ -25,7 +25,7 @@ const Get = () => {
                 </div>
               </div>
               <div className="get-icon col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
-                <p className="m-0">
+                <p className="mb-3 mb-sm-0">
                   Vero id posuere tempus aspernatur quaerat mollis voluptatum eveniet porro viverra libero habitasse
                   Aut ab nibh aliqua optio veniet porro viverr.
                 </p>
