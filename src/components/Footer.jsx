@@ -150,7 +150,7 @@ const Footer = () => {
                                                 </Link>
                                             </li>
                                             <li>
-                                                <Link to="https://www.instagram.com/unity_infotech_/" target="_blank">
+                                                <Link to="https://www.instagram.com/websolex_infotech/" target="_blank">
                                                     <IoLogoInstagram />
                                                 </Link>
                                             </li>

@@ -20,9 +20,6 @@ function Mission() {
                     <div className="row">
                         <div className="col-lg-12 text-center">
                             <div className="section_title portfolio_title text_center mt-3 wow fadeInDown mb-4">
-                                {/* <div className="section_sub_title uppercase mb-5">
-                                    <h6 className="text-uppercase">company</h6>
-                                </div> */}
                                 <div className="col-12 mission d-flex flex-column flex-lg-row align-items-center">
                                     <div className="col-12 col-lg-8">
                                         <div className="mission_data_section bg-light rounded-5 p-5">
@@ -51,7 +48,7 @@ function Mission() {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-4 d-flex mt-3 mt-lg-0">
+                                    <div className="col-12 col-lg-3 col-xl-4 d-flex mt-3 mt-lg-0">
                                         <div className="mission_img_section col-6 d-flex justify-content-end  flex-row">
                                             <img src={missionData.image[0].src} height="500" className="" alt={missionData.image[0].alt} />
                                         </div>

@@ -142,7 +142,7 @@ const Testimonials = () => {
     ];
 
     return (
-        <section className="review_section pb-100 pb-50">
+        <section className="review_section pb-100 py-50">
             <div className="container">
                 <div className="row">
                     <div className="section_main_title text-center mb-5">

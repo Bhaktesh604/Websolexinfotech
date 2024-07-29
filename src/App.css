@@ -568,11 +568,11 @@ a.dropdown-item img {
 
 @media only screen and (max-width: 1024px) {
     .card_options {
-        top: 0%;
+        top: 50%;
     }
 
     .meet_our_team {
-        padding-bottom: 200px !important;
+        padding-bottom: 300px !important;
     }
 }
 
@@ -984,7 +984,7 @@ a.dropdown-item img {
     .arrorw_2::before,
     .arrorw::before {
         top: -40px;
-        left: 150px;
+        left: 320px;
     }
 }
 
@@ -993,10 +993,10 @@ a.dropdown-item img {
     .arrorw_1::before,
     .arrorw_2::before,
     .arrorw::before {
-        width: 50%;
+        width: 60%;
         height: 50%;
         top: -30px;
-        left: 100px;
+        left: 240px;
     }
 
     .jobicon {
@@ -1104,11 +1104,17 @@ a.dropdown-item img {
 }
 .review_sub_box{
     cursor: pointer;
+    /* aspect-ratio: 3/3.5;
+    object-fit: contain; */
 }
 .review_sub_box ul {
     padding: 0;
 }
-
+.review_content_2{
+    display: flow;
+    aspect-ratio: 3/2.9;
+    object-fit: contain;
+}
 .review_content {
     padding: 10px;
     background-color: #f2f3f1;
@@ -1479,7 +1485,12 @@ a.dropdown-item img {
     padding-left: 15px;
     padding-right: 15px;
 }
-
+.job_content p{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 /* .contact_page */
 
 
@@ -3265,6 +3276,15 @@ a.dropdown-item img {
     .get-button a {
         padding: 15px 30px
     }
+    .arrorw::before {
+        display: none;
+    }
+    .arrorw_1::before{
+        background-image: none;
+    }
+    .arrorw_2::before{
+        background-image: none;
+    }
 }
 
 @media (min-width:375px) {
@@ -3736,6 +3756,10 @@ a.dropdown-item img {
         top: -50px;
         left: 250px;
     }
+    .contact_sub_boxx {
+        padding: 16px;
+        aspect-ratio: 3 / 1;
+    }
 }
 
 @media (min-width:768px) {
@@ -3918,6 +3942,16 @@ a.dropdown-item img {
         top: 98px;
         left: -40px;
     }
+    .arrorw_1::before{
+        background-image: url(../src/Assets/Arrows.png);
+        top: -60px;
+        left: 320px;
+    }
+    .arrorw_2::before{
+        background-image: url(../src/Assets/Arrows.png);
+        top: -60px;
+        left: 320px;
+    }
 }
 
 @media (min-width:992px) {
@@ -4057,7 +4091,7 @@ a.dropdown-item img {
 
     .banner_img4 {
         top: 60%;
-        left: 75%;
+        left: 85%;
     }
 
     .banner_img5 {
@@ -4120,6 +4154,16 @@ a.dropdown-item img {
     }
     .megamenu_width {
         width: 20%;
+    }
+    .contact_sub_boxx {
+        padding: 16px;
+        aspect-ratio: 3 / 1;
+    }
+}
+@media (min-width:1024px) {
+    .megamenu {
+        min-width: 100%;
+        left: -30px;
     }
 }
 @media (min-width:1200px) {
@@ -4234,11 +4278,13 @@ a.dropdown-item img {
     .arrorw_2::before {
         left: 200px;
         top: -80px;
+        background-image: url(../src/Assets/Arrows.png);
     }
 
     .arrorw_1::before {
         left: 190px;
         top: -80px;
+        background-image: url(../src/Assets/Arrows.png);
     }
 
     .service_page .card-body {
@@ -4254,6 +4300,13 @@ a.dropdown-item img {
     }
     .dropdown-item{
         padding: 0.25rem 1.5rem;
+    }
+    .arrorw::before {
+        display: block;
+    }
+    .contact_sub_boxx {
+        padding: 16px;
+        aspect-ratio: 3 / 1.2;
     }
 }
 

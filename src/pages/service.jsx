@@ -3,9 +3,9 @@ import { FaArrowRight } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
 import reactjs from '../Assets/react.png'
 import nodejs from '../Assets/node js.png'
-import php from '../Assets/php.png'
-import laravel from '../Assets/laravel.png'
-import wordPress from '../Assets/wordpress.png'
+import php from '../Assets/php copy.png'
+import laravel from '../Assets/laravel copy.png'
+import wordPress from '../Assets/wordpress copy.png'
 import shopify from '../Assets/shopify.png'
 import angular from '../Assets/Angular-Js.png'
 import wix from '../Assets/wix.png'
@@ -38,7 +38,7 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
                       <img src={reactjs} alt="" className='fs-2  img-fluid'/>
                     </div>

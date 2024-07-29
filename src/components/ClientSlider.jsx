@@ -46,14 +46,11 @@ function Clientside() {
         //     </div>
         // </div>
         <div className="container p-3 p-md-5">
-            <div className="row mb-md-4 align-items-center justify-content-center">
-                {/* <div className="section_sub_title clienttitle text-center text-uppercase mb-5">
-                    <h6>Valued Clients</h6>
-                </div> */}
+            <div className="row mb-md-4 align-items-center justify-content-center"> 
                 <div className="section_main_title text-center mb-5">
                     <h1 className='fw-bold'>Valued Clients</h1>
                 </div>
-                <div className="clients col-12 text-center mb-3">
+                <div className="clients col-12 text-center  mb-md-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">
                         <div className="box col-md-6 col-xl-3">
                             <div className="box_body m-2 rounded-1 border">
