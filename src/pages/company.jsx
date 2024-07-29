@@ -1,6 +1,6 @@
 import React from 'react'
-import Mission from '../Components/mission';
-import Meetourteam from '../Components/meetourteam';
+import Mission from '../components/mission';
+import Meetourteam from '../components/meetourteam';
 
 
 function Company() {
