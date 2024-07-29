@@ -1,5 +1,5 @@
 import React from 'react'
-import From from '../Component/From'
+import From from '../Components/From'
 
 function Contact() {
   return (

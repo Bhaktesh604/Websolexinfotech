@@ -1,5 +1,5 @@
 import React from 'react'
-// import PortfolioSection from '../Component/portfoliosection';
+// import PortfolioSection from '../Components/portfoliosection';
 import Portfoliopage from '../components/portfoliopage';
 
 function Portfolio() {

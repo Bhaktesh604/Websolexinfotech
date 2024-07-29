@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import Header from './Component/header';
-import Footer from './Component/Footer';
+import Header from './components/header';
+import Footer from './components/Footer';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Service from './pages/service';
