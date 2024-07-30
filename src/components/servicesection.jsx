@@ -45,11 +45,8 @@ const ServiceSection = () => {
                     <div className="col-12 d-flex flex-wrap">
                         <div className="col-12 col-xl-4 d-flex align-items-center mb-3 mb-lg-5 mb-xl-0 ">
                             <div className="section_title service_title mb-5 wow fadeInDown animated text-center text-md-start" data-wow-delay="0.3s">
-                                {/* <div className="section_sub_title uppercase mb-3">
-                                    <h6>SERVICES</h6>
-                                </div> */}
-                                <div className="section_main_title">
-                                    <h1 className="mb-4">Comprehensive IT Solutions
+                                <div className="section_main_title text-center text-xl-start">
+                                    <h1 className="mb-2">Comprehensive IT Solutions
                                     </h1>
                                     <p className="mb-4">Unlock the potential of your business with our all-encompassing IT services. From consulting to implementation, we have you covered.
 

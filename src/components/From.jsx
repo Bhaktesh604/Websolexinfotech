@@ -210,16 +210,12 @@ const From = () => {
                             <div className="col-12 col-xl-6 pe-0 ">
                                 <div className="contact_company_details_box">
                                     <h2 className="fw-bold text-center mb-5">Contact Details</h2>
-                                    {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ipsum officia.
-                                    Tempore maxime eum at!</p> */}
                                 </div>
                                 <div className="col-12 d-flex flex-wrap px-0 pb-2 pb-md-5 border-bottom">
                                     <div className="col-12 col-md-6 ps-0 ">
                                         <div className="me-0 me-md-3 me-xl-2 me-xxl-3">
                                             <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
-                                                    {/* <i
-                                                className="fa-solid fa-location-dot d-flex text-light bg-black justify-content-center align-items-center rounded-3"></i> */}
                                                     <MdLocationPin className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
                                                 <div className="contact_details">
@@ -233,13 +229,12 @@ const From = () => {
                                         <div className="me-0 me-xl-2 me-xxl-3">
                                             <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
-                                                    {/* <i
-                                                className="fa-solid fa-phone d-flex text-light bg-black justify-content-center align-items-center rounded-3"></i> */}
                                                     <FaPhone className=' d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Mobile</h4>
-                                                    <Link to="#" className='text-dark'>+91 82008-45977</Link>
+                                                    {/* <Link  className='text-dark'>+91 82008-45977</Link> */}
+                                                    <a href="tel:8200845977" className='text-black'>+91 82008-45977</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -248,8 +243,6 @@ const From = () => {
                                         <div className="me-0 me-md-3 me-xl-2 me-xxl-3">
                                             <div className="contact_sub_boxx  d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3 mb-md-0">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
-                                                    {/* <i
-                                                className="fa-solid fa-clock d-flex text-light bg-black justify-content-center align-items-center rounded-3"></i> */}
                                                     <FaClock className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
                                                 <div className="contact_details">
@@ -263,13 +256,12 @@ const From = () => {
                                         <div className="me-0 me-xl-2 me-xxl-3">
                                             <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3 mb-md-0">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
-                                                    {/* <i
-                                                className="fa-solid fa-envelope d-flex text-light bg-black justify-content-center align-items-center rounded-3"></i> */}
                                                     <MdEmail className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Email</h4>
-                                                    <Link to="#" className='text-dark'>websolexinfotech@gmail.com</Link>
+                                                    {/* <Link className='text-dark'>websolexinfotech@gmail.com</Link> */}
+                                                    <a href="mailto:websolexinfotech@gmail.com" className='text-black'>websolexinfotech@gmail.com</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -279,22 +271,22 @@ const From = () => {
                                     <h6 className="fw-bold">Social Media:</h6>
                                     <ul className="social_main_menu d-flex">
                                         <li className="me-3">
-                                            <Link to="https://www.facebook.com/profile.php?id=61559410317814" className="border rounded-3 d-flex align-items-center">
+                                            <Link to="https://www.facebook.com/profile.php?id=61559410317814" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaFacebookF className='text-black fs-5' />
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#" className="border rounded-3 d-flex align-items-center">
+                                            <Link to="#" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaTwitter className='text-black fs-5' />
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" className="border rounded-3 d-flex align-items-center">
+                                            <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaLinkedinIn className='text-black fs-5' />
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#" className="border rounded-3 d-flex align-items-center">
+                                            <Link to="#" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>

@@ -110,7 +110,7 @@ const TechnologiesSection = () => {
                         <h1 className='fw-bold'>Technological Mastery</h1>
                     </div>
                     <div className="col-12">
-                        <ul className="nav nav-tabs justify-content-center border-0">
+                        <ul className="nav nav-tabs justify-content-xl-center border-0">
                             {tabs.map(tab => (
                                 <li className="nav-item px-1 px-lg-3" key={tab}>
                                     <a

@@ -70,16 +70,13 @@ const PortfolioSection = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="section_title portfolio_title text-center mt-3 mb-4">
-                        {/* <div className="section_sub_title uppercase mb-3">
-                            <h6>PORTFOLIO</h6>
-                        </div> */}
                         <div className="section_main_title">
                             <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
                         </div>
                     </div>
                 </div>
             </div>
-            <ul className="nav nav-tabs justify-content-center pt-3 pt-lg-4 border-0">
+            <ul className="nav nav-tabs justify-content-xl-center pt-3 pt-lg-4 border-0">
                 {Object.keys(portfolios).map(tab => (
                     <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0 " key={tab} >
                         <button

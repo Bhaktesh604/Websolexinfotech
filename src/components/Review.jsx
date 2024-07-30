@@ -112,12 +112,6 @@ const Testimonials = () => {
     };
 
     const testimonials = [
-        // {
-        //     text: "Awesome service of web development. Thanks to Parth vaghani and Bhaktesh for their consultation. They guys made an amazing product for my business which helps me to automate my work easily.",
-        //     img: img1,
-        //     author: "Pramay Usadadiya",
-        //     category: "Ui UX Desginer",
-        // },
         {
             text: "Work with WebSolex infotech is pure amount of trust & reliability! They believe in quality in most cost effective way , we have gave them work for our website & that work is as perfect as our vision! Thanks for such great service you have provided to your customers! Give you 5 star rating with all my heart!",
             img: img2,

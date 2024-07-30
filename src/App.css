@@ -1666,7 +1666,7 @@ a.dropdown-item img {
 }
 
 .service_page .card {
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
     width: 100%;
 }
 
@@ -4159,6 +4159,17 @@ a.dropdown-item img {
         padding: 16px;
         aspect-ratio: 3 / 1;
     }
+    .review_content_2 p{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .review_content_2 {
+        display: flow;
+        aspect-ratio: 3 / 3.2;
+        object-fit: contain;
+    }
 }
 @media (min-width:1024px) {
     .megamenu {
@@ -4307,6 +4318,17 @@ a.dropdown-item img {
     .contact_sub_boxx {
         padding: 16px;
         aspect-ratio: 3 / 1.2;
+    }
+    .review_content_2 {
+        display: flow;
+        aspect-ratio: 3 / 2.2;
+        object-fit: contain;
+    }
+    .review_content_2 p{
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
 }
 
