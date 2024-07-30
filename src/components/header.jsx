@@ -330,7 +330,7 @@ const Header = () => {
                                                                     <img src={mobile} alt="" className='megamenu_icon' />
                                                                     <h6 className="d-flex align-items-center ms-2 mb-0">Mobile Apps</h6>
                                                                 </div>
-                                                                <Link className="dropdown-item" to="/service">iOS</Link>
+                                                                <Link className="dropdown-item" to="/service">IOS</Link>
                                                                 <Link className="dropdown-item" to="/service">Android</Link>
                                                                 <Link className="dropdown-item" to="/service">Cross Platform</Link>
                                                             </div>
