@@ -112,8 +112,8 @@ const Jobwork = () => {
                                     </div>
                                 </div>
                                 <div className="job_content">
-                                    <h4>Launch & Support</h4>
-                                    <p>Once the project meets our quality standards, we proceed with a smooth launch. Our commitment doesn’t end there; we offer ongoing support and maintenance to ensure your digital solution continues to perform optimally and adapt to any new needs.</p>
+                                    <h4>WordPress Development</h4>
+                                    <p>We offer flexible and scalable WordPress development solutions. Whether you need a custom theme, plugin development, or a full-fledged e-commerce site, we ensure your WordPress site is optimized for performance, security, and ease of use.</p>
                                 </div>
                             </div>
                         </div>
