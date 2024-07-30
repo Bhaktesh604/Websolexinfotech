@@ -202,7 +202,7 @@ const From = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="contact_btn mt-4">
+                                    <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
                                         <Link to="#" className=" text-light rounded-3 m-2 fw-semibold">Send message</Link>
                                     </div>
                                 </div>
@@ -233,7 +233,6 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Mobile</h4>
-                                                    {/* <Link  className='text-dark'>+91 82008-45977</Link> */}
                                                     <a href="tel:8200845977" className='text-black'>+91 82008-45977</a>
                                                 </div>
                                             </div>
@@ -269,7 +268,7 @@ const From = () => {
                                 </div>
                                 <div className="col-12 d-flex flex-column flex-lg-row justify-content-between py-5 ps-3 py-sm-4   ps-sm-4 pe-0 align-items-center">
                                     <h6 className="fw-bold">Social Media:</h6>
-                                    <ul className="social_main_menu d-flex">
+                                    <ul className="social_main_menu d-flex ps-0 ">
                                         <li className="me-3">
                                             <Link to="https://www.facebook.com/profile.php?id=61559410317814" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaFacebookF className='text-black fs-5' />

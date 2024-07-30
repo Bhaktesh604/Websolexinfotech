@@ -93,7 +93,7 @@ const PortfolioSection = () => {
                     <div className="row">
                         <div className=" col-12 d-flex flex-wrap flex-md-row">
                             {portfolios[activeTab].map(image => (
-                                <div className=" col-12  col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
+                                <div className=" col-6  col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
                                     <div className="card position-relative border-0 m-2">
                                         <Link to="/portfolio" className="card_img overflow-hidden z-1 rounded-3 position-relative">
                                             <img
@@ -101,7 +101,7 @@ const PortfolioSection = () => {
                                                 alt={image.alt}
                                                 className="img-fluid portfolio-image"
                                             />
-                                            <div className="overlay position-absolute col-12 d-flex justify-content-center align-items-center h-100 bg-primary rounded-3">
+                                            <div className="overlay position-absolute col-12 d-flex justify-content-center align-items-center  h-100 bg-primary rounded-3">
                                                 <div className="overlay_content text-center text-light">
                                                     <span>{image.name}</span>
                                                     <h2 className="pt-lg-3 pt-xxl-5">{image.discri}</h2>
@@ -121,11 +121,11 @@ const PortfolioSection = () => {
                             ))}
                         </div>
                     </div>
-                    <div className="link col-12 text-center">
+                    {/* <div className="link col-12 text-center">
                         <Link to="/portfolio" className="p-3 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
                             View More
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

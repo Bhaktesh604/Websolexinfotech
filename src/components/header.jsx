@@ -404,8 +404,8 @@ const Header = () => {
                                                     Home
                                                 </Link>
                                             </li>
-                                            <li className="nav-item dropdown text-center">
-                                                <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="#" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                            <li className="nav-item dropdown p-3 text-center">
+                                                <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="/service" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
                                                     onClick={() => handleTabClick('Services')} >
                                                     Services
                                                 </Link>
@@ -452,9 +452,8 @@ const Header = () => {
                                         <form className="d-flex justify-content-center" role="search">
                                             <Link
                                                 to="tel:8200845977"
-                                                className="bg-primary text-light fw-normal border-0 rounded-2 text-decoration-none"
-                                            >
-                                                <i className="bi-solid bi-phone-flip pe-2 bell"></i>+91 8200845977
+                                                className="bg-primary text-light fw-normal border-0 rounded-2  text-decoration-none"
+                                            ><FaPhone className=' bell me-2' />+91 8200845977
                                             </Link>
                                         </form>
                                     </div>

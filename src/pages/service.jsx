@@ -1,15 +1,15 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
 import { MdWeb } from "react-icons/md";
-import reactjs from '../Assets/react.png'
-import nodejs from '../Assets/node js.png'
-import php from '../Assets/php copy.png'
-import laravel from '../Assets/laravel copy.png'
-import wordPress from '../Assets/wordpress copy.png'
-import shopify from '../Assets/shopify.png'
-import angular from '../Assets/Angular-Js.png'
+import reactjs from '../Assets/library.png'
+import nodejs from '../Assets/nodejs2.png'
+import php from '../Assets/php2.png'
+import laravel from '../Assets/laravel1.png'
+import wordPress from '../Assets/wordpress-logo.png'
+import shopify from '../Assets/shofify.png'
+import angular from '../Assets/angular.png'
 import wix from '../Assets/wix.png'
-import webflow from '../Assets/webflow_logo_icon_169218.png'
+import webflow from '../Assets/webflow.png'
 import uiux from '../Assets/ui ux.png'
 import grafic from '../Assets/grafic.png'
 import branding from '../Assets/branding.png'
@@ -17,9 +17,9 @@ import packging from '../Assets/package.png'
 import website from '../Assets/website.png'
 import application from '../Assets/application.png'
 import ios from '../Assets/ios.png'
-import android from '../Assets/android copy.png'
+import android from '../Assets/android (1).png'
 import logodesign from '../Assets/logo-design.png'
-import flutter from '../Assets/flutter.png'
+import flutter from '../Assets/flutter2.png'
 function service() {
   return (
     <>
@@ -37,10 +37,9 @@ function service() {
             <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
-                  <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center mb-3">
-                      {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={reactjs} alt="" className='fs-2  img-fluid'/>
+                  <div className="card-body text-center text-lg-start p-4 border-0 ">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-3 ">
+                      <img src={reactjs} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-9 text-capitalize mb-2" >React.js Development</h4>
                     <h6>Build Modern Web Applications with React.js</h6>
@@ -57,9 +56,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={nodejs} alt=""  className='fs-2  img-fluid'/>
+                      <img src={nodejs} alt=""  className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Node.js Development</h4>
                     <h6>Efficient Backend Solutions with Node.js</h6>
@@ -76,9 +75,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={php} alt=""  className='fs-2  img-fluid'/>
+                      <img src={php} alt=""  className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-9 text-capitalize mb-2" >PHP Development</h4>
                     <h6>Versatile Web Solutions with PHP</h6>
@@ -96,9 +95,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={laravel} alt="" className='fs-2  img-fluid'/>
+                      <img src={laravel} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-8 text-capitalize mb-2" >Laravel Development</h4>
                     <h6>Elegant and Efficient Laravel Solutions</h6>
@@ -115,9 +114,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={wordPress} alt="" className='fs-2  img-fluid'/>
+                      <img src={wordPress} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-8 text-capitalize mb-2" >WordPress Development</h4>
                     <h6>Customized WordPress Websites</h6>
@@ -134,9 +133,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={shopify} alt="" className='fs-2  img-fluid'/>
+                      <img src={shopify} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Shopify Development</h4>
                     <h6>Ecommerce Excellence with Shopify</h6>
@@ -154,9 +153,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={angular} alt="" className='fs-2  img-fluid'/>
+                      <img src={angular} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-8 text-capitalize mb-2" >Angular Development</h4>
                     <h6>Powerful Single-Page Applications with Angular</h6>
@@ -173,9 +172,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={wix} alt="" className='fs-2  img-fluid'/>
+                      <img src={wix} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Wix Development</h4>
                     <h6>Easy and Elegant Websites with Wix</h6>
@@ -192,9 +191,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={webflow} alt="" className='fs-2  img-fluid'/>
+                      <img src={webflow} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold  text-capitalize mb-2" >Webflow Development</h4>
                     <h6>Advanced Web Design with Webflow</h6>
@@ -211,9 +210,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={logodesign} alt="" className='fs-2  img-fluid'/>
+                      <img src={logodesign} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Logo Design</h4>
                     <h6>Crafting Memorable Logos</h6>
@@ -230,9 +229,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={grafic} alt="" className='fs-2  img-fluid'/>
+                      <img src={grafic} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold  text-capitalize mb-2" >Infographic Design</h4>
                     <h6>Visual Storytelling with Infographics</h6>
@@ -249,9 +248,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={packging} alt="" className='fs-2  img-fluid'/>
+                      <img src={packging} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Packaging Design</h4>
                     <h6>Innovative Packaging Solutions</h6>
@@ -270,9 +269,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={branding} alt="" className='fs-2  img-fluid'/>
+                      <img src={branding} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Branding Identity</h4>
                     <h6>Building Strong Brand Identities</h6>
@@ -289,9 +288,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={website} alt="" className='fs-2  img-fluid'/>
+                      <img src={website} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Website Design</h4>
                     <h6>Stunning and Functional Websites</h6>
@@ -308,9 +307,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={application} alt="" className='fs-2  img-fluid'/>
+                      <img src={application} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Application Design</h4>
                     <h6>Innovative App Designs</h6>
@@ -327,9 +326,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={uiux} alt="" className='fs-2  img-fluid'/>
+                      <img src={uiux} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >UI/UX Design</h4>
                     <h6>Exceptional UI/UX Design</h6>
@@ -346,9 +345,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={ios} alt="" className='fs-2  img-fluid'/>
+                      <img src={ios} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >iOS Development</h4>
                     <h6>Exceptional iOS App Development</h6>
@@ -365,9 +364,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={android} alt="" className='fs-2  img-fluid'/>
+                      <img src={android} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold col-12 col-lg-10 text-capitalize mb-2" >Android Development</h4>
                     <h6>Innovative Android App Solutions</h6>
@@ -384,9 +383,9 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center  mb-3">
+                    <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                       {/* <MdWeb className="fs-2 tech_icons" /> */}
-                      <img src={flutter} alt="" className='fs-2  img-fluid'/>
+                      <img src={flutter} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2'/>
                     </div>
                     <h4 className="mb-1 fw-bold  text-capitalize mb-2" >Flutter Development</h4>
                     <h6>Cross-Platform Excellence with Flutter</h6>

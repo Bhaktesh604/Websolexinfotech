@@ -139,7 +139,7 @@ const Testimonials = () => {
         <section className="review_section pb-100 py-50">
             <div className="container">
                 <div className="row">
-                    <div className="section_main_title text-center mb-5">
+                    <div className="section_main_title text-center mb-3 mb-md-5">
                         <h1 className='fw-bold'>Clients Testimonial</h1>
                     </div>
                     {/* <Slider {...settings}>
