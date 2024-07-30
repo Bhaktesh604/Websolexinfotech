@@ -4266,7 +4266,7 @@ a.dropdown-item img {
 @media (min-width:1024px) {
     .megamenu {
         min-width: 100%;
-        left: -60px;
+        left: -50px;
     }
 }
 
