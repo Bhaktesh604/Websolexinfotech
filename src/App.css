@@ -3676,7 +3676,7 @@ a.dropdown-item img {
 }
 @media (min-width:575px){
     .service_sub_box {
-        aspect-ratio: 3 / 1.1;
+        aspect-ratio: 3 / 1.4;
     }
 }
 
