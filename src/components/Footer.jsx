@@ -235,16 +235,16 @@ const Footer = () => {
                                     <div className="single-title-wrapper title">
                                         <ul className="footer-quick-links pt-10 ps-0">
                                             <li className='mb-3'>
-                                                <Link to="#" className='text-decoration-none text-black'>Portfolio</Link>
+                                                <Link to="/portfolio" className='text-decoration-none text-black'>Portfolio</Link>
                                             </li>
                                             <li className='mb-3'>
                                                 <Link to="#" className='text-decoration-none text-black'>Career</Link>
                                             </li>
                                             <li className='mb-3'>
-                                                <Link to="#" className='text-decoration-none text-black'>Contact</Link>
+                                                <Link to="/company" className='text-decoration-none text-black'>Company</Link>
                                             </li>
                                             <li className='mb-3'>
-                                                <Link to="#" className='text-decoration-none text-black'>Company</Link>
+                                                <Link to="/contact" className='text-decoration-none text-black'>Contact</Link>
                                             </li>
                                         </ul>
                                     </div>
