@@ -383,7 +383,7 @@ const Header = () => {
                 <div className="header d-block d-lg-none sticky-top">
                     <div className="container">
                         <div className="row">
-                            <nav className="navbar navbar-expand-lg">
+                            <nav className="navbar navbar-expand-lg px-2">
                                 <div className="container-fluid d-flex">
                                     <Link className="navbar-brand col-2" to="#"><img src={logo} alt="Logo" /></Link>
                                     <button
