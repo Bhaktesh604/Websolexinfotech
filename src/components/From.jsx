@@ -240,7 +240,7 @@ const From = () => {
                                     </div>
                                     <div className="col-12 col-md-6 ps-0 ">
                                         <div className="me-0 me-md-3 me-xl-2 me-xxl-3">
-                                            <div className="contact_sub_boxx  d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3 mb-md-0">
+                                            <div className="contact_sub_boxx  d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-3">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                                     <FaClock className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
@@ -259,7 +259,6 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Email</h4>
-                                                    {/* <Link className='text-dark'>websolexinfotech@gmail.com</Link> */}
                                                     <a href="mailto:websolexinfotech@gmail.com" className='text-black'>websolexinfotech@gmail.com</a>
                                                 </div>
                                             </div>
@@ -274,11 +273,11 @@ const From = () => {
                                                 <FaFacebookF className='text-black fs-5' />
                                             </Link>
                                         </li>
-                                        <li className="me-3">
+                                        {/* <li className="me-3">
                                             <Link to="#" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaTwitter className='text-black fs-5' />
                                             </Link>
-                                        </li>
+                                        </li> */}
                                         <li className="me-3">
                                             <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaLinkedinIn className='text-black fs-5' />
