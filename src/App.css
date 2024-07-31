@@ -1658,7 +1658,7 @@ a.dropdown-item img {
 
 
 .card .all_icon {
-    bottom: 22px !important;
+    bottom: 22px;
     opacity: 0;
     padding: 10px 10px;
     left: 50px;
@@ -1731,7 +1731,8 @@ a.dropdown-item img {
     }
 
     .all_icon {
-        left: 15% !important;
+        left: 22% !important;
+        bottom: 10px !important;
         justify-content: space-around !important;
     }
 }
@@ -1752,7 +1753,8 @@ a.dropdown-item img {
     }
 
     .all_icon {
-        left: -15% !important;
+        left: 12% !important;
+        bottom: 0px !important;
         justify-content: space-around !important;
     }
 }
@@ -1763,7 +1765,8 @@ a.dropdown-item img {
     }
 
     .all_icon {
-        left: 18% !important;
+        left: 24% !important;
+        bottom: 22px !important;
         justify-content: space-around !important;
     }
 }
@@ -1778,8 +1781,9 @@ a.dropdown-item img {
     }
 
     .all_icon {
-        left: 27% !important;
+        left: 28% !important;
         gap: 10px !important;
+        bottom: 10px !important;
         justify-content: space-evenly !important;
     }
 }
@@ -3665,13 +3669,22 @@ a.dropdown-item img {
     }
 
     .service_sub_box {
-        aspect-ratio: 3 / 1.8;
+        aspect-ratio: 3 / 2;
     }
     .meet_our_team {
         padding-bottom: 50px !important;
     }
     .service_page .card-body {
         aspect-ratio: 3 / 2.5;
+    }
+    .card .all_icon a {
+        width: 40px;
+        height: 40px;
+    }
+    .all_icon {
+        left: 15% !important;
+        bottom: 0px !important;
+        justify-content: space-around !important;
     }
 }
 @media (min-width:575px){
@@ -4030,6 +4043,10 @@ a.dropdown-item img {
     .contact_form_sub {
         background-color: #f0f0f0;
         padding: 30px;
+    }
+    .card .all_icon a {
+        width: 40px;
+        height: 40px;
     }
 
 }
@@ -4433,6 +4450,10 @@ a.dropdown-item img {
         -webkit-line-clamp: 7;
         -webkit-box-orient: vertical;
         overflow: hidden;
+    }
+    .card .all_icon a {
+        width: 50px;
+        height: 50px;
     }
 }
 
