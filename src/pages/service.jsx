@@ -103,7 +103,7 @@ function service() {
                     <h6>Elegant and Efficient Laravel Solutions</h6>
                     <p className="mb-1 fs-14">Utilize the elegance and efficiency of Laravel for your web applications. We deliver robust, scalable, and maintainable solutions using this popular PHP framework, tailored to your business needs.
                     </p>
-                    <div className="social d-flex mt-4 justify-content-end gap-1">
+                    <div className="social d-flex  mt-xl-4 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -161,7 +161,7 @@ function service() {
                     <h6>Powerful Single-Page Applications with Angular</h6>
                     <p className="mb-1 fs-14">Our Angular development services focus on building powerful, feature-rich single-page applications. We ensure your web applications are fast, responsive, and user-friendly
                     </p>
-                    <div className="social d-flex mt-5 justify-content-end gap-1">
+                    <div className="social d-flex mt-3 mt-xl-5 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ function service() {
                     <h6>Advanced Web Design with Webflow</h6>
                     <p className="mb-1 fs-14">Unleash your creativity with our Webflow development services. We build visually stunning and highly functional websites that are fully responsive and optimized for performance.
                     </p>
-                    <div className="social d-flex  justify-content-end gap-1">
+                    <div className="social d-flex mt-5 mt-xl-0 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -256,7 +256,7 @@ function service() {
                     <h6>Innovative Packaging Solutions</h6>
                     <p className="mb-1 fs-14">Enhance your product's appeal with our packaging design service. We design eye-catching, functional, and brand-aligned packaging that not only attracts customers but also communicates your product's value.
                     </p>
-                    <div className="social d-flex mt-5 justify-content-end gap-1">
+                    <div className="social d-flex mt-4 mt-xl-5 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -277,7 +277,7 @@ function service() {
                     <h6>Building Strong Brand Identities</h6>
                     <p className="mb-1 fs-14">Establish a powerful brand presence with our comprehensive branding identity service. From logo creation to visual style and messaging, we help define and communicate your brand's unique story and values.
                     </p>
-                    <div className="social d-flex mt-5 justify-content-end gap-1">
+                    <div className="social d-flex mt-3 mt-xl-5 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -334,7 +334,7 @@ function service() {
                     <h6>Exceptional UI/UX Design</h6>
                     <p className="mb-1 fs-14">Enhance your digital products with our expert UI/UX design services. We design interfaces that are not only visually appealing but also intuitive and user-centric, ensuring a seamless and enjoyable experience for your users.
                     </p>
-                    <div className="social d-flex mt-4 justify-content-end gap-1">
+                    <div className="social d-flex mt-5 mt-xl-4 justify-content-end gap-1">
                       <FaArrowRight className="arrow" />
                     </div>
                   </div>
