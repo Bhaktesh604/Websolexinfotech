@@ -21,7 +21,7 @@ const Footer = () => {
                                             <img src={logo} alt="Logicgo-Logo" />
                                         </Link>
                                     </div>
-                                    <p>Your ideas, Our Innovation</p>
+                                    <p>Your Ideas, Our Innovation</p>
                                     <ul className="contact-link ps-0">
                                         <li className='pt-3'>
                                             <div className="footer-info-contact">
