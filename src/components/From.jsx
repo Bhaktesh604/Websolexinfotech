@@ -246,7 +246,7 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Availability</h4>
-                                                    <p className="mb-0">Daily 09 am - 05 pm</p>
+                                                    <p className="mb-0">Daily 09:00 am - 6:30 pm</p>
                                                 </div>
                                             </div>
                                         </div>

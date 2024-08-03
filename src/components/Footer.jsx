@@ -54,7 +54,7 @@ const Footer = () => {
                                                     <p className='mb-0 fw-bold'>Address :-</p>
                                                 </div>
                                                 <div>
-                                                    <span> A-103 IT Park Mota Varachha Road Surat Gujarat</span>
+                                                    <span> A-103 IT Park Mota Varachha Road Surat Gujarat.</span>
                                                 </div>
                                             </div>
                                         </li>
