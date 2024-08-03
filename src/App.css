@@ -3625,7 +3625,7 @@ a.dropdown-item img {
     }
     .service_page .card-body {
         aspect-ratio: 3 / 1;
-        height: 370px;
+        height: 390px;
     }
     .contact_form_sub {
         background-color: #f0f0f0;
@@ -4509,7 +4509,7 @@ a.dropdown-item img {
     }
 
     .service_sub_box {
-        aspect-ratio: 3/2;
+        aspect-ratio: 3/1.3;
     }
 
     .banner_img8 {
