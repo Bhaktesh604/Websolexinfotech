@@ -18,32 +18,31 @@ import { FaStar } from "react-icons/fa";
 import report_graf from '../Assets/sale-report-removebg-preview.png'
 
 
-function Banner() 
-{
+function Banner() {
     return (
         <>
             <section className="banner position-relative">
-            <div className="container">
-                <div className="row justify-content-center">
-                    <div className="banner_main_menu col-12 col-lg-8 col-xl-6 text-center">
-                        <h2 className="mb-4 fw-semibold">Empowering Your Digital Transformation</h2>
-                        <h4 className='mb-3'>Comprehensive IT Solutions for Modern Businesses</h4>
-                        <p className="mb-5">At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
-                        <Link to="#" className="border rounded-2 bg-primary text-white">Signup</Link>
-                        <div className="banner_image d-none d-lg-block">
-                            <img src={img8} alt="" className="banner_img1 position-absolute" />
-                            <img src={img4} alt="" className="banner_img2 position-absolute" />
-                            <img src={img2} alt="" className="banner_img3 position-absolute" />
-                            <img src={img3} alt="" className="banner_img4 position-absolute" />
-                            <img src={img5} alt="" className="banner_img5 position-absolute" />
-                            <img src={img6} alt="" className="banner_img6 position-absolute" />
-                            <img src={img1} alt="" className="banner_img7 position-absolute" />
-                            <img src={img7} alt="" className="banner_img8 position-absolute" />
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="banner_main_menu col-12 col-lg-8 col-xl-6 text-center">
+                            <h2 className="mb-4 fw-semibold">Empowering Your Digital Transformation</h2>
+                            <h4 className='mb-3'>Comprehensive IT Solutions for Modern Businesses</h4>
+                            <p className="mb-5">At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
+                            <Link to="#" className="border rounded-2 bg-primary text-white">Signup</Link>
+                            <div className="banner_image d-none d-lg-block">
+                                <img src={img8} alt="" className="banner_img1 position-absolute" />
+                                <img src={img4} alt="" className="banner_img2 position-absolute" />
+                                <img src={img2} alt="" className="banner_img3 position-absolute" />
+                                <img src={img3} alt="" className="banner_img4 position-absolute" />
+                                <img src={img5} alt="" className="banner_img5 position-absolute" />
+                                <img src={img6} alt="" className="banner_img6 position-absolute" />
+                                <img src={img1} alt="" className="banner_img7 position-absolute" />
+                                <img src={img7} alt="" className="banner_img8 position-absolute" />
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
             {/* <section className='banner'>
             <div className="container">
@@ -129,7 +128,7 @@ function Banner()
                                             </div>
                                         </div>
                                         <div className="review_contentt">
-                                            <h6 className='mb-0'>2005+ Relings</h6>
+                                            <h6 className='mb-0'>10+ Relings</h6>
                                             <ul className='d-flex ps-0 mb-0'>
                                                 <li className='pe-2'><FaStar className='icon_color'/></li>
                                                 <li className='pe-2'><FaStar className='icon_color'/></li>
@@ -140,8 +139,8 @@ function Banner()
                                         </div>
                                     </div>
                                     <div className="view_sec position-absolute bg-light p-3 col-4 rounded-4">
-                                        <span>Total View</span>
-                                        <h2 className='mb-4'>$23,987</h2>
+                                        <span>Total Project</span>
+                                        <h2 className='mb-4'>30+</h2>
                                         <p className='fw-bold'>Group Memory</p>
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="col-4 pe-3">

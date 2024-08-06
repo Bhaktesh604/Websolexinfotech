@@ -251,6 +251,8 @@ const Header = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [activeTab, setActiveTab] = useState('Home');
 
+    const [mouseEnter, setMouseEnter] = useState(false)
+
     const handleTabClick = (tab) => {
         setActiveTab(tab);
     }
@@ -258,6 +260,113 @@ const Header = () => {
     const toggleNavbar = () => {
         setIsCollapsed(!isCollapsed);
     };
+
+
+    const ServiceTab = [
+        {
+            name: "Web Development",
+            img: webdevlopment,
+            sub: [
+                {
+                    subName: "React js Development",
+                },
+                {
+                    subName: "Node js Development",
+                },
+                {
+                    subName: "PHP Development",
+                },
+                {
+                    subName: "Laravel Development",
+                },
+                {
+                    subName: "WordPress Development",
+                },
+                {
+                    subName: "Shopify Development",
+                },
+                {
+                    subName: "Angular Development",
+                },
+                {
+                    subName: "Wix Development",
+                },
+                {
+                    subName: "Webflow Development",
+                },
+            ]
+        },
+        {
+            name: "Graphic Design",
+            img: graphic,
+            sub: [
+                {
+                    subName: "Packaging Design",
+                },
+                {
+                    subName: "Info Graphic Design",
+                },
+                {
+                    subName: "Logo Design",
+                },
+                {
+                    subName: "Branding Identity",
+                },
+                {
+                    subName: "Print Design",
+                },
+            ]
+        },
+        {
+            name: "UI/UX Design",
+            img: UIUX,
+            sub: [
+                {
+                    subName: "App Design",
+                },
+                {
+                    subName: "UI/UX Design",
+                },
+                {
+                    subName: "Web Design",
+                },
+            ]
+        },
+        {
+            name: "Mobile Apps",
+            img: mobile,
+            sub: [
+                {
+                    subName: "IOS",
+                },
+                {
+                    subName: "Android",
+                },
+                {
+                    subName: "Cross Platform",
+                },
+            ]
+        },
+        {
+            name: "Degital Marketing",
+            img: Digital,
+            sub: [
+                {
+                    subName: "Search Engine Optimization",
+                },
+                {
+                    subName: "Pay-Per-Click Advertising",
+                },
+                {
+                    subName: "Social Media Marketing",
+                },
+                {
+                    subName: "Email Marketing",
+                },
+            ]
+        },
+    ]
+
 
     return (
         <>
@@ -281,72 +390,30 @@ const Header = () => {
                                                 </Link>
                                             </li>
                                             <li className="nav-item servicemenu dropdown megamenu-li dmenu d-flex align-items-center">
-                                                <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="#" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                                    onClick={() => handleTabClick('Services')} >
+                                                <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="#"
+                                                    onClick={() => handleTabClick('Services')} onMouseEnter={() => setMouseEnter(true)} >
                                                     Services
                                                 </Link>
-                                                <div className="dropdown-menu megamenu sm-menu border-top" aria-labelledby="dropdown01">
-                                                    <div className="container-fluid">
-                                                        <div className="row">
-                                                            <div className="megamenu_width border-right mb-4 px-0 px-xl-2">
-                                                                <div className="d-flex ms-lg-2 ms-xl-4 align-items-center">
-                                                                    <img src={webdevlopment} alt="" className='megamenu_icon' />
-                                                                    <h6 className="d-flex align-items-center ms-2 mb-0">Web Development</h6>
-                                                                </div>
-                                                                <Link className="dropdown-item" to="/service">React js Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Node js Development</Link>
-                                                                <Link className="dropdown-item" to="/service">PHP Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Laravel Development</Link>
-                                                                <Link className="dropdown-item" to="/service">WordPress Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Shopify Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Angular Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Wix Development</Link>
-                                                                <Link className="dropdown-item" to="/service">Webflow Development</Link>
-                                                            </div>
-
-                                                            <div className="megamenu_width border-right mb-4 px-0 px-xl-2">
-                                                                <div className="d-flex ms-2 align-items-center">
-                                                                    <img src={graphic} alt="" className='megamenu_icon' />
-                                                                    <h6 className="d-flex align-items-center ms-2 mb-0">Graphic Design</h6>
-                                                                </div>
-                                                                <Link className="dropdown-item" to="/service">Packaging Design</Link>
-                                                                <Link className="dropdown-item" to="/service">Info Graphic Design</Link>
-                                                                <Link className="dropdown-item" to="/service">Logo Design</Link>
-                                                                <Link className="dropdown-item" to="/service">Branding Identity</Link>
-                                                                <Link className="dropdown-item" to="/service">Print Design</Link>
-                                                            </div>
-                                                            <div className="megamenu_width border-right mb-4 px-0 px-xl-2">
-                                                                <div className="d-flex ms-2 align-items-center">
-                                                                    <img src={UIUX} alt="" className='megamenu_icon' />
-                                                                    <h6 className="d-flex align-items-center ms-2 mb-0">UI/UX Design</h6>
-                                                                </div>
-                                                                <Link className="dropdown-item" to="/service">App Design</Link>
-                                                                <Link className="dropdown-item" to="/service">UI/UX Design</Link>
-                                                                <Link className="dropdown-item" to="/service">Web Design</Link>
-                                                            </div>
-
-                                                            <div className="megamenu_width border-right mb-4 px-0 px-xl-2">
-                                                                <div className="d-flex ms-2 align-items-center">
-                                                                    <img src={mobile} alt="" className='megamenu_icon' />
-                                                                    <h6 className="d-flex align-items-center ms-2 mb-0">Mobile Apps</h6>
-                                                                </div>
-                                                                <Link className="dropdown-item" to="/service">IOS</Link>
-                                                                <Link className="dropdown-item" to="/service">Android</Link>
-                                                                <Link className="dropdown-item" to="/service">Cross Platform</Link>
-                                                            </div>
-                                                            <div className="megamenu_width  mb-4 px-0 px-xl-2">
-                                                                <div className="d-flex ms-2 align-items-center">
-                                                                    <img src={Digital} alt="" className='megamenu_icon' />
-                                                                    <h6 className="d-flex align-items-center ms-2 mb-0">Degital Marketing</h6>
-                                                                </div>
-                                                                <Link className="dropdown-item" to="/service">Search Engine Optimization</Link>
-                                                                <Link className="dropdown-item" to="/service">Pay-Per-Click Advertising</Link>
-                                                                <Link className="dropdown-item" to="/service">Social Media Marketing</Link>
-                                                                <Link className="dropdown-item" to="/service">Email Marketing</Link>
+                                                {
+                                                    mouseEnter && <div className="dropdown-menu megamenu sm-menu border-top">
+                                                        <div className="container-fluid">
+                                                            <div className="row">
+                                                                {
+                                                                    ServiceTab.map((v, i) => <div key={i} className="megamenu_width border-right mb-4 px-0 px-xl-2">
+                                                                        <div className="d-flex ms-lg-2 ms-xl-4 align-items-center">
+                                                                            <img src={v.img} alt="" className='megamenu_icon' />
+                                                                            <h6 className="d-flex align-items-center ms-2 mb-0">{v.name}</h6>
+                                                                        </div>
+                                                                        {
+                                                                            v.sub.map(s => <Link className="dropdown-item" onClick={() => setMouseEnter(false)} to="/service">{s.subName}</Link>)
+                                                                        }
+                                                                    </div>)
+                                                                }
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                }
+
                                             </li>
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
