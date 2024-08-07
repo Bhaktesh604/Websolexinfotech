@@ -51,8 +51,8 @@ const ServiceSection = () => {
                                     <p className="mb-4">Unlock the potential of your business with our all-encompassing IT services. From consulting to implementation, we have you covered.
 
                                     </p>
-                                    <div className="col-5">
-                                        <Link to="/service" className="rounded-1 text-decoration-none d-flex align-items-center justify-content-center">Explore All Services</Link>
+                                    <div className="col-12 col-xl-5 d-flex justify-content-center">
+                                        <Link to="/service" className="rounded-1   text-decoration-none d-flex align-items-center justify-content-center">Explore All Services</Link>
                                     </div>
                                 </div>
                             </div>
