@@ -71,16 +71,16 @@ const Footer = () => {
 
                                     <ul className="footer-quick-links pt-10 footer-toggle ps-0">
                                         <li className='mb-3'>
-                                            <Link to="#">Portfolio</Link>
+                                            <Link to="#" className='px-0'>Portfolio</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">Career</Link>
+                                            <Link to="#" className='px-0'>Career</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">Contact</Link>
+                                            <Link to="#" className='px-0'>Contact</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">Company</Link>
+                                            <Link to="#" className='px-0'>Company</Link>
                                         </li>
                                     </ul>
                                 </div>
@@ -94,16 +94,16 @@ const Footer = () => {
                                     </div>
                                     <ul className="footer-quick-links pt-10 footer-toggle ps-0">
                                         <li className='mb-3'>
-                                            <Link to="#">Web Development</Link>
+                                            <Link to="#" className='px-0'>Web Development</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">Graphic Design</Link>
+                                            <Link to="#" className='px-0'>Graphic Design</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">App Development</Link>
+                                            <Link to="#" className='px-0'>App Development</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#">Game Development</Link>
+                                            <Link to="#" className='px-0'>Game Development</Link>
                                         </li>
                                     </ul>
                                 </div>
