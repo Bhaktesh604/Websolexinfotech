@@ -1,7 +1,7 @@
 import React from 'react'
-import parthbhai from '../Assets/parthbhai.jpeg'
+import parthbhai from '../Assets/parthbhai.png'
 import harshbhai from '../Assets/Harsh 1.png'
-import baktesh from '../Assets/bhaktesh 1.png'
+import baktesh from '../Assets/Bhaktesh.png'
 import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
@@ -77,7 +77,7 @@ function Meetourteam() {
                                         <img src={baktesh} alt="" className="img-fluid" />
                                     </div>
                                     <div className="card-body px-lg-0 p-md-4 text-center">
-                                        <h4 className="mb-1" >Baktesh Gadhiya</h4>
+                                        <h4 className="mb-1" >Bhaktesh Gadhiya</h4>
                                         <p className="mb-1 fs-14">Founder & CTO</p>
                                         <div className="social d-flex mt-2 justify-content-center gap-1">
                                             <Link to="https://www.linkedin.com/in/bhaktesh-gadhiya-213b28235/" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">

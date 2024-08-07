@@ -376,7 +376,7 @@ const Header = () => {
                         <div className="row">
                             <nav className="navbar navbar-expand-lg">
                                 <div className="container-fluid">
-                                    <Link className="navbar-brand col-2" to="#"><img src={logo} alt="Logo" /></Link>
+                                    <Link className="navbar-brand col-2" to="/"><img src={logo} alt="Logo" /></Link>
                                     <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={!isCollapsed}>
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
