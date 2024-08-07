@@ -51,7 +51,9 @@ const ServiceSection = () => {
                                     <p className="mb-4">Unlock the potential of your business with our all-encompassing IT services. From consulting to implementation, we have you covered.
 
                                     </p>
-                                    <Link to="/service" className="rounded-1 text-decoration-none">Explore All Services</Link>
+                                    <div className="col-5">
+                                        <Link to="/service" className="rounded-1 text-decoration-none d-flex align-items-center justify-content-center">Explore All Services</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +62,7 @@ const ServiceSection = () => {
                                 <div key={service.id} className="col-12 col-md-6 mb-5 mb-md-3">
                                     <div className="service_sub_box overflow-hidden   d-lg-flex p-3  me-md-3">
                                         <div className="icon col-lg-1 me-0 me-lg-4 mb-4 mb-lg-0 d-flex d-lg-block align-align-items-center justify-content-center">
-                                            <img src={service.icon} alt="" className='col-2 col-lg-12'/>
+                                            <img src={service.icon} alt="" className='col-2 col-lg-12' />
                                         </div>
 
                                         <div className="service_content col-12 col-lg-10 text-center text-lg-start">

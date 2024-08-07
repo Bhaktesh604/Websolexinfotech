@@ -34,7 +34,7 @@ const Get = () => {
                 className="get-button col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center"
               >
                 <div className="get_encar">
-                  <Link to="/appointment" className=" text-decoration-none">Make Appointment</Link>
+                  <Link to="/appointment" className=" d-flex align-items-center text-decoration-none">Make Appointment</Link>
                 </div>
               </div>
             </div>
