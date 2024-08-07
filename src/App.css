@@ -4068,6 +4068,7 @@ a.dropdown-item img {
     .contact_sub_boxx {
         padding: 16px;
         aspect-ratio: 3 / 1;
+        height: 150px;
     }
 
     .meet_our_team {
@@ -4281,7 +4282,11 @@ a.dropdown-item img {
         width: 40px;
         height: 40px;
     }
-
+    .contact_sub_boxx {
+        padding: 16px;
+        aspect-ratio: 3 / 1.5;
+        height: 170px;
+    }
 }
 
 @media (min-width:992px) {
