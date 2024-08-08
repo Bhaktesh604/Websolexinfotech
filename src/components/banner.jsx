@@ -16,12 +16,13 @@ import review_img3 from '../Assets/client-3.jpg'
 import review_img4 from '../Assets/client-4.jpg'
 import { FaStar } from "react-icons/fa";
 import report_graf from '../Assets/sale-report-removebg-preview.png'
+import graf2 from '../Assets/garf.png'
 
 
 function Banner() {
     return (
         <>
-            <section className="banner position-relative">
+            {/* <section className="banner position-relative">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="banner_main_menu col-12 col-lg-8 col-xl-6 text-center">
@@ -42,7 +43,7 @@ function Banner() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* <section className='banner'>
             <div className="container">
@@ -64,7 +65,7 @@ function Banner() {
         </section> */}
 
 
-            {/* <section className='banner2'>
+            <section className='banner2'>
                 <div className="container">
                     <div className="row">
                         <div className="col-12 d-flex">
@@ -111,37 +112,42 @@ function Banner() {
                                                 class="note-images d-flex position-relative justify-content-center justify-content-md-start me-3">
                                                 <div class="note-img d-flex justify-content-center align-items-center position-relative  overflow-hidden rounded-circle bg-light"
                                                     id="review_1">
-                                                    <a href="javascript:void(0);"> <img src={review_img1} alt="" className='border-0'/></a>
+                                                    <a href="javascript:void(0);"> <img src={review_img1} alt="" className='border-0' /></a>
                                                 </div>
                                                 <div class="note-img d-flex justify-content-center align-items-center position-relative  overflow-hidden rounded-circle bg-light"
                                                     id="review_2">
-                                                    <a href="#review_2"><img src={review_img2} alt="" className='border-0'/></a>
+                                                    <a href="#review_2"><img src={review_img2} alt="" className='border-0' /></a>
                                                 </div>
                                                 <div
                                                     class="note-img d-flex justify-content-center align-items-center position-relative  overflow-hidden rounded-circle bg-light">
-                                                    <img src={review_img3} alt="" className='border-0'/>
+                                                    <img src={review_img3} alt="" className='border-0' />
                                                 </div>
                                                 <div
                                                     class="note-img d-flex justify-content-center align-items-center position-relative  overflow-hidden rounded-circle bg-light">
-                                                    <img src={review_img4} alt="" className='border-0'/>
+                                                    <img src={review_img4} alt="" className='border-0' />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="review_contentt">
                                             <h6 className='mb-0'>10+ Relings</h6>
                                             <ul className='d-flex ps-0 mb-0'>
-                                                <li className='pe-2'><FaStar className='icon_color'/></li>
-                                                <li className='pe-2'><FaStar className='icon_color'/></li>
-                                                <li className='pe-2'><FaStar className='icon_color'/></li>
-                                                <li className='pe-2'><FaStar className='icon_color'/></li>
-                                                <li className='pe-2'><FaStar className='icon_color'/></li>
+                                                <li className='pe-2'><FaStar className='icon_color' /></li>
+                                                <li className='pe-2'><FaStar className='icon_color' /></li>
+                                                <li className='pe-2'><FaStar className='icon_color' /></li>
+                                                <li className='pe-2'><FaStar className='icon_color' /></li>
+                                                <li className='pe-2'><FaStar className='icon_color' /></li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="view_sec position-absolute bg-light p-3 col-4 rounded-4">
-                                        <span>Total Project</span>
-                                        <h2 className='mb-4'>30+</h2>
-                                        <p className='fw-bold'>Group Memory</p>
+                                    <div className="view_sec d-flex align-items-center col-6 position-absolute bg-light p-3 col-4 rounded-4">
+                                        <div className="col-6 view_content">
+                                            <span>Total Project</span>
+                                            <h2 className='mb-0'>30+</h2>
+                                        </div>
+                                        <div className="">
+                                            <img src={graf2} alt="" />
+                                        </div>
+                                        {/* <p className='fw-bold'>Group Memory</p>
                                         <div className="d-flex align-items-center mb-3">
                                             <div className="col-4 pe-3">
                                                 <img src={review_img1} alt="" className='col-12 h-100 border-0 rounded-circle'/>
@@ -159,7 +165,7 @@ function Banner() {
                                                 <h6 className='mb-0'>+918200856187</h6>
                                                 <p className='mb-0'>Parth Vaghani</p>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4 col-6">
                                         <div className="me-3">
@@ -168,7 +174,7 @@ function Banner() {
                                             <p className='mb-0'>Lorem ipsum dolor.  </p>
                                         </div>
                                         <div className="col-5">
-                                            <img src={report_graf} alt="" className='col-12 border-0 h-100'/>
+                                            <img src={report_graf} alt="" className='col-12 border-0 h-100' />
                                         </div>
                                     </div>
                                 </div>
@@ -176,7 +182,7 @@ function Banner() {
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
         </>
     );
 }
