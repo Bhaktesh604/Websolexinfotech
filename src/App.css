@@ -333,12 +333,15 @@ a.dropdown-item img {
     border: 10px solid #ffffff20;
     object-fit: cover;
 }
-.view_sec img{
+
+.view_sec img {
     height: 100px;
 }
-.view_content h2{
+
+.view_content h2 {
     font-size: 40px;
 }
+
 .review_main_box {
     top: 50%;
     left: 0%;
@@ -449,9 +452,11 @@ a.dropdown-item img {
     transform: scale(0.8);
     transition: all .3s;
 }
-.view_sec:hover{
+
+.view_sec:hover {
     transform: scale(0.9);
 }
+
 .sale_report {
     border: 10px solid #0b090920;
     top: -10%;
@@ -463,9 +468,11 @@ a.dropdown-item img {
     transform: scale(0.8);
     transition: all .3s;
 }
-.sale_report:hover{
+
+.sale_report:hover {
     transform: scale(0.9);
 }
+
 .review_main_box {
     animation-name: animate2;
     animation-duration: 2s;
@@ -512,6 +519,18 @@ a.dropdown-item img {
         top: 35%;
     }
 }
+.hover_button2,.hover_button1{
+    transition: all .3s;
+}
+.hover_button2:hover{
+    background-color: #fff;
+    color: #000 !important;
+}
+.hover_button1:hover{
+    background-color: #54a2d9 !important;
+    color: #fff !important;
+}
+
 
 
 
@@ -624,9 +643,7 @@ a.dropdown-item img {
     width: 80px;
     top: 12%;
     left: 88%;
-
     animation: up_down_rotate 3s linear infinite;
-
 }
 
 .accordion-button:focus {
@@ -1775,7 +1792,7 @@ a.dropdown-item img {
 }
 
 .image_shadow {
-    aspect-ratio: 3 / 0.7;
+    aspect-ratio: 3 / 1.2;
     object-fit: contain;
     filter: grayscale(1);
 }
@@ -1863,9 +1880,11 @@ a.dropdown-item img {
     top: 0;
     opacity: 0.8;
 }
-.card-img-top{
+
+.card-img-top {
     overflow: hidden;
 }
+
 /* .overlay_content {
     padding: 100px 50px;
 } */
@@ -4287,6 +4306,7 @@ a.dropdown-item img {
         width: 40px;
         height: 40px;
     }
+
     .contact_sub_boxx {
         padding: 16px;
         aspect-ratio: 3 / 1.5;
@@ -4529,6 +4549,10 @@ a.dropdown-item img {
     .banner_main_menu::after {
         display: block;
     }
+    .view_sec {
+        top: 20%;
+        left: 40%;
+    }
 }
 
 @media (min-width:1024px) {
@@ -4711,6 +4735,10 @@ a.dropdown-item img {
         width: 50px;
         height: 50px;
     }
+    .view_sec {
+        top: 20%;
+        left: 50%;
+    }
 }
 
 @media (min-width:1400px) {
@@ -4762,7 +4790,7 @@ a.dropdown-item img {
     }
 
     .service_sub_box {
-        aspect-ratio: 3/1.3;
+        aspect-ratio: 3/1.2;
     }
 
     .procees_line::before {
@@ -4810,12 +4838,21 @@ a.dropdown-item img {
         min-width: 100%;
         left: -40px;
     }
+    .view_sec {
+        top: 20%;
+        left: 55%;
+    }
 }
 
 @media (min-width:1500px) {
     .megamenu {
         min-width: 100%;
         left: -100px;
+    }
+
+    .view_sec {
+        top: 20%;
+        left: 65%;
     }
 }
 

@@ -65,12 +65,12 @@ const ServiceSection = () => {
                                             <img src={service.icon} alt="" className='col-2 col-lg-12' />
                                         </div>
 
-                                        <div className="service_content col-12 col-lg-10 text-center text-lg-start">
+                                        <div className="service_content  col-12 col-lg-10 text-center text-lg-start">
                                             <div className="service_style_eleven_title">
                                                 <h4>{service.title}</h4>
                                             </div>
                                             <div className="service_style_eleven_text pt-2">
-                                                <p>{service.description}</p>
+                                                <p className='mb-0'>{service.description}</p>
                                             </div>
                                         </div>
                                     </div>

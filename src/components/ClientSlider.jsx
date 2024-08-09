@@ -1,11 +1,11 @@
 import React from 'react';
-import logo1 from '../Assets/logo1.png';
-import logo2 from '../Assets/logo2.png';
-import logo3 from '../Assets/logo3.png';
-import logo4 from '../Assets/logo4.png';
-import logo5 from '../Assets/logo5.png';
-import logo6 from '../Assets/logo6.png';
-import logo7 from '../Assets/logo7.png';
+import logo1 from '../Assets/logoimg1.png';
+import logo2 from '../Assets/logoimg2.png';
+import logo3 from '../Assets/logoimg3.png';
+import logo4 from '../Assets/logoimg4.png';
+import logo5 from '../Assets/logoimg5.png';
+import logo6 from '../Assets/logoimg6.png';
+import logo7 from '../Assets/logoimg7.png';
 import '../App.css';
 
 function Clientside() {
@@ -57,22 +57,22 @@ function Clientside() {
                 <div className="clients col-12 text-center  mb-md-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3">
+                            <div className="box_body m-2 rounded-1  border-bottom ">
                                 <img src={logo1} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom  ">
                                 <img src={logo2} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom  ">
                                 <img src={logo3} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom  ">
                                 <img src={logo4} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>

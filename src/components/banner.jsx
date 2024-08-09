@@ -69,17 +69,17 @@ function Banner() {
                 <div className="container">
                     <div className="row">
                         <div className="col-12 d-flex">
-                            <div className="col-6">
+                            <div className="col-7 col-xl-6">
                                 <div className="banner_content2 mt-5">
                                     <h2 className='text-light fs-1'>Empowering Your Digital Transformation</h2>
                                     <p className='text-light'>At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
                                     <div className="banner_button2 d-flex pb-5 border-bottom">
-                                        <a href="javascript:void(0);" className='text-decoration-none text-light bg-light text-dark rounded-pill fw-semibold'>Get Started</a>
-                                        <a href="javascript:void(0);" className='text-decoration-none text-light d-flex align-items-center fw-semibold'><IoIosPlay className='me-1' />Watch Video</a>
+                                        <a href="javascript:void(0);" className='text-decoration-none text-light bg-light text-dark rounded-pill fw-semibold me-3 border hover_button1'>Get Started</a>
+                                        <a href="javascript:void(0);" className='text-decoration-none text-light d-flex align-items-center fw-semibold border hover_button2 rounded-pill'><IoIosPlay className='me-1' />Watch Video</a>
                                     </div>
                                     <div className="col-12 d-flex">
                                         <div className="col-4">
-                                            <div className="banner_number_sub pt-4 px-4 text-light">
+                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>97,2 %</h2>
                                                     <p>Succesful Project</p>
@@ -87,7 +87,7 @@ function Banner() {
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div className="banner_number_sub pt-4 px-4 text-light">
+                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>342 k</h2>
                                                     <p>Joining Comparies</p>
@@ -95,7 +95,7 @@ function Banner() {
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div className="banner_number_sub pt-4 px-4 text-light">
+                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <h2>13,873 +</h2>
                                                 <p>Registered Customers</p>
                                             </div>
@@ -103,10 +103,10 @@ function Banner() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-6">
+                            <div className="col-5 col-xl-6">
                                 <div className="image_sub_box d-flex justify-content-center position-relative">
                                     <img src={banner_img} alt="" className='col-8 rounded-4' />
-                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center rounded-pill col-6">
+                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center rounded-pill col-10 col-xl-7 col-xxl-6">
                                         <div className="review_image">
                                             <div
                                                 class="note-images d-flex position-relative justify-content-center justify-content-md-start me-3">
@@ -139,7 +139,7 @@ function Banner() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="view_sec d-flex align-items-center col-6 position-absolute bg-light p-3 col-4 rounded-4">
+                                    <div className="view_sec d-flex align-items-center col-8 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
                                         <div className="col-6 view_content">
                                             <span>Total Project</span>
                                             <h2 className='mb-0'>30+</h2>
@@ -167,7 +167,7 @@ function Banner() {
                                             </div>
                                         </div> */}
                                     </div>
-                                    <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4 col-6">
+                                    <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4   col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="me-3">
                                             <span className='px-2 py-1 text-light rounded-pill'>New</span>
                                             <h6 className='mb-0'>Sale Report</h6>
