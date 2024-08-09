@@ -169,7 +169,7 @@ function Banner() {
                                     </div>
                                     <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4   col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="me-3">
-                                            <span className='px-2 py-1 text-light rounded-pill'>New</span>
+                                            <span className='px-2 py-1 text-light rounded-pill d-flex align-items-center justify-content-center col-5'>New</span>
                                             <h6 className='mb-0 mt-2'>Sale Report</h6>
                                             <p className='mb-0'>Lorem ipsum dolor.  </p>
                                         </div>
