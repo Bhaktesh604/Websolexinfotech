@@ -95,7 +95,7 @@ function Banner() {
                                             </div>
                                         </div>
                                         <div className="col-4">
-                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
+                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-2 px-xxl-4 text-light">
                                                 <h2>13,873 +</h2>
                                                 <p>Registered Customers</p>
                                             </div>
@@ -139,7 +139,7 @@ function Banner() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="view_sec d-flex align-items-center col-8 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
+                                    <div className="view_sec d-flex align-items-center col-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
                                         <div className="col-6 view_content">
                                             <span>Total Project</span>
                                             <h2 className='mb-0'>30+</h2>
@@ -170,7 +170,7 @@ function Banner() {
                                     <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4   col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="me-3">
                                             <span className='px-2 py-1 text-light rounded-pill'>New</span>
-                                            <h6 className='mb-0'>Sale Report</h6>
+                                            <h6 className='mb-0 mt-2'>Sale Report</h6>
                                             <p className='mb-0'>Lorem ipsum dolor.  </p>
                                         </div>
                                         <div className="col-5">
