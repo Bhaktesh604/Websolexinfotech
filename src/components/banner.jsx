@@ -81,7 +81,7 @@ function Banner() {
                                         <div className="col-6 col-sm-4">
                                             <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <div className="border-right">
-                                                    <h2>97,2 %</h2>
+                                                    <h2>97. 2 %</h2>
                                                     <p>Succesful Project</p>
                                                 </div>
                                             </div>
@@ -139,12 +139,12 @@ function Banner() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="view_sec d-block d-sm-flex flex-wrap align-items-center justify-content-between  col-7 col-md-6 col-lg-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
-                                        <div className="col-12 col-md-6 view_content text-center text-md-start">
+                                    <div className="view_sec d-flex flex-wrap align-items-center justify-content-between  col-10 col-md-6 col-lg-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
+                                        <div className=" col-6 view_content text-center text-md-start">
                                             <span>Total Project</span>
                                             <h2 className='mb-0'>30+</h2>
                                         </div>
-                                        <div className="col-12 col-md-6 ">
+                                        <div className=" col-6 ">
                                             <img src={graf2} alt="" />
                                         </div>
                                         {/* <p className='fw-bold'>Group Memory</p>

@@ -492,11 +492,11 @@ a.dropdown-item img {
 
 @keyframes animate {
     0% {
-        top: -2%;
+        top: -12%;
     }
 
     100% {
-        top: 2%;
+        top: -6%;
     }
 }
 
@@ -3763,7 +3763,7 @@ a.dropdown-item img {
     }
     .view_sec {
         top: 20%;
-        left: 45%;
+        left: 20%;
     }
     .sale_report {
         top: -10%;
@@ -3772,6 +3772,35 @@ a.dropdown-item img {
     .review_main_box {
         top: 50%;
         left: 0%;
+    }
+    @keyframes animate {
+        0% {
+            top: -12%;
+        }
+    
+        100% {
+            top: -6%;
+        }
+    }
+    
+    @keyframes animate2 {
+        0% {
+            top: 75%;
+        }
+    
+        100% {
+            top: 70%;
+        }
+    }
+    
+    @keyframes animate3 {
+        0% {
+            top: 30%;
+        }
+    
+        100% {
+            top: 35%;
+        }
     }
 }
 
@@ -4375,6 +4404,35 @@ a.dropdown-item img {
     .sale_report {
         top: -10%;
         left: 0%;
+    }
+    @keyframes animate {
+        0% {
+            top: -2%;
+        }
+    
+        100% {
+            top: 2%;
+        }
+    }
+    
+    @keyframes animate2 {
+        0% {
+            top: 75%;
+        }
+    
+        100% {
+            top: 70%;
+        }
+    }
+    
+    @keyframes animate3 {
+        0% {
+            top: 30%;
+        }
+    
+        100% {
+            top: 35%;
+        }
     }
 }
 
