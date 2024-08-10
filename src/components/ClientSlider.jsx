@@ -49,7 +49,7 @@ function Clientside() {
         //     </div>
         // </div>
 
-        <div className="container p-3 p-md-5">
+        <div className="container  px-md-5 py-5">
             <div className="row mb-md-4 align-items-center justify-content-center"> 
                 <div className="section_main_title text-center mb-3 mb-md-5">
                     <h1 className='fw-bold'>Valued Clients</h1>
