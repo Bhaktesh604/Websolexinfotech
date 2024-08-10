@@ -3563,6 +3563,28 @@ a.dropdown-item img {
     .banner_main_menu::after {
         display: none;
     }
+    .banner2 {
+        height: 100% !important;
+    }
+    .banner_button2 a {
+        padding: 12px 20px;
+    }
+    .border-right{
+        border: none;
+    }
+    .view_sec {
+        top: 20%;
+        left: 20%;
+    }
+    .sale_report {
+        top: -10%;
+        left: 0%;
+    }
+    .review_main_box {
+        top: 50%;
+        left: 0%;
+    }
+
 }
 
 @media (min-width:375px) {
@@ -4978,6 +5000,9 @@ a.dropdown-item img {
     .view_sec {
         top: 20%;
         left: 65%;
+    }
+    .banner2 {
+        height: 740px !important;
     }
 }
 

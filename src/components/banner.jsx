@@ -77,25 +77,25 @@ function Banner() {
                                         <a href="javascript:void(0);" className='text-decoration-none text-light bg-light text-dark rounded-pill fw-semibold me-3 border hover_button1'>Get Started</a>
                                         <a href="javascript:void(0);" className='text-decoration-none text-light d-flex align-items-center fw-semibold border hover_button2 rounded-pill'><IoIosPlay className='me-1' />Watch Video</a>
                                     </div>
-                                    <div className="col-12 d-flex flex-wrap justify-content-center justify-content-center  text-center text-sm-start text-md-center text-lg-start">
+                                    <div className="col-12 d-flex flex-wrap justify-content-center justify-content-center  text-center text-sm-start text-md-center text-lg-start mt-3 mt-md-0">
                                         <div className="col-6 col-sm-4">
-                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
+                                            <div className="banner_number_sub pt-md-3 pt-xxl-4 px-md-3 px-xxl-4 text-light">
                                                 <div className="border-right">
-                                                    <h2>97. 2 %</h2>
+                                                    <h2>97.2 %</h2>
                                                     <p>Succesful Project</p>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-6 col-sm-4">
-                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
+                                            <div className="banner_number_sub pt-md-3 pt-xxl-4 px-md-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>342 k</h2>
                                                     <p>Joining Comparies</p>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-6 col-sm-4">
-                                            <div className="banner_number_sub pt-3 pt-xxl-4 px-2 px-xxl-4 text-light">
+                                        <div className="col-7 col-sm-4 mt-3 mt-md-0">
+                                            <div className="banner_number_sub pt-md-3 pt-xxl-4 px-md-2 px-xxl-4 text-light">
                                                 <h2>13,873 +</h2>
                                                 <p>Registered Customers</p>
                                             </div>
@@ -105,8 +105,8 @@ function Banner() {
                             </div>
                             <div className="col-12 col-lg-5 col-xl-6">
                                 <div className="image_sub_box d-flex justify-content-center position-relative">
-                                    <img src={banner_img} alt="" className='col-11 col-md-9 col-xl-8 rounded-4' />
-                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center justify-content-between rounded-pill col-11 col-md-6 col-lg-10 col-xl-7 col-xxl-6">
+                                    <img src={banner_img} alt="" className='col-12 col-md-9 col-xl-8 rounded-4' />
+                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center justify-content-between rounded-pill col-sm-8 col-md-6 col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="review_image">
                                             <div
                                                 class="note-images d-flex position-relative justify-content-center justify-content-md-start me-3">
