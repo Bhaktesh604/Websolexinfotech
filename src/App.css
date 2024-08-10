@@ -4199,6 +4199,9 @@ a.dropdown-item img {
     .border-right {
         border-right: 1px solid #fff;
     }
+    .image_shadow {
+        aspect-ratio: 4 / 1;
+    }
 }
 
 @media (min-width:768px) {
@@ -4426,6 +4429,9 @@ a.dropdown-item img {
     .sale_report {
         top: -10%;
         left: 0%;
+    }
+    .image_shadow {
+        aspect-ratio: 3 / 1.2;
     }
     @keyframes animate {
         0% {
