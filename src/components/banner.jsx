@@ -68,17 +68,17 @@ function Banner() {
             <section className='banner2'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 d-flex">
-                            <div className="col-7 col-xl-6">
-                                <div className="banner_content2 mt-5">
+                        <div className="col-12 d-flex flex-wrap">
+                            <div className="col-12 col-lg-7 col-xl-6 mb-5 mb-lg-0">
+                                <div className="banner_content2 mt-5  text-center text-lg-start">
                                     <h2 className='text-light fs-1'>Empowering Your Digital Transformation</h2>
                                     <p className='text-light'>At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
-                                    <div className="banner_button2 d-flex pb-5 border-bottom">
+                                    <div className="banner_button2 d-flex pb-5 border-bottom justify-content-center justify-content-lg-start">
                                         <a href="javascript:void(0);" className='text-decoration-none text-light bg-light text-dark rounded-pill fw-semibold me-3 border hover_button1'>Get Started</a>
                                         <a href="javascript:void(0);" className='text-decoration-none text-light d-flex align-items-center fw-semibold border hover_button2 rounded-pill'><IoIosPlay className='me-1' />Watch Video</a>
                                     </div>
-                                    <div className="col-12 d-flex">
-                                        <div className="col-4">
+                                    <div className="col-12 d-flex flex-wrap justify-content-center justify-content-center  text-center text-sm-start text-md-center text-lg-start">
+                                        <div className="col-6 col-sm-4">
                                             <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>97,2 %</h2>
@@ -86,7 +86,7 @@ function Banner() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-4">
+                                        <div className="col-6 col-sm-4">
                                             <div className="banner_number_sub pt-3 pt-xxl-4 px-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>342 k</h2>
@@ -94,7 +94,7 @@ function Banner() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-4">
+                                        <div className="col-6 col-sm-4">
                                             <div className="banner_number_sub pt-3 pt-xxl-4 px-2 px-xxl-4 text-light">
                                                 <h2>13,873 +</h2>
                                                 <p>Registered Customers</p>
@@ -103,10 +103,10 @@ function Banner() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-5 col-xl-6">
+                            <div className="col-12 col-lg-5 col-xl-6">
                                 <div className="image_sub_box d-flex justify-content-center position-relative">
-                                    <img src={banner_img} alt="" className='col-8 rounded-4' />
-                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center rounded-pill col-10 col-xl-7 col-xxl-6">
+                                    <img src={banner_img} alt="" className='col-11 col-md-9 col-xl-8 rounded-4' />
+                                    <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center justify-content-between rounded-pill col-11 col-md-6 col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="review_image">
                                             <div
                                                 class="note-images d-flex position-relative justify-content-center justify-content-md-start me-3">
@@ -139,7 +139,7 @@ function Banner() {
                                             </ul>
                                         </div>
                                     </div>
-                                    <div className="view_sec d-flex align-items-center col-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
+                                    <div className="view_sec d-flex align-items-center justify-content-between  col-11 col-md-6 col-lg-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
                                         <div className="col-6 view_content">
                                             <span>Total Project</span>
                                             <h2 className='mb-0'>30+</h2>
@@ -167,13 +167,13 @@ function Banner() {
                                             </div>
                                         </div> */}
                                     </div>
-                                    <div className="sale_report d-flex position-absolute justify-content-between bg-light p-3 rounded-4   col-lg-10 col-xl-7 col-xxl-6">
-                                        <div className="me-3">
+                                    <div className="sale_report  d-sm-flex position-absolute justify-content-between bg-light p-3 rounded-4 col-7 col-md-6  col-lg-10 col-xl-7 col-xxl-6 ">
+                                        <div className="me-sm-3 mb-3">
                                             <span className='px-2 py-1 text-light rounded-pill d-flex align-items-center justify-content-center col-5'>New</span>
                                             <h6 className='mb-0 mt-2'>Sale Report</h6>
                                             <p className='mb-0'>Lorem ipsum dolor.  </p>
                                         </div>
-                                        <div className="col-5">
+                                        <div className="col-9 col-sm-5">
                                             <img src={report_graf} alt="" className='col-12 border-0 h-100' />
                                         </div>
                                     </div>

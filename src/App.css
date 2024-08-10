@@ -519,14 +519,18 @@ a.dropdown-item img {
         top: 35%;
     }
 }
-.hover_button2,.hover_button1{
+
+.hover_button2,
+.hover_button1 {
     transition: all .3s;
 }
-.hover_button2:hover{
+
+.hover_button2:hover {
     background-color: #fff;
     color: #000 !important;
 }
-.hover_button1:hover{
+
+.hover_button1:hover {
     background-color: #54a2d9 !important;
     color: #fff !important;
 }
@@ -3745,6 +3749,30 @@ a.dropdown-item img {
         background-color: #f0f0f0;
         padding: 30px 10px;
     }
+
+    .banner_button2 a {
+        padding: 12px 20px
+    }
+
+    .border-right {
+        border: none;
+    }
+
+    .banner2 {
+        height: 1220px !important;
+    }
+    .view_sec {
+        top: 20%;
+        left: 20%;
+    }
+    .sale_report {
+        top: -10%;
+        left: 0%;
+    }
+    .review_main_box {
+        top: 50%;
+        left: 0%;
+    }
 }
 
 @media (max-width:575px) {
@@ -4098,6 +4126,28 @@ a.dropdown-item img {
     .meet_our_team {
         padding-bottom: 100px !important;
     }
+
+    .banner2 {
+        height: 1050px !important;
+    }
+
+    .view_sec {
+        top: 20%;
+        left: 40%;
+    }
+
+    .sale_report {
+        top: -10%;
+        left: 0%;
+    }
+
+    .banner_button2 a {
+        padding: 17px 34px;
+    }
+
+    .border-right {
+        border-right: 1px solid #fff;
+    }
 }
 
 @media (min-width:768px) {
@@ -4311,6 +4361,20 @@ a.dropdown-item img {
         padding: 16px;
         aspect-ratio: 3 / 1.5;
         height: 170px;
+    }
+
+    .banner2 {
+        height: 1000px !important;
+    }
+
+    .view_sec {
+        top: 20%;
+        left: 50%;
+    }
+
+    .sale_report {
+        top: -10%;
+        left: 0%;
     }
 }
 
@@ -4549,6 +4613,7 @@ a.dropdown-item img {
     .banner_main_menu::after {
         display: block;
     }
+
     .view_sec {
         top: 20%;
         left: 30%;
@@ -4735,6 +4800,7 @@ a.dropdown-item img {
         width: 50px;
         height: 50px;
     }
+
     .view_sec {
         top: 20%;
         left: 50%;
@@ -4838,6 +4904,7 @@ a.dropdown-item img {
         min-width: 100%;
         left: -40px;
     }
+
     .view_sec {
         top: 20%;
         left: 55%;
