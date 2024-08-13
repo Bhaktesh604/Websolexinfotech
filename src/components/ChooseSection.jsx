@@ -12,7 +12,7 @@ const ChooseSection = () => {
     ];
 
     return (
-        <section className="choose_section py-5">
+        <section className="choose_section py-5" id='comp-lzcg1m5n '>
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center mb-5">
