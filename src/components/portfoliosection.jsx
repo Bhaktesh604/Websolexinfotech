@@ -65,72 +65,133 @@ const PortfolioSection = () => {
 
     return (
 
-        <section className="portfolio-section">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12 text-center">
-                        <div className="section_title portfolio_title text-center mt-3 mb-4">
-                            <div className="section_main_title">
-                                <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <ul className="nav nav-tabs justify-content-lg-center pt-3 pt-lg-4 border-0">
-                    {Object.keys(portfolios).map(tab => (
-                        <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0 " key={tab} >
-                            <div className="">
-                                <button
-                                    className={`nav-link d-flex align-items-center justify-content-center ${activeTab === tab ? 'active' : ''}`}
-                                    onClick={() => setActiveTab(tab)}
-                                >
-                                    {tab}
-                                </button>
-                            </div>
-                        </li>
-                    ))}
-                </ul>
-                <div className="tab-content">
-                    <div className="portfolio-tab-content">
-                        <div className="row">
-                            <div className=" col-12 d-flex flex-wrap flex-md-row">
-                                {portfolios[activeTab].map(image => (
-                                    <div className=" col-6  col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
-                                        <div className="card position-relative border-0 m-2">
-                                            <Link className="card_img overflow-hidden z-1 rounded-3 position-relative">
-                                                <img
-                                                    src={image.src}
-                                                    alt={image.alt}
-                                                    className="img-fluid portfolio-image"
-                                                />
-                                                <div className="overlay position-absolute col-12 d-flex justify-content-center align-items-center h-100 bg-primary rounded-3">
-                                                    <div className="overlay_content text-center text-light">
-                                                        <span>{image.name}</span>
-                                                        <h2 className="pt-lg-3 pt-xxl-5">{image.discri}</h2>
-                                                    </div>
-                                                </div>
-                                                <div className="all_icon position-absolute d-flex align-items-center justify-content-center gap-3">
-                                                    <Link to={image.src} className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
-                                                        <FaSearchPlus />
-                                                    </Link>
-                                                    <Link to="#" className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
-                                                        <CiLink />
-                                                    </Link>
-                                                </div>
-                                            </Link>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                        <div className="link col-12 text-center">
-                            <Link to="/portfolio" className="p-3 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
-                                View More
-                            </Link>
+        // <section className="portfolio-section">
+        //     <div className="container">
+        //         <div className="row">
+        //             <div className="col-lg-12 text-center">
+        //                 <div className="section_title portfolio_title text-center mt-3 mb-4">
+        //                     <div className="section_main_title">
+        //                         <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //         <ul className="nav nav-tabs justify-content-lg-center pt-3 pt-lg-4 border-0">
+        //             {Object.keys(portfolios).map(tab => (
+        //                 <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0 " key={tab} >
+        //                     <div className="">
+        //                         <button
+        //                             className={`nav-link d-flex align-items-center justify-content-center ${activeTab === tab ? 'active' : ''}`}
+        //                             onClick={() => setActiveTab(tab)}
+        //                         >
+        //                             {tab}
+        //                         </button>
+        //                     </div>
+        //                 </li>
+        //             ))}
+        //         </ul>
+        //         <div className="tab-content">
+        //             <div className="portfolio-tab-content">
+        //                 <div className="row">
+        //                     <div className=" col-12 d-flex flex-wrap flex-md-row">
+        //                         {portfolios[activeTab].map(image => (
+        //                             <div className=" col-6  col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
+        //                                 <div className="card position-relative border-0 m-2">
+        //                                     <Link className="card_img overflow-hidden z-1 rounded-3 position-relative">
+        //                                         <img
+        //                                             src={image.src}
+        //                                             alt={image.alt}
+        //                                             className="img-fluid portfolio-image"
+        //                                         />
+        //                                         <div className="overlay position-absolute col-12 d-flex justify-content-center align-items-center h-100 bg-primary rounded-3">
+        //                                             <div className="overlay_content text-center text-light">
+        //                                                 <span>{image.name}</span>
+        //                                                 <h2 className="pt-lg-3 pt-xxl-5">{image.discri}</h2>
+        //                                             </div>
+        //                                         </div>
+        //                                         <div className="all_icon position-absolute d-flex align-items-center justify-content-center gap-3">
+        //                                             <Link to={image.src} className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
+        //                                                 <FaSearchPlus />
+        //                                             </Link>
+        //                                             <Link to="#" className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
+        //                                                 <CiLink />
+        //                                             </Link>
+        //                                         </div>
+        //                                     </Link>
+        //                                 </div>
+        //                             </div>
+        //                         ))}
+        //                     </div>
+        //                 </div>
+        //                 <div className="link col-12 text-center">
+        //                     <Link to="/portfolio" className="p-3 text-center text-capitalize border text-decoration-none rounded-2 bg-primary text-white">
+        //                         View More
+        //                     </Link>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </section>
+
+        <section className="portfolio-section pt-100 py-50">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-12 text-center">
+                    <div className="section_title portfolio_title text-center mt-3 mb-4">
+                        <div className="section_main_title">
+                            <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
                         </div>
                     </div>
                 </div>
             </div>
+            <ul className="nav nav-tabs justify-content-xl-center pt-3 pt-lg-4 border-0 flex-wrap">
+                {Object.keys(portfolios).map(tab => (
+                    <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
+                        <button
+                            className={`nav-link ${activeTab === tab ? 'active' : ''}`}
+                            onClick={() => setActiveTab(tab)}
+                        >
+                            {tab}
+                        </button>
+                    </li>
+                ))}
+            </ul>
+            <div className="tab-content">
+                <div className="portfolio-tab-content">
+                    <div className="row">
+                        <div className="col-12 d-flex flex-wrap flex-md-row">
+                            {portfolios[activeTab].map(image => (
+                                <div className="col-6 col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
+                                    <div className="card position-relative border-0 m-2">
+                                        <Link to="#" className="card_img overflow-hidden z-1 rounded-3 position-relative">
+                                            <img
+                                                src={image.src}
+                                                alt={image.alt}
+                                                className="img-fluid portfolio-image"
+                                            />
+                                            <div className="overlay position-absolute col-12 d-flex justify-content-center align-items-center h-100 bg-primary rounded-3">
+                                                <div className="overlay_content text-center text-light">
+                                                    <span>{image.name}</span>
+                                                    <h2 className="pt-lg-3 pt-xxl-5">{image.discri}</h2>
+                                                </div>
+                                            </div>
+                                            <div className="all_icon position-absolute d-flex align-items-center justify-content-center gap-3">
+                                                <Link to={image.src} className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
+                                                    <FaSearchPlus />
+                                                </Link>
+                                                <Link to="#" className="text-bg-light rounded-5 d-flex align-items-center justify-content-center">
+                                                    <CiLink />
+                                                </Link>
+                                            </div>
+                                        </Link>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
 
     );
