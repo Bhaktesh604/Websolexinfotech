@@ -771,7 +771,7 @@ a.dropdown-item img {
 }
 
 .technologies_section ul {
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     text-align: center;
     white-space: nowrap;
