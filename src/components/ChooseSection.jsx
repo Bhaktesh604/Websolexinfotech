@@ -19,7 +19,7 @@ const ChooseSection = () => {
                         <h1 className='fw-bold'>Why Choose Us</h1>
                     </div>
                     {reasons.map(reason => (
-                        <div key={reason.id} className="col-12 col-md-6 col-xl-4 mb-4">
+                        <div key={reason.id} className="col-12 col-md-6 col-xl-4 mb-4" >
                             <div className="d-flex">
                                 <div className="number_choose position-relative me-4">
                                     <p className="mb-0 fw-bold">{reason.id < 10 ? `0${reason.id}` : reason.id}</p>
