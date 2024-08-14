@@ -4749,16 +4749,16 @@ a.dropdown-item img {
         min-width: 100%;
         left: -32px;
     }
+    .service_page .card-body {
+        aspect-ratio: 3 / 1;
+        height: 350px;
+    }
 }
 
 @media (min-width:1100px) {
     .megamenu {
         min-width: 100%;
         left: -80px;
-    }
-    .service_page .card-body {
-        aspect-ratio: 3 / 1;
-        height: 350px;
     }
 }
 

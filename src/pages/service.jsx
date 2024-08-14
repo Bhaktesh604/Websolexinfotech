@@ -329,7 +329,7 @@ function service() {
                       <p className="mb-1 fs-14">Our application design service delivers intuitive and engaging designs for mobile and web applications. We prioritize user experience and usability, creating apps that are both beautiful and easy to navigate.
                       </p>
                     </div>
-                    <div className="social d-flex mt-4 mt-xxl-5 justify-content-end gap-1">
+                    <div className="social d-flex mt-4 mt-lg-5 justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -349,7 +349,7 @@ function service() {
                       <p className="mb-1 fs-14">Enhance your digital products with our expert UI/UX design services. We design interfaces that are not only visually appealing but also intuitive and user-centric, ensuring a seamless and enjoyable experience for your users.
                       </p>
                     </div>
-                    <div className="social d-flex mt-4 mt-xxl-5  justify-content-end gap-1">
+                    <div className="social d-flex mt-4 mt-lg-5  justify-content-end gap-1">
                       <FaArrowRight className="arrow" />
                     </div>
                   </div>
