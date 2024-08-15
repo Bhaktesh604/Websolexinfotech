@@ -4762,7 +4762,6 @@ a.dropdown-item img {
     }
 }
 
-
 @media (min-width:1200px) {
     .container {
         width: 1140px;
@@ -4890,7 +4889,7 @@ a.dropdown-item img {
 
     .megamenu {
         min-width: 100%;
-        left: -70px;
+        left: -30px;
     }
 
     .megamenu_width {
@@ -4942,7 +4941,12 @@ a.dropdown-item img {
         aspect-ratio: 3 / 1.1;
     }
 }
-
+@media (min-width:1300px) {
+    .megamenu {
+        min-width: 100%;
+        left: -80px;
+    }
+}
 @media (min-width:1400px) {
     .container {
         width: 1320px;

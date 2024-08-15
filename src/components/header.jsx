@@ -402,10 +402,11 @@ const Header = () => {
                                                                     ServiceTab.map((v, i) => <div key={i} className="megamenu_width border-right mb-4 px-0 px-xl-2">
                                                                         <div className="d-flex ms-lg-2 ms-xl-4 align-items-center">
                                                                             <img src={v.img} alt="" className='megamenu_icon' />
-                                                                            <h6 className="d-flex align-items-center ms-2 mb-0">{v.name}</h6>
+                                                                            {/* <h6 className="d-flex align-items-center ms-2 mb-0">{v.name}</h6> */}
+                                                                            <Link className='text-black text-decoration-none' onClick={() => setMouseEnter(false)} to="/webdevlopment">{v.name}</Link>
                                                                         </div>
                                                                         {
-                                                                            v.sub.map(s => <Link className="dropdown-item" onClick={() => setMouseEnter(false)} to="/service">{s.subName}</Link>)
+                                                                            v.sub.map(s => <Link className="dropdown-item">{s.subName}</Link>)
                                                                         }
                                                                     </div>)
                                                                 }
