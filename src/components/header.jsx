@@ -266,6 +266,7 @@ const Header = () => {
         {
             name: "Web Development",
             img: webdevlopment,
+            path:'/service/webdevelopment',
             sub: [
                 {
                     subName: "React js Development",
@@ -299,6 +300,7 @@ const Header = () => {
         {
             name: "Graphic Design",
             img: graphic,
+            path:'/service/graphic',
             sub: [
                 {
                     subName: "Packaging Design",
@@ -320,6 +322,7 @@ const Header = () => {
         {
             name: "UI/UX Design",
             img: UIUX,
+            path:'/service/uiux',
             sub: [
                 {
                     subName: "App Design",
@@ -335,6 +338,7 @@ const Header = () => {
         {
             name: "Mobile Apps",
             img: mobile,
+            path:'/service/mobileapps',
             sub: [
                 {
                     subName: "IOS",
@@ -348,8 +352,9 @@ const Header = () => {
             ]
         },
         {
-            name: "Degital Marketing",
+            name: "Digital Marketing",
             img: Digital,
+            path:'/service/digital',
             sub: [
                 {
                     subName: "Search Engine Optimization",
@@ -402,8 +407,8 @@ const Header = () => {
                                                                     ServiceTab.map((v, i) => <div key={i} className="megamenu_width border-right mb-4 px-0 px-xl-2">
                                                                         <div className="d-flex ms-lg-2 ms-xl-4 align-items-center">
                                                                             <img src={v.img} alt="" className='megamenu_icon' />
-                                                                            {/* <h6 className="d-flex align-items-center ms-2 mb-0">{v.name}</h6> */}
-                                                                            <Link className='text-black text-decoration-none' onClick={() => setMouseEnter(false)} to="/webdevlopment">{v.name}</Link>
+                                                                            <Link className='text-black text-decoration-none ms-2' onClick={() => setMouseEnter(false)} 
+                                                                            to={v.path}>{v.name}</Link>
                                                                         </div>
                                                                         {
                                                                             v.sub.map(s => <Link className="dropdown-item">{s.subName}</Link>)
@@ -414,7 +419,6 @@ const Header = () => {
                                                         </div>
                                                     </div>
                                                 }
-
                                             </li>
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}

@@ -66,7 +66,7 @@ const Footer = () => {
                             <div className="single-footer-widget  text-md-left wow fadeInDown animated">
                                 <div className="single-title-wrapper title">
                                     <div className="title-footer">
-                                        <h3 className="footer-block__heading mb-4">Company</h3>
+                                        <h3 className="footer-block__heading mb-4">Websolex</h3>
                                     </div>
 
                                     <ul className="footer-quick-links pt-10 footer-toggle ps-0">
@@ -78,6 +78,9 @@ const Footer = () => {
                                         </li>
                                         <li className='mb-3'>
                                             <Link to="#" className='px-0'>Contact</Link>
+                                        </li>
+                                        <li className='mb-3'>
+                                            <Link to="#" className='px-0'>Blog</Link>
                                         </li>
                                         <li className='mb-3'>
                                             <Link to="#" className='px-0'>Company</Link>
@@ -118,7 +121,7 @@ const Footer = () => {
                                     </div>
                                     <div className="footer-toggle">
                                         <p>Accompany us on our growth journey to glean insights from our experiences </p>
-                                        <form action="https://logicgoinfotech.com/subscribe" method="post">
+                                        <form action="https://www.websolexinfotech.com/subscribe" method="post">
                                             <input type="hidden" name="_token" value="ELWTHSzqRMgafCiKc3wZuU0f6XVFWA2gJNohZnBJ" />
                                             <input className="mil-rounded-input mil-text-center mil-mb-5" type="text"
                                                 placeholder="Your email address" name="subscribe_email" />
