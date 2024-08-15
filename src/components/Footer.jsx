@@ -122,7 +122,7 @@ const Footer = () => {
                                     <div className="footer-toggle">
                                         <p>Accompany us on our growth journey to glean insights from our experiences </p>
                                         <form action="https://www.websolexinfotech.com/subscribe" method="post">
-                                            <input type="hidden" name="_token" value="ELWTHSzqRMgafCiKc3wZuU0f6XVFWA2gJNohZnBJ" />
+                                            <input type="hidden"  />
                                             <input className="mil-rounded-input mil-text-center mil-mb-5" type="text"
                                                 placeholder="Your email address" name="subscribe_email" />
                                             <button className="mil-button mil-accent-bg mil-fw" type="submit"><span
