@@ -47,7 +47,7 @@ import digitalocean from '../Assets/digitalocean copy.png'
 const TechnologiesSection = () => {
     const [activeTab, setActiveTab] = useState('Design');
 
-    const tabs = ['Design', 'Web Devlopment', 'App Development', 'Fremwork', 'Database', 'Cloud '];
+    const tabs = ['Design', 'Web Devlopment', 'App Development', 'Framework', 'Database', 'Cloud '];
     const technologies = {
         'Design': [
             { id: 1, name: 'photoshop', src: photoshop, alt: 'photoshop.png' },
@@ -75,9 +75,8 @@ const TechnologiesSection = () => {
             { id: 4, name: 'ios', src: ios, alt: 'ios.png' },
             { id: 5, name: 'dart', src: dart, alt: 'dart.png' },
             { id: 6, name: 'kotlin', src: kotlin, alt: 'kotlin.png' },
-            // { id: 7, name: 'xcode', src: xcode, alt: 'xcode.png' },
         ],
-        'Fremwork': [
+        'Framework': [
             { id: 7, name: 'php', src: php, alt: 'php.png' },
             { id: 8, name: 'python', src: python, alt: 'python.png' },
             { id: 1, name: 'wordpress', src: wordpress, alt: 'php.png' },
