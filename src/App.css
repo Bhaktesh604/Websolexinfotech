@@ -4914,8 +4914,8 @@ a.dropdown-item img {
     }
 
     .review_content_2 {
-        display: flow;
-        aspect-ratio: 3 / 2.2;
+        display: grid;
+        aspect-ratio: 3 / 2.8;
         object-fit: contain;
     }
 

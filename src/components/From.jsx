@@ -197,7 +197,7 @@ const From = () => {
                                         </div>
                                         <div className="input_sub_box col-12 ps-0">
                                             <div className="m-2">
-                                                <textarea name="" placeholder="Submit your message request"
+                                                <textarea name="" placeholder="Submit Your Message Request"
                                                     className="p-2 border-0 rounded-2  col-12" id=""></textarea>
                                             </div>
                                         </div>

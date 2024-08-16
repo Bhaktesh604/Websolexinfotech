@@ -74,9 +74,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 import { FaStar } from "react-icons/fa";
-import img1 from '../Assets/details.png'
-import img2 from '../Assets/details-1.png'
-import img3 from '../Assets/details-2.png'
+import img1 from '../Assets/rahul.png'
+import img2 from '../Assets/namish.png'
+import img3 from '../Assets/mayur.png'
+import img5 from '../Assets/paresh.png'
+import img6 from '../Assets/mayur2.png'
 import img4 from '../Assets/quotation-mark.png'
 
 const Testimonials = () => {
@@ -127,12 +129,19 @@ const Testimonials = () => {
             question: img4,
         },
         {
-            text: "Working with WebSolex Infotech was a pleasure! They had a clear vision for their video project and provided detailed feedback throughout the process. Their communication was excellent, and they were responsive to my suggestions. I'm thrilled with the final result and would highly recommend Naimish Kanani as a client.",
-            img: img1,
-            author: "Naimish Kanani",
+            text: "unity infotech immediately grasped our ideas and brought them to life, exceeding our expectations across the board. He is very professional and very efficient. Will be using on future projects. Excellent work",
+            img: img5,
+            author: "Paresh Vegad",
             category: "Website Devlopment",
             question: img4,
-        }
+        },
+        {
+            text: "Parth is a total package! He has done Graphics, UI and UX for our business. Everything worked out just perfect, wherever there was any modification required.. he did it without a question. Highly Recommended A++++++ !!!!!",
+            img: img6,
+            author: "Mayur Lakhani",
+            category: "Website Desginer",
+            question: img4,
+        },
     ];
 
     return (
@@ -142,31 +151,7 @@ const Testimonials = () => {
                     <div className="section_main_title text-center mb-3 mb-md-5">
                         <h1 className='fw-bold'>Clients Testimonial</h1>
                     </div>
-                    {/* <Slider {...settings}>
-                        {testimonials.map((item, index) => (
-                            <div key={index} className="item">
-                                <div className="review_sub_box d-block d-md-flex rounded-2 m-2">
-                                    <div className="review_content_2 rounded-2">
-                                        <ul className="d-flex mb-3">
-                                            {[...Array(5)].map((_, i) => (
-                                                <li key={i} className='me-2'><FaStar className='icon_color' /></li>
-                                            ))}
-                                        </ul>
-                                        <p className="mb-3">{item.text}</p>
-                                        <div className="d-flex">
-                                            <div className="image">
-                                                <img src={item.img} alt="" />
-                                            </div>
-                                            <div className="content">
-                                                <h5>{item.author}</h5>
-                                                <p></p>
-                                            </div>
-                                        </div> 
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </Slider> */}
+                   
                     <Slider {...settings}>
                         {testimonials.map((item, index) => (
                             <div key={index} className="item">
