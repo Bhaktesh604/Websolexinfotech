@@ -52,12 +52,12 @@ function Mission() {
                                         <div className="mission_img_section col-6 d-flex justify-content-end  flex-row">
                                             <img src={missionData.image[0].src} height="500" className="" alt={missionData.image[0].alt} />
                                         </div>
-                                        <div className="col-5 d-flex flex-column justify-content-start position-relative">
+                                        <div className="col-9 d-flex flex-column justify-content-start position-relative">
                                             <div className="line_box line_1 position-absolute text-start">
                                                 <div className="counts ">
-                                                    <h1 className="m-0 fw-bold" >Since2022</h1>
+                                                    <h1 className="m-0 fw-bold" >Since 2022</h1>
                                                 </div>
-                                                <p>open year</p>
+                                                <p>Founded</p>
                                             </div>
                                             <div className="line_box line_2 position-absolute text-start">
                                                 <div className="counts">
