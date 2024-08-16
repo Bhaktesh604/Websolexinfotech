@@ -18,6 +18,12 @@ function mobileapps() {
             title: 'Innovative Android App Solutions',
             dis: "Our Android development service delivers innovative and reliable apps tailored to your business needs. We build feature-rich, secure, and user-friendly Android applications that run smoothly on a wide range of devices."
         },
+        {
+            name: "Flutter Development",
+            src: webflow,
+            title: 'Cross-Platform Excellence with Flutter',
+            dis: "Leverage the power of Flutter to create high-performance apps for both iOS and Android. Our Flutter development service ensures a consistent and native-like experience across platforms, with beautiful UI and robust functionality."
+        },
 
     ]
   return (

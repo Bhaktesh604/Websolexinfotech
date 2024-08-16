@@ -5077,7 +5077,7 @@ a.dropdown-item img {
     }
 }
 
-@media (min-width:2000px) {
+@media (min-width:20px) {
     .container{
         width: 1920px;
     }
@@ -5129,11 +5129,6 @@ a.dropdown-item img {
     position: relative;
 } */
 
-@media (min-width: 2800px) {
-    .container{
-        width: 2720px !important;
-    }
-}
 /* @media (min-width: 2800px) {
     .container{
         width: 2740px !important;

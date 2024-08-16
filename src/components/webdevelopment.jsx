@@ -68,24 +68,6 @@ const webdevelopment = () => {
             title: 'Advanced Web Design with Webflow',
             dis: "Unleash your creativity with our Webflow development services. We build visually stunning and highly functional websites that are fully responsive and optimized for performance."
         },
-        {
-            name: "iOS Development",
-            src: webflow,
-            title: 'Exceptional iOS App Development',
-            dis: "We specialize in creating high-quality iOS apps that offer seamless performance and a great user experience. Our team crafts custom iOS solutions that are visually appealing, intuitive, and optimized for the latest Apple devices."
-        },
-        {
-            name: "Android Development",
-            src: webflow,
-            title: 'Innovative Android App Solutions',
-            dis: "Our Android development service delivers innovative and reliable apps tailored to your business needs. We build feature-rich, secure, and user-friendly Android applications that run smoothly on a wide range of devices."
-        },
-        {
-            name: "Flutter Development",
-            src: webflow,
-            title: 'Cross-Platform Excellence with Flutter',
-            dis: "Leverage the power of Flutter to create high-performance apps for both iOS and Android. Our Flutter development service ensures a consistent and native-like experience across platforms, with beautiful UI and robust functionality."
-        },
     ]
 
     return (
