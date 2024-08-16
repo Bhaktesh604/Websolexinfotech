@@ -1,6 +1,7 @@
 import React from 'react';
 import ios from '../Assets/ios.png'
 import android from '../Assets/android (1).png'
+import flutter from '../Assets/flutter2.png'
 import { FaArrowRight } from 'react-icons/fa'; 
 
 function mobileapps() {
@@ -20,7 +21,7 @@ function mobileapps() {
         },
         {
             name: "Flutter Development",
-            src: webflow,
+            src: flutter,
             title: 'Cross-Platform Excellence with Flutter',
             dis: "Leverage the power of Flutter to create high-performance apps for both iOS and Android. Our Flutter development service ensures a consistent and native-like experience across platforms, with beautiful UI and robust functionality."
         },

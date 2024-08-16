@@ -5077,13 +5077,19 @@ a.dropdown-item img {
     }
 }
 
-@media (min-width:20px) {
+@media (min-width:1600px) and (max-width:2100px) {
     .container{
-        width: 1920px;
+        min-width: 1920px;
     }
     .megamenu {
         min-width: 100%;
         left: -300px;
+    }
+    .banner2 {
+        height: 100% !important;
+    }
+    .image_sub_box img {
+        height: 100%;
     }
 }
 

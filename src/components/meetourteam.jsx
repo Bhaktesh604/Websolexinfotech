@@ -29,7 +29,7 @@ function Meetourteam() {
                                         <img src={harshbhai} alt="" className="img-fluid" />
                                     </div>
                                     <div className="card-body px-lg-0 p-md-4 text-center">
-                                        <h4 className="mb-1" >Harsh Vegad</h4>
+                                        <h4 className="mb-1 " >Harsh Vegad</h4>
                                         <p className="mb-1 fs-14">Founder & CFO</p>
                                         <div className="social d-flex mt-2 justify-content-center gap-1">
                                             <Link to="https://www.linkedin.com/in/harsh-vegad-499166251/" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">

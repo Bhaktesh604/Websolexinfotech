@@ -8,7 +8,6 @@ import shopify from '../Assets/shofify.png'
 import angular from '../Assets/angular.png'
 import wix from '../Assets/wix.png'
 import webflow from '../Assets/webflow.png'
-import flutter from '../Assets/flutter2.png'
 import { FaArrowRight } from 'react-icons/fa';
 
 const webdevelopment = () => {
