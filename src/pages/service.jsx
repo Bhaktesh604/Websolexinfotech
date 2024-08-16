@@ -23,7 +23,7 @@ import flutter from '../Assets/flutter2.png'
 function service() {
   return (
     <>
-      {/* <section className="service_page py-100">
+       <section className="service_page py-100">
         <div className="container">
           <div className="row justify-content-center mb-4">
             <div className="col-lg-12 text-center py-5">
@@ -417,7 +417,7 @@ function service() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   )
 }

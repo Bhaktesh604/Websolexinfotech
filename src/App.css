@@ -4684,7 +4684,8 @@ a.dropdown-item img {
 
     .megamenu {
         min-width: 100%;
-        left: -20px;
+        left: -16px;
+        padding: 15px 30px;
     }
 
     .megamenu_width {
@@ -4760,7 +4761,7 @@ a.dropdown-item img {
 @media (min-width:1100px) {
     .megamenu {
         min-width: 100%;
-        left: -120px;
+        left: -70px;
     }
 }
 

@@ -142,7 +142,7 @@ const PortfolioSection = () => {
                 </div>
             </div>
         </div>
-        <ul className="nav nav-tabs justify-content-xl-center pt-3 pt-lg-4 border-0 flex-wrap">
+        <ul className="nav nav-tabs justify-content-xl-center pt-3 pt-lg-4 border-0 ">
             {Object.keys(portfolios).map(tab => (
                 <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
                     <button

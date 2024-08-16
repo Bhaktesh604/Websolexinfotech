@@ -99,7 +99,7 @@ const webdevelopment = () => {
             </section> */}
             <section className='service_page '>
                 <div className="container">
-                    <div className="row">
+                    <div className="row justify-content-center">
                         {cardtab.map((c, s) =>
                             <div className="col-xl-3 col-lg-4 col-md-6  d-flex align-items-stretch mb-5" key={s}>
                                 <div className="position-relative  mg-10 mx-md-3 col-12">
