@@ -168,9 +168,8 @@ const From = () => {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">
-                            <h3 className="fw-semibold mb-4"><u>Connect</u> with Our Team</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta totam obcaecati maiores.
-                                Laborum minus neque eius nisi voluptatum aperiam corrupti.</p>
+                            <h3 className="fw-semibold mb-4">Let’s Connect and Create Something Amazing!</h3>
+                            <p>We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!</p>
                         </div>
                         <div className="col-12 d-flex flex-wrap align-items-center">
                             <div className="col-12 col-xl-6 mb-5 mb-xl-0">
@@ -203,7 +202,7 @@ const From = () => {
                                         </div>
                                     </div>
                                     <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
-                                        <Link to="#" className=" text-light rounded-3 m-2 fw-semibold">Send message</Link>
+                                        <Link to="#" className=" text-light rounded-3 m-2 fw-semibold">Send Message</Link>
                                     </div>
                                 </div>
                             </div>

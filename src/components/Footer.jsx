@@ -124,7 +124,7 @@ const Footer = () => {
                                         <form action="https://www.websolexinfotech.com/subscribe" method="post">
                                             <input type="hidden"  />
                                             <input className="mil-rounded-input mil-text-center mil-mb-5" type="text"
-                                                placeholder="Your email address" name="subscribe_email" />
+                                                placeholder="Your Email Address" name="subscribe_email" />
                                             <button className="mil-button mil-accent-bg mil-fw" type="submit"><span
                                                 className="text-light">Subscribe</span></button>
                                         </form>

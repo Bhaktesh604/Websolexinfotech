@@ -5,12 +5,35 @@ import { FaArrowRight } from 'react-icons/fa';
 function digital() {
     const cardtab = [
         {
-            name: "digital",
+            name: "SEO",
             src: logodesign,
             title: 'Exceptional iOS App Development',
-            dis: "We specialize in creating high-quality iOS apps that offer seamless performance and a great user experience. Our team crafts custom iOS solutions that are visually appealing, intuitive, and optimized for the latest Apple devices."
+            dis: "Rank higher on search engines and attract more organic traffic with our expert SEO strategies tailored to your business."
         },
-
+        {
+            name: "Pay Per Click Advertising",
+            src: logodesign,
+            title: 'Exceptional iOS App Development',
+            dis: "Maximize your ROI with targeted PPC campaigns that drive immediate and measurable results."
+        },
+        {
+            name: "Social Media Marketing",
+            src: logodesign,
+            title: 'Exceptional iOS App Development',
+            dis: "Engage your audience and grow your brand with impactful social media strategies across all major platforms."
+        },
+        {
+            name: "Email Marketing",
+            src: logodesign,
+            title: 'Exceptional iOS App Development',
+            dis: "Reach your customers directly with personalized email campaigns that convert leads into loyal clients."
+        },
+        {
+            name: "WhatsApp Marketing",
+            src: logodesign,
+            title: 'Exceptional iOS App Development',
+            dis: "Connect with your audience instantly through WhatsApp, delivering messages that drive action and build relationships."
+        },
     ]
   return (
     <section className='service_page '>
