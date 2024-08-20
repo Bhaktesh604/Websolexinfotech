@@ -118,14 +118,14 @@ const Testimonials = () => {
             text: "Work with WebSolex infotech is pure amount of trust & reliability! They believe in quality in most cost effective way , we have gave them work for our website & that work is as perfect as our vision! Thanks for such great service you have provided to your customers! Give you 5 star rating with all my heart!",
             img: img2,
             author: "Dr Rahul Gelani",
-            category: "Website Devlopment",
+            category: "Business",
             question: img4,
         },
         {
             text: "The design process was seamless and collaborative. They took the time to listen to my ideas, preferences, and even my concerns. What impressed me the most was their ability to translate abstract concepts into a stunning and memorable logo. It's as if they took the essence of my business and transformed it into a work of art.",
             img: img3,
             author: "Mayur Sheliya",
-            category: "Ui UX Desginer",
+            category: "Business",
             question: img4,
         },
         // {
@@ -139,7 +139,7 @@ const Testimonials = () => {
             text: "Parth is a total package! He has done Graphics, UI and UX for our business. Everything worked out just perfect, wherever there was any modification required.. he did it without a question. Highly Recommended A++++++ !!!!!",
             img: img6,
             author: "Mayur Lakhani",
-            category: "Website Desginer",
+            category: "Business",
             question: img4,
         },
     ];

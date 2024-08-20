@@ -145,7 +145,7 @@ function Banner() {
                                             <h2 className='mb-0'>30+</h2>
                                         </div>
                                         <div className=" col-6 ">
-                                            <img src={graf2} alt="" />
+                                            <img src={graf2} alt="" className='col-9'/>
                                         </div>
                                         {/* <p className='fw-bold'>Group Memory</p>
                                         <div className="d-flex align-items-center mb-3">

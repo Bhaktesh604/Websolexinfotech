@@ -259,14 +259,17 @@ const Header = () => {
 
     const toggleNavbar = () => {
         setIsCollapsed(!isCollapsed);
+
+
     };
 
+    
 
     const ServiceTab = [
         {
             name: "Web Development",
             img: webdevlopment,
-            path:'/service/webdevelopment',
+            path: '/service/webdevelopment',
             sub: [
                 {
                     subName: "React js Development",
@@ -300,7 +303,7 @@ const Header = () => {
         {
             name: "Graphic Design",
             img: graphic,
-            path:'/service/graphic',
+            path: '/service/graphic',
             sub: [
                 {
                     subName: "Packaging Design",
@@ -322,7 +325,7 @@ const Header = () => {
         {
             name: "UI/UX Design",
             img: UIUX,
-            path:'/service/uiux',
+            path: '/service/uiux',
             sub: [
                 {
                     subName: "App Design",
@@ -338,7 +341,7 @@ const Header = () => {
         {
             name: "Mobile Apps",
             img: mobile,
-            path:'/service/mobileapps',
+            path: '/service/mobileapps',
             sub: [
                 {
                     subName: "IOS",
@@ -354,7 +357,7 @@ const Header = () => {
         {
             name: "Digital Marketing",
             img: Digital,
-            path:'/service/digital',
+            path: '/service/digital',
             sub: [
                 {
                     subName: "Search Engine Optimization",
@@ -370,8 +373,8 @@ const Header = () => {
                 },
             ]
         },
+        
     ]
-
 
     return (
         <>
@@ -407,8 +410,8 @@ const Header = () => {
                                                                     ServiceTab.map((v, i) => <div key={i} className="megamenu_width border-right mb-4 px-0 px-xl-2">
                                                                         <div className="d-flex ms-lg-2 ms-xl-4 align-items-center">
                                                                             <img src={v.img} alt="" className='megamenu_icon' />
-                                                                            <Link className='text-black text-decoration-none ms-2' onClick={() => setMouseEnter(false)} 
-                                                                            to={v.path}>{v.name}</Link>
+                                                                            <Link className='text-black text-decoration-none ms-2' onClick={() => setMouseEnter(false)}
+                                                                                to={v.path}>{v.name}</Link>
                                                                         </div>
                                                                         {
                                                                             v.sub.map(s => <Link className="dropdown-item">{s.subName}</Link>)

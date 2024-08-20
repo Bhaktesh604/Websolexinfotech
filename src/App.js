@@ -12,6 +12,7 @@ import Graphic from './components/graphic';
 import Uiux from './components/design'
 import MobileApp from './components/mobileapps'
 import Digital from './components/digital';
+import Blog from './pages/blogpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/service/uiux" element={<Uiux />}/>
         <Route path="/service/mobileapps" element={<MobileApp />}/>
         <Route path="/service/digital" element={<Digital />}/>
+        <Route path='/blog' element={<Blog/>} />
       </Routes>
       <Footer />
     </Router>

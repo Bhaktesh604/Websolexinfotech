@@ -18,7 +18,7 @@ const Footer = () => {
                                 <div className="footer-toggle">
                                     <div className="footer-logo-main-black mb-3">
                                         <Link to="index.html">
-                                            <img src={logo} alt="Logicgo-Logo" />
+                                            <img src={logo}  />
                                         </Link>
                                     </div>
                                     <p>Your Ideas, Our Innovation</p>
@@ -80,7 +80,7 @@ const Footer = () => {
                                             <Link to="#" className='px-0'>Contact</Link>
                                         </li>
                                         <li className='mb-3'>
-                                            <Link to="#" className='px-0'>Blog</Link>
+                                            <Link to="/blog" className='px-0'>Blog</Link>
                                         </li>
                                         <li className='mb-3'>
                                             <Link to="#" className='px-0'>Company</Link>
@@ -139,12 +139,12 @@ const Footer = () => {
                                     <div className="col-lg-6 wow fadeInLeft animated">
                                         <div className="footer-bottom-content">
                                             <div className="footer-bottom-content-copy">
-                                                <p>Copyright © 2024 Websolex infotech. All Rights Reserved. </p>
+                                                <p className='mb-0'>Copyright © 2024 Websolex infotech. All Rights Reserved. </p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-lg-6 wow fadeInRight animated">
-                                        <ul className="footer-social d-flex flex-row justify-content-center p-0 ps-lg-3 justify-content-lg-end align-items-right float-right">
+                                        <ul className="footer-social d-flex flex-row justify-content-center p-0 ps-lg-3 justify-content-lg-end align-items-right float-right mb-0">
                                             <li>
                                                 <Link to="https://www.facebook.com/profile.php?id=61559410317814" target="_new">
                                                     <LuFacebook />
