@@ -1942,10 +1942,16 @@ a.dropdown-item img {
     --bs-accordion-bg: transparent;
 }
 /* blog  */
+.blog_section{
+    padding-top: 150px;
+}
 .blog_categories{
     padding: 20px;
     background-color: #7673731c;
 }
+/* .blog_sari li{
+    list-style: disc;
+} */
 
 @media (min-width:575px) {
     .overlay_content {

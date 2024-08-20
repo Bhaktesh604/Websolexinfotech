@@ -1,13 +1,36 @@
 import React from 'react'
+import blog_one from '../Assets/blog_1.jpeg';
+
 
 const blog = () => {
-  return (
+    return (
 
-    <>
-    <section className='blog_section py-100'>
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
+        <>
+            <section className='blog_section pb-100'>
+                <div className="container">
+                    <div className="row">
+                        <h2 className='mb-5'>Recent blog posts</h2>
+                        <div className="col-12">
+                            <div className="col-4">
+                                <div className="blog_sub">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        {/* <div className="col-12">
                     <div className="col-3">
                         <div className="blog_sub_box">
                             <div className="blog_categories rounded-2">
@@ -75,12 +98,12 @@ const blog = () => {
                             </div>
                         </div>
                     </div>
+                </div> */}
+                    </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    </>
-  )
+            </section>
+        </>
+    )
 }
 
 export default blog
