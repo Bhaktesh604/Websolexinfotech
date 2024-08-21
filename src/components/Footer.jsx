@@ -253,6 +253,9 @@ const Footer = () => {
                                                 <Link to="/company" onClick={handleTabClick} className='text-decoration-none text-black'>Company</Link>
                                             </li>
                                             <li className='mb-3'>
+                                                <Link to="/blog" onClick={handleTabClick} className='text-decoration-none text-black'>Blog</Link>
+                                            </li>
+                                            <li className='mb-3'>
                                                 <Link to="/contact" onClick={handleTabClick} className='text-decoration-none text-black'>Contact</Link>
                                             </li>
                                         </ul>
