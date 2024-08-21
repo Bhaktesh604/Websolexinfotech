@@ -21,13 +21,12 @@ const Get = () => {
                   <Link to="tel:+918200845977" className="text-white text-decoration-none">
                     GET A FREE CONSULTATION
                   </Link>
-                  <p className="mb-0 text-white">82008 45977</p>
+                  <p className="mb-0 text-white">+91 82008 45977</p>
                 </div>
               </div>
               <div className="get-icon col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
                 <p className="mb-3 mb-sm-0">
-                  Vero id posuere tempus aspernatur quaerat mollis voluptatum eveniet porro viverra libero habitasse
-                  Aut ab nibh aliqua optio veniet porro viverr.
+                We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!
                 </p>
               </div>
               <div
