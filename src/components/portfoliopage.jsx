@@ -131,7 +131,7 @@ const PortfolioSection = () => {
     //     </div>
     // </section>
 
-    <section className="portfolio-section pt-100 py-50">
+    <section className="portfolio-section pt-100">
     <div className="container">
         <div className="row">
             <div className="col-lg-12 text-center">
@@ -142,7 +142,7 @@ const PortfolioSection = () => {
                 </div>
             </div>
         </div>
-        <ul className="nav nav-tabs justify-content-xl-center pt-3 pt-lg-4 border-0 ">
+        <ul className="nav nav-tabs justify-content-lg-center pt-3 pt-lg-4 border-0 ">
             {Object.keys(portfolios).map(tab => (
                 <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
                     <button

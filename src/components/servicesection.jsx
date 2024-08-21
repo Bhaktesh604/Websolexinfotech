@@ -42,9 +42,9 @@ const ServiceSection = () => {
         <section className="service py-5">
             <div className="container">
                 <div className="row">
-                    <div className="col-12 d-flex flex-wrap">
+                    <div className="col-12 d-flex flex-wrap align-items-center">
                         <div className="col-12 col-xl-4 d-flex align-items-center mb-3 mb-lg-5 mb-xl-0 ">
-                            <div className="section_title service_title mb-5 wow fadeInDown animated text-center text-md-start" data-wow-delay="0.3s">
+                            <div className="section_title service_title mb-5 mb-lg-0 wow fadeInDown animated text-center text-md-start" data-wow-delay="0.3s">
                                 <div className="section_main_title text-center text-xl-start">
                                     <h1 className="mb-2">Comprehensive IT Solutions
                                     </h1>

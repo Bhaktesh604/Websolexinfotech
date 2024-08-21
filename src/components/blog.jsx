@@ -9,9 +9,9 @@ const blog = () => {
             <section className='blog_section pb-100'>
                 <div className="container">
                     <div className="row">
-                        <h2 className='mb-5'>Recent blog posts</h2>
+                        <h2 className='mb-5 text-center text-lg-start'>Recent Blog Post</h2>
                         <div className="col-12 d-flex justify-content-center flex-wrap">
-                            <div className="col-4 mb-5">
+                            <div className="col-md-6 col-xl-4 mb-5">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
@@ -26,7 +26,7 @@ const blog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-4 mb-5">
+                            <div className="col-md-6 col-xl-4 mb-5">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
@@ -41,7 +41,7 @@ const blog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-4 mb-5">
+                            <div className="col-md-6 col-xl-4 mb-5">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
@@ -56,7 +56,7 @@ const blog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-md-6 col-xl-4 mb-5 mb-md-0">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
@@ -71,7 +71,7 @@ const blog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-md-6 col-xl-4 mb-5 mb-md-0">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
@@ -86,7 +86,7 @@ const blog = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-4">
+                            <div className="col-md-6 col-xl-4 mb-5 mb-md-0">
                                 <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />

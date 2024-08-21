@@ -253,16 +253,28 @@ const Header = () => {
 
     const [mouseEnter, setMouseEnter] = useState(false)
 
-    const handleTabClick = (tab) => {
-        setActiveTab(tab);
-        window.scrollTo(0,0);
-    }
 
     const toggleNavbar = () => {
         setIsCollapsed(!isCollapsed);
     };
 
+    const handleTabClick = (tab) => {
+        setActiveTab(tab);
+        window.scrollTo(0, 0);
+        setIsCollapsed(true);
+
+    };
+    // const handleTabClick = (tab) => {
+    //     setActiveTab(tab);
+    //     window.scrollTo(0, 0);
+    // }
+
     
+    // const toggleNavbar = () => {
+    //     setIsCollapsed(!isCollapsed);
+    // };
+
+
 
     const ServiceTab = [
         {
@@ -372,7 +384,7 @@ const Header = () => {
                 },
             ]
         },
-        
+
     ]
 
     return (
@@ -454,10 +466,10 @@ const Header = () => {
                 </div>
             </header>
             <header>
-                <div className="header d-block d-lg-none sticky-top">
+                <div className="header d-block d-lg-none position-fixed ">
                     <div className="container">
                         <div className="row">
-                            <nav className="navbar navbar-expand-lg px-2">
+                            <nav className="navbar navbar-expand-lg py-3">
                                 <div className="container-fluid d-flex">
                                     <Link className="navbar-brand col-2" to="#"><img src={logo} alt="Logo" /></Link>
                                     <button
@@ -479,11 +491,11 @@ const Header = () => {
                                                 </Link>
                                             </li>
                                             <li className="nav-item dropdown p-3 text-center">
-                                                <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="/service" id="dropdown01" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-                                                    onClick={() => handleTabClick('Services')} >
+                                            <Link className={`nav-link link_hover ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`}
+                                                    onClick={() => handleTabClick('Services')} to="/service">
                                                     Services
                                                 </Link>
-                                                <ul className="dropdown-menu">
+                                                {/* <ul className="dropdown-menu">
                                                     <li>
                                                         <Link className="dropdown-item" to="#">Mobile Apps</Link>
                                                     </li>
@@ -502,7 +514,7 @@ const Header = () => {
                                                     <li>
                                                         <Link className="dropdown-item" to="#">3D Modeling</Link>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
@@ -537,6 +549,41 @@ const Header = () => {
                     </div>
                 </div>
             </header>
+            {/* <header>
+                <div className="header d-block d-lg-none sticky-top">
+                    <div className="container">
+                        <div className="row">
+                            <Navbar expand="lg" className="px-2">
+                                <Navbar.Brand href="#">
+                                    <img src={logo} alt="Logo" className="col-2" />
+                                </Navbar.Brand>
+                                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                                <Navbar.Collapse id="basic-navbar-nav">
+                                    <Nav className="me-auto mb-2 mb-lg-0">
+                                        <Nav.Link href="/" className={`${activeTab === 'Home' ? 'active text-primary fw-bold' : ''}`}>Home</Nav.Link>
+                                        <NavDropdown title="Services" id="basic-nav-dropdown" className={`${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`}>
+                                            <NavDropdown.Item href="#">Mobile Apps</NavDropdown.Item>
+                                            <NavDropdown.Item href="#">Web Development</NavDropdown.Item>
+                                            <NavDropdown.Item href="#">Graphic Design</NavDropdown.Item>
+                                            <NavDropdown.Item href="#">Game Development</NavDropdown.Item>
+                                            <NavDropdown.Item href="#">UI/UX Design</NavDropdown.Item>
+                                            <NavDropdown.Item href="#">3D Modeling</NavDropdown.Item>
+                                        </NavDropdown>
+                                        <Nav.Link href="/portfolio" className={`${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}>Portfolio</Nav.Link>
+                                        <Nav.Link href="/company" className={`${activeTab === 'Company' ? 'active text-primary fw-bold' : ''}`}>Company</Nav.Link>
+                                        <Nav.Link href="/contact" className={`${activeTab === 'contact' ? 'active text-primary fw-bold' : ''}`}>Contact</Nav.Link>
+                                    </Nav>
+                                    <form className="d-flex justify-content-center" role="search">
+                                        <Button variant="primary">
+                                            <FaPhone className='bell me-2' />+91 8200845977
+                                        </Button>
+                                    </form>
+                                </Navbar.Collapse>
+                            </Navbar>
+                        </div>
+                    </div>
+                </div>
+            </header> */}
         </>
     );
 };

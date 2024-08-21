@@ -20,6 +20,11 @@ import ios from '../Assets/ios.png'
 import android from '../Assets/android (1).png'
 import logodesign from '../Assets/logo-design.png'
 import flutter from '../Assets/flutter2.png'
+import seo from '../Assets/seo.png'
+import click_through from '../Assets/click-through-rate.png'
+import marketing from '../Assets/marketing (1).png'
+import bullhorn from '../Assets/bullhorn.png'
+import digital_marketing from '../Assets/digital-marketing (1).png'
 function service() {
   return (
     <>
@@ -406,6 +411,106 @@ function service() {
                       <h5 className="mb-1 fw-bold  text-capitalize mb-2" >Flutter Development</h5>
                       <h6 className='col-xxl-9'>Cross-Platform Excellence with Flutter</h6>
                       <p className="mb-1 fs-14">Leverage the power of Flutter to create high-performance apps for both iOS and Android. Our Flutter development service ensures a consistent and native-like experience across platforms, with beautiful UI and robust functionality.
+                      </p>
+                    </div>
+                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                      <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
+              <div className="position-relative  mg-10 mx-md-3 col-12">
+                <div className="card border-0 mb-0">
+                  <div className="card-body text-center text-lg-start p-4 border-0">
+                    <div className="card_body_sub">
+                      <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
+                        <img src={seo} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
+                      </div>
+                      <h5 className="mb-1 fw-bold  text-capitalize mb-2" >SEO</h5>
+                      <h6 className='col-xxl-9'>Exceptional iOS App Development</h6>
+                      <p className="mb-1 fs-14">Rank higher on search engines and attract more organic traffic with our expert SEO strategies tailored to your business.
+                      </p>
+                    </div>
+                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                      <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
+              <div className="position-relative  mg-10 mx-md-3 col-12">
+                <div className="card border-0 mb-0">
+                  <div className="card-body text-center text-lg-start p-4 border-0">
+                    <div className="card_body_sub">
+                      <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
+                        <img src={click_through} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
+                      </div>
+                      <h5 className="mb-1 fw-bold  text-capitalize mb-2" >Pay Per Click Advertising</h5>
+                      <h6 className='col-xxl-9'>Exceptional iOS App Development</h6>
+                      <p className="mb-1 fs-14">Maximize your ROI with targeted PPC campaigns that drive immediate and measurable results.
+                      </p>
+                    </div>
+                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                      <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
+              <div className="position-relative  mg-10 mx-md-3 col-12">
+                <div className="card border-0 mb-0">
+                  <div className="card-body text-center text-lg-start p-4 border-0">
+                    <div className="card_body_sub">
+                      <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
+                        <img src={marketing} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
+                      </div>
+                      <h5 className="mb-1 fw-bold  text-capitalize mb-2" >Social Media Marketing</h5>
+                      <h6 className='col-xxl-9'>Exceptional iOS App Development</h6>
+                      <p className="mb-1 fs-14">Engage your audience and grow your brand with impactful social media strategies across all major platforms.
+                      </p>
+                    </div>
+                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                      <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
+              <div className="position-relative  mg-10 mx-md-3 col-12">
+                <div className="card border-0 mb-0">
+                  <div className="card-body text-center text-lg-start p-4 border-0">
+                    <div className="card_body_sub">
+                      <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
+                        <img src={bullhorn} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
+                      </div>
+                      <h5 className="mb-1 fw-bold  text-capitalize mb-2" >Email Marketing</h5>
+                      <h6 className='col-xxl-9'>Exceptional iOS App Development</h6>
+                      <p className="mb-1 fs-14">Reach your customers directly with personalized email campaigns that convert leads into loyal clients.
+                      </p>
+                    </div>
+                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                      <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch mb-5">
+              <div className="position-relative  mg-10 mx-md-3 col-12">
+                <div className="card border-0 mb-0">
+                  <div className="card-body text-center text-lg-start p-4 border-0">
+                    <div className="card_body_sub">
+                      <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
+                        <img src={digital_marketing} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
+                      </div>
+                      <h5 className="mb-1 fw-bold  text-capitalize mb-2" >WhatsApp Marketing</h5>
+                      <h6 className='col-xxl-9'>Exceptional iOS App Development</h6>
+                      <p className="mb-1 fs-14">Connect with your audience instantly through WhatsApp, delivering messages that drive action and build relationships.
                       </p>
                     </div>
                     <div className="social d-flex mt-4  justify-content-end gap-1">
