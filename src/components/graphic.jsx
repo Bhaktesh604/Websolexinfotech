@@ -48,7 +48,7 @@ function graphic() {
                                         <img src={c.src} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
                                     </div>
                                     <h5 className="mb-1 fw-bold  text-capitalize mb-2" >{c.name}</h5>
-                                    <h6 className='col-xxl-9'>{c.title}</h6>
+                                    <h6 className='col-lg-9'>{c.title}</h6>
                                     <p className="mb-1 fs-14">{c.dis}</p>
                                 </div>
                                 <div className="social d-flex mt-4  justify-content-end">

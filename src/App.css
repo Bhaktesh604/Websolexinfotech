@@ -4774,12 +4774,16 @@ a.dropdown-item img {
     .portfolio-section ul {
         overflow-x: hidden;
     }
+    .service_page .card-body {
+        aspect-ratio: 3 / 1;
+        height: 350px;
+    }
 }
 
 @media (min-width:1024px) {
     .megamenu {
         min-width: 100%;
-        left: -60px;
+        left: -50px;
         padding: 15px 40px;
     }
     .service_page .card-body {
@@ -4787,11 +4791,24 @@ a.dropdown-item img {
         height: 350px;
     }
 }
+@media (min-width:1080px){
+    .megamenu {
+        min-width: 100%;
+        left: -65px;
+        padding: 15px 40px;
+    }
+}
 
 @media (min-width:1100px) {
     .megamenu {
         min-width: 100%;
         left: -70px;
+    }
+}
+@media (min-width:1140px) {
+    .megamenu {
+        min-width: 100%;
+        left: -100px;
     }
 }
 
