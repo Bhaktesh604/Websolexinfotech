@@ -162,11 +162,11 @@ const Testimonials = () => {
                                                 <li key={i} className='me-2'><FaStar className='icon_color' /></li>
                                             ))}
                                         </ul>
-                                        <p className="mb-3">{item.text}</p>
+                                        <p className='mb-0'>{item.text}</p>
                                         <div className="d-flex align-items-center mt-5 justify-content-between">
                                             <div className="testiomonials_sub_box1 d-flex align-items-center">
                                                 <div className="image col-3">
-                                                    <img src={item.img} alt={item.author} className='testimoinal_img col-12' />
+                                                    <img src={item.img} alt={item.author} className='testimoinal_img col-12'/>
                                                 </div>
                                                 <div className="content ps-2">
                                                     <h5 className='mb-2'>{item.author}</h5>

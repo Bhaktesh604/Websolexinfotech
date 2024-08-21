@@ -159,7 +159,7 @@ const PortfolioSection = () => {
             <div className="tab-content">
                 <div className="portfolio-tab-content">
                     <div className="row">
-                        <div className="col-12 d-flex flex-wrap flex-md-row">
+                        <div className="col-12 d-flex flex-wrap ">
                             {portfolios[activeTab].map(image => (
                                 <div className="col-6 col-md-3 mb-4 d-flex justify-content-center justify-content-md-start" key={image.id}>
                                     <div className="card position-relative border-0 m-2">

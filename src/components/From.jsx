@@ -265,7 +265,7 @@ const From = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 d-flex flex-column flex-lg-row  mt-5 mt-xl-3 justify-content-between py-5 ps-3 py-sm-4  ps-sm-4 pe-0 align-items-center border-top">
-                                    <h6 className="fw-bold mb-4 mb-md-0">Social Media:</h6>
+                                    <h6 className="fw-bold mb-4 mb-md-0 font_size">Social Media:</h6>
                                     <ul className="social_main_menu d-flex ps-0 mb-0 ">
                                         <li className="me-3">
                                             <Link to="https://www.facebook.com/profile.php?id=61559410317814" target='_blank' className="border rounded-3 d-flex align-items-center">

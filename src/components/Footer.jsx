@@ -140,7 +140,7 @@ const Footer = () => {
                         </div>
 
                         <div className="footer-bottom py-3 border-top">
-                            <div className="container">
+                            <div className="containerr">
                                 <div className="row align-items-center">
                                     <div className="col-lg-6 wow fadeInLeft animated">
                                         <div className="footer-bottom-content">
