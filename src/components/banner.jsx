@@ -82,7 +82,7 @@ function Banner() {
                                             <div className="banner_number_sub pt-md-3 pt-xxl-4 px-md-3 px-xxl-4 text-light">
                                                 <div className="border-right">
                                                     <h2>97.2 %</h2>
-                                                    <p>Succesful Project</p>
+                                                    <p>Successful Project</p>
                                                 </div>
                                             </div>
                                         </div>

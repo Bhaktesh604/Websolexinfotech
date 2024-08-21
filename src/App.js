@@ -15,6 +15,10 @@ import Digital from './components/digital';
 import Blog from './pages/blogpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+
+
+
+
 function App() {
   return (
     <Router>

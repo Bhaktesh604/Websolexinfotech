@@ -10,9 +10,9 @@ const blog = () => {
                 <div className="container">
                     <div className="row">
                         <h2 className='mb-5'>Recent blog posts</h2>
-                        <div className="col-12">
-                            <div className="col-4">
-                                <div className="blog_sub">
+                        <div className="col-12 d-flex justify-content-center flex-wrap">
+                            <div className="col-4 mb-5">
+                                <div className="blog_sub p-2">
                                     <div className="blog_image mb-4">
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
                                     </div>
@@ -21,13 +21,90 @@ const blog = () => {
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
                                         <div className="blog_sari d-flex">
                                             <span>Parth bhai</span>
-                                            <li className='m-0'>19 Jan 2022</li>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-5">
+                                <div className="blog_sub p-2">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4 mb-5">
+                                <div className="blog_sub p-2">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4">
+                                <div className="blog_sub p-2">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4">
+                                <div className="blog_sub p-2">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-4">
+                                <div className="blog_sub p-2">
+                                    <div className="blog_image mb-4">
+                                        <img src={blog_one} alt="" className='img-fluid rounded-4' />
+                                    </div>
+                                    <div className="blog_content">
+                                        <h2>Lorem ipsum dolor sit amet.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <div className="blog_sari d-flex">
+                                            <span>Parth bhai</span>
+                                            <li className='m-0 ps-2'>19 Jan 2022</li>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        <div className="blog_btn mt-5 d-flex justify-content-center">
+                            <a href="javascript:void(0);" className='text-decoration-none text-light rounded-pill'>Loading More</a>
+                        </div>
 
 
                         {/* <div className="col-12">

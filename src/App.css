@@ -763,7 +763,7 @@ a.dropdown-item img {
 
 
 .portfolio-section ul {
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     text-align: center;
     white-space: nowrap;
@@ -771,7 +771,7 @@ a.dropdown-item img {
 }
 
 .technologies_section ul {
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
     text-align: center;
     white-space: nowrap;
@@ -1325,7 +1325,7 @@ a.dropdown-item img {
     width: 20px;
     height: 2px;
     top: 13px;
-    left: 27px;
+    left: 25px; 
     background-color: #54a2d9;
 }
 
@@ -1949,6 +1949,10 @@ a.dropdown-item img {
     padding: 20px;
     background-color: #7673731c;
 }
+.blog_btn a{
+    padding: 10px 20px;
+    background-color: #54a2d9;
+}
 /* .blog_sari li{
     list-style: disc;
 } */
@@ -2502,7 +2506,7 @@ a.dropdown-item img {
 
     .footer-bottom {
         padding-top: 20px;
-        margin-top: 40px
+        margin-top: 0px;
     }
 
     .single_service_style_eleven {
@@ -3611,7 +3615,12 @@ a.dropdown-item img {
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
-
+    .technologies_section ul {
+        overflow-x: scroll;
+    }
+    .portfolio-section ul {
+        overflow-x: scroll;
+    }
 }
 
 @media (min-width:375px) {
@@ -4756,12 +4765,18 @@ a.dropdown-item img {
       -webkit-box-orient: vertical;
       overflow: hidden;
     }
+    .technologies_section ul {
+        overflow-x: hidden;
+    }
+    .portfolio-section ul {
+        overflow-x: hidden;
+    }
 }
 
 @media (min-width:1024px) {
     .megamenu {
         min-width: 100%;
-        left: -40px;
+        left: -60px;
         padding: 15px 40px;
     }
     .service_page .card-body {
@@ -4956,6 +4971,14 @@ a.dropdown-item img {
         aspect-ratio: 3 / 1.1;
     }
 }
+@media (min-width:1280px) {
+    .megamenu {
+        min-width: 100%;
+        left: -70px;
+    }
+}
+
+
 @media (min-width:1300px) {
     .megamenu {
         min-width: 100%;

@@ -1,36 +1,41 @@
 import React from 'react';
 import logodesign from '../Assets/logo-design.png'
 import { FaArrowRight } from 'react-icons/fa'; 
-
+import seo from '../Assets/seo.png'
+import click_through from '../Assets/click-through-rate.png'
+import marketing from '../Assets/marketing (1).png'
+import bullhorn from '../Assets/bullhorn.png'
+import digital_marketing from '../Assets/digital-marketing (1).png'
+ 
 function digital() {
     const cardtab = [
         {
             name: "SEO",
-            src: logodesign,
+            src: seo,
             title: 'Exceptional iOS App Development',
             dis: "Rank higher on search engines and attract more organic traffic with our expert SEO strategies tailored to your business."
         },
         {
             name: "Pay Per Click Advertising",
-            src: logodesign,
+            src: click_through,
             title: 'Exceptional iOS App Development',
             dis: "Maximize your ROI with targeted PPC campaigns that drive immediate and measurable results."
         },
         {
             name: "Social Media Marketing",
-            src: logodesign,
+            src: bullhorn,
             title: 'Exceptional iOS App Development',
             dis: "Engage your audience and grow your brand with impactful social media strategies across all major platforms."
         },
         {
             name: "Email Marketing",
-            src: logodesign,
+            src: digital_marketing,
             title: 'Exceptional iOS App Development',
             dis: "Reach your customers directly with personalized email campaigns that convert leads into loyal clients."
         },
         {
             name: "WhatsApp Marketing",
-            src: logodesign,
+            src: marketing,
             title: 'Exceptional iOS App Development',
             dis: "Connect with your audience instantly through WhatsApp, delivering messages that drive action and build relationships."
         },

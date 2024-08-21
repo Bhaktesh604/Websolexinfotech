@@ -63,13 +63,13 @@ function Mission() {
                                                 <div className="counts">
                                                     <h1 className="m-0 fw-bold" >32+</h1>
                                                 </div>
-                                                <p>client</p>
+                                                <p>Client</p>
                                             </div>
                                             <div className="line_box line_3 position-absolute text-start">
                                                 <div className="counts">
                                                     <h1 className="m-0 fw-bold" >35+</h1>
                                                 </div>
-                                                <p>completed project</p>
+                                                <p>Completed Project</p>
                                             </div>
                                         </div>
                                     </div>

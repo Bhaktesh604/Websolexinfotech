@@ -25,7 +25,6 @@ import dart from '../Assets/dart copy.png'
 import kotlin from '../Assets/kotlin copy.png'
 // import xcode from '../Assets/xcode_alt_macos_bigsur_icon_189542.png'
 
-
 import html from '../Assets/html.png'
 import css from '../Assets/css.png'
 import php from '../Assets/php copy.png'
@@ -47,7 +46,7 @@ import digitalocean from '../Assets/digitalocean copy.png'
 const TechnologiesSection = () => {
     const [activeTab, setActiveTab] = useState('Design');
 
-    const tabs = ['Design', 'Web Development', 'App Development', 'Framework', 'Database', 'Cloud '];
+    const tabs = ['Design', 'Web Development', 'App Development', 'Framework', 'Database', 'Cloud'];
     const technologies = {
         'Design': [
             { id: 1, name: 'photoshop', src: photoshop, alt: 'photoshop.png' },

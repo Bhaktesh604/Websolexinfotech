@@ -245,7 +245,7 @@ import webdevlopment from '../Assets/web devlopment.png'
 import graphic from '../Assets/grafhics.png'
 import UIUX from '../Assets/uiux-icon.png'
 import mobile from '../Assets/mobile.png'
-import Digital from '../Assets/digital-marketing (1).png'
+import Digital from '../Assets/digital_marketing.png'
 
 const Header = () => {
     const [isCollapsed, setIsCollapsed] = useState(true);
@@ -255,12 +255,11 @@ const Header = () => {
 
     const handleTabClick = (tab) => {
         setActiveTab(tab);
+        window.scrollTo(0,0);
     }
 
     const toggleNavbar = () => {
         setIsCollapsed(!isCollapsed);
-
-
     };
 
     
