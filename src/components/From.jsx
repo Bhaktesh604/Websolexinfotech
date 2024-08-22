@@ -150,8 +150,8 @@
 
 // export default From
 
-import React from 'react'
-import { MdLocationPin } from "react-icons/md";
+import React, { useState } from 'react'
+import { MdLocationPin, MdSubject } from "react-icons/md";
 import { FaPhone } from "react-icons/fa6";
 import { FaClock } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -161,7 +161,60 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from 'react-router-dom'
 
+
 const From = () => {
+
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [subject, setSubject] = useState('');
+    const [message, setMessage] = useState('');
+
+    const sendEmail = (e) => {
+        e.preventDefault(); // Prevent the default form submission
+
+        // EmailJS parameters
+        const templateParams = {
+            name,
+            email,
+            subject,
+            message,
+        };
+
+        emailjs.send(
+            'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+            'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+            templateParams,
+            'YOUR_USER_ID' // Replace with your EmailJS user ID
+        )
+            .then((response) => {
+                console.log('Email sent successfully:', response.status, response.text);
+                alert('Email sent successfully!');
+                // Clear the form
+                setName('');
+                setEmail('');
+                setSubject('');
+                setMessage('');
+            })
+            .catch((err) => {
+                console.error('Failed to send email:', err);
+                alert('Failed to send email. Please try again.');
+            });
+    }
+    // document.getElementById("contactForm").addEventListener("send", function (event) {
+    //     event.preventDefault();
+
+    //     const formData = new FormData(this);
+    //     const name = formData.get("name");
+    //     const email = formData.get("email");
+    //     const Subject = formData.get("subject");
+    //     const message = formData.get("message");
+    //     const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0MDsubject: ${Subject}%0AMessage: ${message}`;
+
+    //     const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    //     window.location.href = `https://wa.me/8200845977?text=${encodedMessage}`;
+    // });
+
     return (
         <>
             <section className="contact_form  py-100 ">
@@ -175,35 +228,99 @@ const From = () => {
                             <div className="col-12 col-xl-6 mb-5 mb-xl-0">
                                 <div className="contact_form_sub rounded-3 m-xl-3">
                                     <h2 className="mb-4 text-center">Get in Touch with Us</h2>
-                                    <div className="input_main_menu d-flex flex-wrap">
-                                        <div className="input_sub_box col-12 col-md-6 ps-0">
-                                            <div className="m-2">
-                                                <input type="text" placeholder="Enter Your Name"
-                                                    className="p-2 border-0 rounded-2 mb-3 col-12" />
+                                    {/* <form>
+                                        <div className="input_main_menu d-flex flex-wrap">
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <input type="text" placeholder="Enter Your Name"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <input type="text" placeholder="Enter Your Email"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 ps-0">
+                                                <div className="m-2">
+                                                    <input type="text" placeholder="Subject"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 ps-0">
+                                                <div className="m-2">
+                                                    <textarea name="" placeholder="Submit Your Message Request"
+                                                        className="p-2 border-0 rounded-2  col-12" id=""></textarea>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="input_sub_box col-12 col-md-6 ps-0">
-                                            <div className="m-2">
-                                                <input type="text" placeholder="Enter Your Email"
-                                                    className="p-2 border-0 rounded-2 mb-3 col-12" />
+                                        <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
+                                            <input type="send" class="home_btn border text-light rounded-3 m-2 fw-semibold" title="Send Your Message!"
+                                                tabindex="_blank">Send Message</input>
+                                        </div>
+                                    </form> */}
+                                    <form onSubmit={sendEmail}>
+                                        <div className="input_main_menu d-flex flex-wrap">
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Enter Your Name"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        value={name}
+                                                        onChange={(e) => setName(e.target.value)}
+                                                        required
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <input
+                                                        type="email"
+                                                        placeholder="Enter Your Email"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        value={email}
+                                                        onChange={(e) => setEmail(e.target.value)}
+                                                        required
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 ps-0">
+                                                <div className="m-2">
+                                                    <input
+                                                        type="text"
+                                                        placeholder="Subject"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        value={subject}
+                                                        onChange={(e) => setSubject(e.target.value)}
+                                                        required
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div className="input_sub_box col-12 ps-0">
+                                                <div className="m-2">
+                                                    <textarea
+                                                        placeholder="Submit Your Message Request"
+                                                        className="p-2 border-0 rounded-2 col-12"
+                                                        value={message}
+                                                        onChange={(e) => setMessage(e.target.value)}
+                                                        required
+                                                    ></textarea>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div className="input_sub_box col-12 ps-0">
-                                            <div className="m-2">
-                                                <input type="text" placeholder="Subject"
-                                                    className="p-2 border-0 rounded-2 mb-3 col-12" />
-                                            </div>
+                                        <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
+                                            <button
+                                                type="submit"
+                                                className="home_btn border text-light rounded-3 m-2 fw-semibold"
+                                                title="Send Your Message!"
+                                            >
+                                                Send Message
+                                            </button>
                                         </div>
-                                        <div className="input_sub_box col-12 ps-0">
-                                            <div className="m-2">
-                                                <textarea name="" placeholder="Submit Your Message Request"
-                                                    className="p-2 border-0 rounded-2  col-12" id=""></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
-                                        <Link to="#" className=" text-light rounded-3 m-2 fw-semibold">Send Message</Link>
-                                    </div>
+                                    </form>
+
                                 </div>
                             </div>
                             <div className="col-12 col-xl-6 pe-0  ">
@@ -283,7 +400,7 @@ const From = () => {
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#" target='_blank' className="border rounded-3 d-flex align-items-center">
+                                            <Link to="#"  className="border rounded-3 d-flex align-items-center">
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>

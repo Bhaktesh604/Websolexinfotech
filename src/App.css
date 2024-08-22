@@ -1217,7 +1217,7 @@ a.dropdown-item img {
 }
 
 .hover {
-    padding: 20px;
+    padding: 10px 20px;
     transition: all .3s;
 }
 
@@ -1760,7 +1760,7 @@ a.dropdown-item img {
     min-height: 150px;
 }
 
-.contact_btn a {
+.contact_btn .home_btn{
     padding: 14px 20px;
     text-decoration: none;
     background-color: #54a2d9;
@@ -5213,8 +5213,8 @@ a.dropdown-item img {
         left: 310px;
     }
     .arrorw::before {
-        top: -30px;
-        left: 360px;
+        top: -40px;
+        left: 340px;
     }
     .arrorw_2::before {
         top: -50px;
@@ -5265,7 +5265,7 @@ a.dropdown-item img {
     .input_sub_box input, textarea{
         font-size: 20px;
     }
-    .contact_btn  a{
+    .contact_btn .home_btn{
         font-size: 20px;
     }
     .contact_icons_bg svg {

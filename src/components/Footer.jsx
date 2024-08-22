@@ -12,7 +12,17 @@ const Footer = () => {
     const handleTabClick =(e)=>{
         window.scrollTo(0,0);
     }
+    // document.getElementById('subscribeForm').addEventListener('submit', function(event) {
+    //     event.preventDefault();
+        
+    //     var email = document.getElementById('subscribe_email').value; 
+
+    //     window.location.href = `mailto:recipient@example.com?subject=Subscription Request&body=Please subscribe me to the newsletter with the email: ${email}`;
+
+    // });
+    
     return (
+        
         <>
             <section className="footer-area pt-50 pt-100 d-none d-lg-block">
                 <div className="container">

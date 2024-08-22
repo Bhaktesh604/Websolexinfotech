@@ -12,7 +12,7 @@ const Get = () => {
               <div
                 className="get-box col-md-12 col-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0"
               >
-                <div className="get-icon me-0 me-lg-3">
+                <div className="get-icon me-0 me-lg-3 mb-2 mb-xl-0">
                   <Link to="tel:+918200845977" className="d-flex justify-content-center align-items-center">
                     <FaPhoneAlt className='text-light' />
                   </Link>
