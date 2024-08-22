@@ -38,6 +38,10 @@ const services = [
 ];
 
 const ServiceSection = () => {
+
+    const handleTabClick = (tab) => {
+        window.scrollTo(0, 0);
+    };
     return (
         <section className="service py-5 ">
             <div className="container">
@@ -52,7 +56,7 @@ const ServiceSection = () => {
 
                                     </p>
                                     <div className="col-12 col-xl-5 d-flex justify-content-center justify-content-xl-start">
-                                        <Link to="/service" className="rounded-1  text-decoration-none d-flex align-items-center justify-content-center">Explore All Services</Link>
+                                        <Link to="/service" onClick={handleTabClick} className="rounded-1  text-decoration-none d-flex align-items-center justify-content-center">Explore All Services</Link>
                                     </div>
                                 </div>
                             </div>

@@ -171,7 +171,7 @@ function Banner() {
                                         <div className="me-sm-3 mb-3">
                                             <span className='px-2 py-1 text-light rounded-pill d-flex align-items-center justify-content-center col-5'>New</span>
                                             <h6 className='mb-0 mt-2'>Sale Report</h6>
-                                            <p className='mb-0'>Lorem ipsum dolor.  </p>
+                                            <p className='mb-0'>Real-Time Sales Analytics</p>
                                         </div>
                                         <div className="col-9 col-sm-5">
                                             <img src={report_graf} alt="" className='col-12 border-0 h-100' />

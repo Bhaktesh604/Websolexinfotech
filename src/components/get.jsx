@@ -3,6 +3,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { Link } from 'react-router-dom'; // Import Link for internal routing
 
 const Get = () => {
+
+  const handleTabClick = (tab) => {
+    window.scrollTo(0, 0);
+};
   return (
     <>
       <section className="get position-relative py-5">
@@ -33,7 +37,7 @@ const Get = () => {
                 className="get-button col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center"
               >
                 <div className="get_encar">
-                  <Link to="/appointment" className=" d-flex align-items-center text-decoration-none">Make Appointment</Link>
+                  <Link onClick={handleTabClick} to="/contact" className=" d-flex align-items-center text-decoration-none">Make Appointment</Link>
                 </div>
               </div>
             </div>

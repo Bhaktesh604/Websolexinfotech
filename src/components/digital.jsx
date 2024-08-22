@@ -12,31 +12,31 @@ function digital() {
         {
             name: "SEO",
             src: seo,
-            title: 'Exceptional iOS App Development',
+            title: 'Top SEO Services',
             dis: "Rank higher on search engines and attract more organic traffic with our expert SEO strategies tailored to your business."
         },
         {
             name: "Pay Per Click Advertising",
             src: click_through,
-            title: 'Exceptional iOS App Development',
-            dis: "Maximize your ROI with targeted PPC campaigns that drive immediate and measurable results."
+            title: 'PPC Optimization',
+            dis: "Maximize your ROI with targeted PPC campaigns that deliver immediate and measurable results."
         },
         {
             name: "Social Media Marketing",
             src: bullhorn,
-            title: 'Exceptional iOS App Development',
+            title: 'Social Media Boost',
             dis: "Engage your audience and grow your brand with impactful social media strategies across all major platforms."
         },
         {
             name: "Email Marketing",
             src: digital_marketing,
-            title: 'Exceptional iOS App Development',
+            title: 'Effective Email Campaigns',
             dis: "Reach your customers directly with personalized email campaigns that convert leads into loyal clients."
         },
         {
             name: "WhatsApp Marketing",
             src: marketing,
-            title: 'Exceptional iOS App Development',
+            title: 'Targeted WhatsApp Ads',
             dis: "Connect with your audience instantly through WhatsApp, delivering messages that drive action and build relationships."
         },
     ]

@@ -455,7 +455,7 @@ const Header = () => {
                                         </ul>
                                     </div>
                                     <form className="d-none d-lg-flex justify-content-center" role="search">
-                                        <Link to="tel:+918200845977" className="nav-link bg-primary text-light fw-normal border-0 rounded-2">
+                                        <Link to="tel:+918200845977" className="nav-link bg-primary text-light fw-bold border-0 rounded-2">
                                             <FaPhone className='pe-2 bell' />+91 8200845977
                                         </Link>
                                     </form>
@@ -538,7 +538,7 @@ const Header = () => {
                                         <form className="d-flex justify-content-center" role="search">
                                             <Link
                                                 to="tel:8200845977"
-                                                className="bg-primary text-light fw-normal border-0 rounded-2  text-decoration-none"
+                                                className="bg-primary text-light fw-bold border-0 rounded-2  text-decoration-none"
                                             ><FaPhone className=' bell me-2' />+91 8200845977
                                             </Link>
                                         </form>

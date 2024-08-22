@@ -17,8 +17,8 @@ const blog = () => {
                                         <img src={blog_one} alt="" className='img-fluid rounded-4' />
                                     </div>
                                     <div className="blog_content">
-                                        <h2>Lorem ipsum dolor sit amet.</h2>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, deserunt.</p>
+                                        <h2>Artificial Intelligence and Machine Learning</h2>
+                                        <p>AI and ML are driving innovation, enhancing decision-making, and creating more personalized customer interactions.</p>
                                         <div className="blog_sari d-flex">
                                             <span>Parth bhai</span>
                                             <li className='m-0 ps-2'>19 Jan 2022</li>
@@ -103,7 +103,7 @@ const blog = () => {
                             </div>
                         </div>
                         <div className="blog_btn mt-5 d-flex justify-content-center">
-                            <a href="javascript:void(0);" className='text-decoration-none text-light rounded-pill'>Loading More</a>
+                            <a href="javascript:void(0);" className='text-decoration-none text-light fw-bold rounded-2  '>Loading More</a>
                         </div>
 
 
