@@ -15,7 +15,7 @@ const missionData = {
 function Mission() {
     return (
         <>
-            <section className="mission_section py-100">
+            <section className="mission_section py-50">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">

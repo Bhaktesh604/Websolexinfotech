@@ -948,7 +948,7 @@ a.dropdown-item img {
 
 
 .section_main_title a {
-    padding: 14px 20px;
+    padding: 10px 20px;
     background-color: #54a2d9;
     color: #fff;
 }
@@ -1076,10 +1076,6 @@ a.dropdown-item img {
 
 
 /* extra portfolio css */
-.portfolio-section .tab-content {
-    white-space: nowrap;
-    padding: 40px 0;
-}
 
 .portfolio-section .portfolio-image {
     width: 100%;
@@ -1311,24 +1307,22 @@ a.dropdown-item img {
 }
 
 .number_choose p {
-    font-size: 20px;
+    font-size: 18px;
     color: #54a2d9;
 }
 
 .choose_content h4 {
     color: #333;
 }
-
 .number_choose p::before {
     position: absolute;
     content: '';
     width: 20px;
     height: 2px;
-    top: 13px;
-    left: 25px; 
+    top: 12px;
+    left: 23px; 
     background-color: #54a2d9;
 }
-
 
 /* technologies */
 .technologies_section {
@@ -1491,7 +1485,7 @@ a.dropdown-item img {
 
 .nav-tabs .nav-link {
     border-color: transparent !important;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 17px;
     color: #36a1e2
 }
@@ -1524,7 +1518,7 @@ a.dropdown-item img {
 }
 
 .single-footer-widget input {
-    padding: 16px 20px;
+    padding: 16px 20px 16px 8px;
     width: 100%;
     border: none;
     border-radius: 5px
@@ -1947,10 +1941,24 @@ a.dropdown-item img {
     background-color: #7673731c;
 }
 .blog_btn a{
-        padding: 14px 20px;
+        padding: 12px 20px;
     background-color: #54a2d9;
 }
-/* .blog_sari li{
+.blog_content p{
+    display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bussines_image img{
+    height: 400px;
+    object-fit: cover; 
+}
+.sub_blog_content p{
+    font-size: 14px;
+}
+/* .bussines_name li{
     list-style: disc;
 } */
 
@@ -3906,7 +3914,7 @@ a.dropdown-item img {
 
     .get {
         left: 0;
-        top: -100px;
+        top: -40px;
     }
 
     .portfolio_area .portfolio_menu ul {
@@ -4793,6 +4801,13 @@ a.dropdown-item img {
     .service_page .card-body {
         aspect-ratio: 3 / 1;
         height: 350px;
+    }
+    .contact_form , .mission_section,.bussines_section  {
+        padding: 130px 0px 100px;
+    }
+    .portfolio-section .tab-content {
+        white-space: nowrap;
+        padding: 40px 0;
     }
 }
 

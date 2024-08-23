@@ -14,6 +14,8 @@ import MobileApp from './components/mobileapps'
 import Digital from './components/digital';
 import Blog from './pages/blogpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Bussines from './components/bussines';
+import Businesspage from './pages/businesspage';
 
 
 
@@ -35,6 +37,8 @@ function App() {
         <Route path="/service/mobileapps" element={<MobileApp />}/>
         <Route path="/service/digital" element={<Digital />}/>
         <Route path='/blog' element={<Blog/>} />
+        <Route path='/businesspage' element={<Businesspage/>} />
+        {/* <Route path='/blog/bussiness' element={<Bussines/>} /> */}
       </Routes>
       <Footer />
     </Router>

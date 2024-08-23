@@ -160,64 +160,53 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io5";
 import { Link } from 'react-router-dom'
+import EmailJS from 'emailjs-com';
 
 
 const From = () => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
-    const [message, setMessage] = useState('');
+    const [data, setdata] = useState({
+        name: "",
+        email: "",
+        subject: "",
+        message: ""
+    });
 
-    const sendEmail = (e) => {
-        e.preventDefault(); // Prevent the default form submission
-
-        // EmailJS parameters
-        const templateParams = {
-            name,
-            email,
-            subject,
-            message,
-        };
-
-        emailjs.send(
-            'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-            'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
-            templateParams,
-            'YOUR_USER_ID' // Replace with your EmailJS user ID
-        )
-            .then((response) => {
-                console.log('Email sent successfully:', response.status, response.text);
-                alert('Email sent successfully!');
-                // Clear the form
-                setName('');
-                setEmail('');
-                setSubject('');
-                setMessage('');
-            })
-            .catch((err) => {
-                console.error('Failed to send email:', err);
-                alert('Failed to send email. Please try again.');
-            });
+    const onChange = (e) => {
+        const { name, value } = e.target;
+        setdata(prevdata => ({
+            ...prevdata,
+            [name]: value
+        }));
     }
-    // document.getElementById("contactForm").addEventListener("send", function (event) {
-    //     event.preventDefault();
 
-    //     const formData = new FormData(this);
-    //     const name = formData.get("name");
-    //     const email = formData.get("email");
-    //     const Subject = formData.get("subject");
-    //     const message = formData.get("message");
-    //     const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0MDsubject: ${Subject}%0AMessage: ${message}`;
+    const onSubmit = (e) => {
+        e.preventDefault();
+        const emailParams = {
+            name: data.name,
+            email: data.email,
+            subject: data.subject,
+            message: data.message
+        }
 
-    //     const encodedMessage = encodeURIComponent(whatsappMessage);
+        EmailJS.send('service_soybehv', 'template_73gw0e4', emailParams, 'yC07B7kWN5O46D558')
+            .then((response) => {
+                alert(`SUCCESS! ${response.status} - ${response.text}`);
+            }, (error) => {
+                alert(`FAILED... ${error}`)
+            });
 
-    //     window.location.href = `https://wa.me/8200845977?text=${encodedMessage}`;
-    // });
+            setdata({
+                name: "",
+                email: "",
+                subject: "",
+                message: ""
+            })
+    }
 
     return (
         <>
-            <section className="contact_form  py-100 ">
+            <section className="contact_form  py-50 ">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">
@@ -260,16 +249,18 @@ const From = () => {
                                                 tabindex="_blank">Send Message</input>
                                         </div>
                                     </form> */}
-                                    <form onSubmit={sendEmail}>
+                                    <form onSubmit={onSubmit}>
                                         <div className="input_main_menu d-flex flex-wrap">
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <input
                                                         type="text"
+                                                        id='name'
+                                                        name='name'
                                                         placeholder="Enter Your Name"
                                                         className="p-2 border-0 rounded-2 mb-3 col-12"
-                                                        value={name}
-                                                        onChange={(e) => setName(e.target.value)}
+                                                        value={data.name}
+                                                        onChange={onChange}
                                                         required
                                                     />
                                                 </div>
@@ -278,10 +269,12 @@ const From = () => {
                                                 <div className="m-2">
                                                     <input
                                                         type="email"
+                                                        id='email'
+                                                        name='email'
                                                         placeholder="Enter Your Email"
                                                         className="p-2 border-0 rounded-2 mb-3 col-12"
-                                                        value={email}
-                                                        onChange={(e) => setEmail(e.target.value)}
+                                                        value={data.email}
+                                                        onChange={onChange}
                                                         required
                                                     />
                                                 </div>
@@ -290,10 +283,12 @@ const From = () => {
                                                 <div className="m-2">
                                                     <input
                                                         type="text"
+                                                        id='subject'
+                                                        name='subject'
                                                         placeholder="Subject"
                                                         className="p-2 border-0 rounded-2 mb-3 col-12"
-                                                        value={subject}
-                                                        onChange={(e) => setSubject(e.target.value)}
+                                                        value={data.subject}
+                                                        onChange={onChange}
                                                         required
                                                     />
                                                 </div>
@@ -301,10 +296,12 @@ const From = () => {
                                             <div className="input_sub_box col-12 ps-0">
                                                 <div className="m-2">
                                                     <textarea
+                                                    id='message'
+                                                    name='message'
                                                         placeholder="Submit Your Message Request"
                                                         className="p-2 border-0 rounded-2 col-12"
-                                                        value={message}
-                                                        onChange={(e) => setMessage(e.target.value)}
+                                                        value={data.message}
+                                                        onChange={onChange}
                                                         required
                                                     ></textarea>
                                                 </div>
@@ -400,7 +397,7 @@ const From = () => {
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#"  className="border rounded-3 d-flex align-items-center">
+                                            <Link to="#" className="border rounded-3 d-flex align-items-center">
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>
