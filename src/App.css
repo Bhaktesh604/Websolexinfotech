@@ -1944,7 +1944,7 @@ a.dropdown-item img {
         padding: 12px 20px;
     background-color: #54a2d9;
 }
-.blog_content p{
+.blog_content, .sub_blog_content p{
     display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -1957,6 +1957,21 @@ a.dropdown-item img {
 }
 .sub_blog_content p{
     font-size: 14px;
+}
+.bussines_name span{
+    width: 7px;
+    height: 7px;
+    background-color: #000;
+    border-radius: 20px;
+}
+.blog_input input{
+    background-color: #d1e9fd;
+}
+.blog_input svg{
+    left: 90%;
+    top: 30%;
+    width: 20px;
+    height: 20px;
 }
 /* .bussines_name li{
     list-style: disc;
@@ -3644,7 +3659,16 @@ a.dropdown-item img {
     .nav-tabs .nav-link {
         font-size: 14px !important;
     }
-
+.blog_main_title h5{
+    font-size: 20px;
+}
+.bussines_section{
+    padding: 150px 0px 100px;
+}
+.blog_input svg {
+    left: 87%;
+        top: 35%;
+}
 }
 
 @media (min-width:375px) {
@@ -4267,6 +4291,10 @@ a.dropdown-item img {
     .image_shadow {
         aspect-ratio: 4 / 1;
     }
+    .blog_input svg {
+        left: 91%;
+        top: 35%;
+    }
 }
 
 @media (min-width:768px) {
@@ -4505,6 +4533,10 @@ a.dropdown-item img {
     }
     .service_page {
         padding: 190px 0px 100px;
+    }
+    .blog_input svg {
+        left: 94%;
+        top: 35%;
     }
     @keyframes animate {
         0% {
@@ -4803,11 +4835,15 @@ a.dropdown-item img {
         height: 350px;
     }
     .contact_form , .mission_section,.bussines_section  {
-        padding: 130px 0px 100px;
+        padding: 150px 0px 100px;
     }
     .portfolio-section .tab-content {
         white-space: nowrap;
         padding: 40px 0;
+    }
+    .blog_input svg {
+        left: 87%;
+        top: 33%;
     }
 }
 
@@ -5020,6 +5056,10 @@ a.dropdown-item img {
 
     .image_shadow {
         aspect-ratio: 3 / 1.1;
+    }
+    .blog_input svg {
+        left: 90%;
+        top: 36%;
     }
 }
 @media (min-width:1280px) {
@@ -5333,6 +5373,43 @@ a.dropdown-item img {
     .footer-social svg{
         width: 60px;
         height: 60px;
+    }
+    .blog_btn a{
+        font-size: 20px;
+    }
+    .bolg_heading h5{
+        font-size: 26px;
+    }
+    .bolg_heading p{
+        font-size: 20px;
+    }
+    .sub_blog_content h6{
+        font-size: 22px;
+    }
+    .sub_blog_content  p {
+        font-size: 18px;
+    }
+    .bussines_image img {
+        height: 500px;
+    }
+    .bussines_sub_box p{
+        font-size: 18px;
+    }
+    .bussines_sub_box h6{
+        font-size: 22px;
+    }
+    .blog_image img{
+        height: 100%;
+        padding: 10px;
+    }
+    .blog_input input::placeholder{
+        font-size: 20px;
+    }
+    .blog_input svg{
+        left: 92%;
+        top: 33%;
+        width: 22px;
+        height: 22px;
     }
 }
 

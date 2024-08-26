@@ -37,7 +37,7 @@ function App() {
         <Route path="/service/mobileapps" element={<MobileApp />}/>
         <Route path="/service/digital" element={<Digital />}/>
         <Route path='/blog' element={<Blog/>} />
-        <Route path='/businesspage' element={<Businesspage/>} />
+        <Route path='/blog/businesspage' element={<Businesspage/>} />
         {/* <Route path='/blog/bussiness' element={<Bussines/>} /> */}
       </Routes>
       <Footer />
