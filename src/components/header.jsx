@@ -395,7 +395,7 @@ const Header = () => {
                         <div className="row">
                             <nav className="navbar navbar-expand-lg">
                                 <div className="container-fluid">
-                                    <Link className="navbar-brand col-2" to="/"><img src={logo} alt="Logo" /></Link>
+                                    <Link className="navbar-brand col-2" to="/"><img src={logo} alt="WebSolex Infotech" /></Link>
                                     <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={!isCollapsed}>
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
@@ -455,7 +455,7 @@ const Header = () => {
                                         </ul>
                                     </div>
                                     <form className="d-none d-lg-flex justify-content-center" role="search">
-                                        <Link to="tel:+918200845977" className="nav-link bg-primary text-light  border-0 rounded-2">
+                                        <Link to="tel:+918200845977" alt="Enquire Now" className="nav-link bg-primary text-light  border-0 rounded-2">
                                             <FaPhone className='pe-2 bell' />+91 8200845977
                                         </Link>
                                     </form>

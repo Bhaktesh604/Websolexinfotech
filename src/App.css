@@ -1746,8 +1746,11 @@ a.dropdown-item img {
     padding: 30px 10px;
 }
 
-.input_sub_box input {
+.input_sub_box input,select {
     height: 50px;
+}
+.input_sub_box select, option{
+    color: #7f7878 !important;
 }
 
 .input_sub_box textarea {

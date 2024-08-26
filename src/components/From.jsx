@@ -185,6 +185,7 @@ const From = () => {
         const emailParams = {
             name: data.name,
             email: data.email,
+            contactnumber: data.contactnumber,
             subject: data.subject,
             message: data.message
         }
@@ -196,12 +197,13 @@ const From = () => {
                 alert(`FAILED... ${error}`)
             });
 
-            setdata({
-                name: "",
-                email: "",
-                subject: "",
-                message: ""
-            })
+        setdata({
+            name: "",
+            email: "",
+            contactnumber: "",
+            subject: "",
+            message: ""
+        })
     }
 
     return (
@@ -279,7 +281,21 @@ const From = () => {
                                                     />
                                                 </div>
                                             </div>
-                                            <div className="input_sub_box col-12 ps-0">
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <input
+                                                        type="tel"
+                                                        id='contactnumber'
+                                                        name='contactnumber'
+                                                        placeholder="Contact Number"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        value={data.contactnumber}
+                                                        onChange={onChange}
+                                                        required
+                                                    />
+                                                </div>
+                                            </div>
+                                            {/* <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <input
                                                         type="text"
@@ -292,12 +308,50 @@ const From = () => {
                                                         required
                                                     />
                                                 </div>
+                                            </div> */}
+                                            <div className="input_sub_box col-12 col-md-6 ps-0">
+                                                <div className="m-2">
+                                                    <select
+                                                        id="subject"
+                                                        name="subject"
+                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        value={data.subject}
+                                                        onChange={onChange}
+                                                        required
+                                                    >
+                                                        <option value="" disabled>Select a Subject</option>
+                                                        <option value="React js Development">React js Development</option>
+                                                        <option value="Node js Development">Node js Development</option>
+                                                        <option value="PHP Development">PHP Development</option>
+                                                        <option value="Laravel Development">Laravel Development</option>
+                                                        <option value="WordPress Development">WordPress Development</option>
+                                                        <option value="Shopify Development">Shopify Development</option>
+                                                        <option value="Angular Development">Angular Development</option>
+                                                        <option value="Wix Development">Wix Development</option>
+                                                        <option value="Webflow Development">Webflow Development</option>
+                                                        <option value="Packaging Design">Packaging Design</option>
+                                                        <option value="Info Graphic Design">Info Graphic Design</option>
+                                                        <option value="Logo Design">Logo Design</option>
+                                                        <option value="Branding Identity">Branding Identity</option>
+                                                        <option value="Print Design">Print Design</option>
+                                                        <option value="App Design">App Design</option>
+                                                        <option value="UI/UX Design">UI/UX Design</option>
+                                                        <option value="Web Design">Web Design</option>
+                                                        <option value="IOS">IOS</option>
+                                                        <option value="Android">Android</option>
+                                                        <option value="Cross Platform">Cross Platform</option>
+                                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
+                                                        <option value="Pay-Per-Click Advertising">Pay-Per-Click Advertising</option>
+                                                        <option value="Social Media Marketing">Social Media Marketing</option>
+                                                        <option value="Email Marketing">Email Marketing</option>
+                                                    </select>
+                                                </div>
                                             </div>
                                             <div className="input_sub_box col-12 ps-0">
                                                 <div className="m-2">
                                                     <textarea
-                                                    id='message'
-                                                    name='message'
+                                                        id='message'
+                                                        name='message'
                                                         placeholder="Submit Your Message Request"
                                                         className="p-2 border-0 rounded-2 col-12"
                                                         value={data.message}
