@@ -419,7 +419,11 @@ const Header = (pagetitle) => {
                                             </li>
                                             <li className="nav-item servicemenu dropdown megamenu-li dmenu d-flex align-items-center">
                                                 <Link className={`nav-link link_hover dropdown-toggle ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`} to="#"
-                                                    onClick={() => handleTabClick('Services')} onMouseEnter={() => setMouseEnter(true)} >
+                                                    onClick={() => {
+                                                        handleTabClick('Services');
+                                                        setTitle('WebSolex Infotech || Services');
+                                                    }}
+                                                     onMouseEnter={() => setMouseEnter(true)} >
                                                     Services
                                                 </Link>
                                                 {
@@ -445,19 +449,31 @@ const Header = (pagetitle) => {
                                             </li>
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
-                                                    onClick={() => handleTabClick('Portfolio')} to="/portfolio">
+                                                 
+                                                    onClick={() => {
+                                                        handleTabClick('Portfolio');
+                                                        setTitle('WebSolex Infotech || Portfolio');
+                                                    }}
+                                                    to="/portfolio">
                                                     Portfolio
                                                 </Link>
                                             </li>
                                             <li className="nav-item py-3 ps-0 pe-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Company' ? 'active text-primary fw-bold' : ''}`}
-                                                    onClick={() => handleTabClick('Company')} to="/company">
+                                                    onClick={() => {
+                                                        handleTabClick('Company');
+                                                        setTitle('WebSolex Infotech || Company');
+                                                    }}
+                                                    to="/company">
                                                     Company
                                                 </Link>
                                             </li>
                                             <li className="nav-item py-3 ps-0 pe-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'contact' ? 'active text-primary fw-bold' : ''}`}
-                                                    onClick={() => handleTabClick('contact')} to="/contact">
+                                                    onClick={() => {
+                                                        handleTabClick('contact');
+                                                        setTitle('WebSolex Infotech || Contact');
+                                                    }} to="/contact">
                                                     Contact
                                                 </Link>
                                             </li>

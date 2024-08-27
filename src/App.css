@@ -1952,6 +1952,7 @@ select {
 .blog_btn a {
     padding: 12px 20px;
     background-color: #54a2d9;
+    vertical-align: middle;
 }
 
 .blog_content,
@@ -4888,6 +4889,9 @@ select {
         left: 87%;
         top: 33%;
     }
+    .blog_btn a {
+        padding: 14px 20px;
+    }
 }
 
 @media (min-width:1024px) {
@@ -5507,6 +5511,7 @@ select {
 
     .blog_image img {
         height: 100%;
+        width: 100%;
         padding: 10px;
     }
 
