@@ -141,7 +141,7 @@ function Banner() {
                                     </div>
                                     <div className="view_sec d-flex flex-wrap align-items-center justify-content-between  col-10 col-md-6 col-lg-9 col-xl-7 col-xxl-6 position-absolute bg-light p-3  rounded-4">
                                         <div className=" col-6 view_content text-center text-md-start">
-                                            <span>Total Project</span>
+                                            <span className='fw-semibold'>Total Project</span>
                                             <h2 className='mb-0'>30+</h2>
                                         </div>
                                         <div className=" col-6 ">

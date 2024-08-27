@@ -5298,13 +5298,13 @@ select {
     }
 
     .view_content {
-        width: 30%;
+        width: 36%;
     }
 
     .review_main_box {
         top: 50%;
         left: 0%;
-        width: 40%;
+        width: 43%;
         transform: scale(0.8);
     }
 
@@ -5529,6 +5529,18 @@ select {
     .input_sub_box select,
     option {
         font-size: 20px
+    }
+    .nav-tabs .nav-link {
+        font-size: 18px !important;
+    }
+    .sale_report h6, .review_contentt  h6 {
+        font-size: 24px;
+    }
+    .view_sec span{
+        font-size: 30px;
+    }
+    .view_content h2 {
+        font-size: 50px;
     }
 }
 
