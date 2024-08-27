@@ -236,7 +236,7 @@
 
 // export default Header;
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from '../Assets/Logo.png';
 import { Link } from 'react-router-dom';
 import { FaPhone } from "react-icons/fa";
@@ -247,11 +247,17 @@ import UIUX from '../Assets/uiux-icon.png'
 import mobile from '../Assets/mobile.png'
 import Digital from '../Assets/digital_marketing.png'
 
-const Header = () => {
+const Header = (pagetitle) => {
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [activeTab, setActiveTab] = useState('Home');
 
     const [mouseEnter, setMouseEnter] = useState(false)
+
+    const [title, setTitle] = useState(pagetitle);
+
+    useEffect(() => {
+        document.title = title;
+    }, [title]); // Now useEffect depends on the `title` state
 
 
     const toggleNavbar = () => {
@@ -269,7 +275,7 @@ const Header = () => {
     //     window.scrollTo(0, 0);
     // }
 
-    
+
     // const toggleNavbar = () => {
     //     setIsCollapsed(!isCollapsed);
     // };
@@ -403,7 +409,10 @@ const Header = () => {
                                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link ${activeTab === 'Home' ? 'active text-primary fw-bold' : ''}`} to="/"
-                                                    onClick={() => handleTabClick('Home')}
+                                                     onClick={() => {
+                                                        handleTabClick('Home');
+                                                        setTitle('WebSolex Infotech || Home');
+                                                    }}
                                                 >
                                                     Home
                                                 </Link>
@@ -491,7 +500,7 @@ const Header = () => {
                                                 </Link>
                                             </li>
                                             <li className="nav-item dropdown p-3 text-center">
-                                            <Link className={`nav-link link_hover ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`}
+                                                <Link className={`nav-link link_hover ${activeTab === 'Services' ? 'active text-primary fw-bold' : ''}`}
                                                     onClick={() => handleTabClick('Services')} to="/service">
                                                     Services
                                                 </Link>
