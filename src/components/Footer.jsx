@@ -413,7 +413,7 @@ const Footer = () => {
     };
     const [data, setdata] = useState({ email: "" });
 
-    const onChange = (e) => {
+    const onhange = (e) => {
         const { name, value } = e.target;
         setdata(prevdata => ({
             ...prevdata,
@@ -421,7 +421,7 @@ const Footer = () => {
         }));
     }
 
-    const onSubmit = (e) => {
+    const onubmit = (e) => {
         e.preventDefault();
         const emailParams = {
             email: data.email,
@@ -445,7 +445,7 @@ const Footer = () => {
                                 <div className="single-footer-widget text-md-left footer-left wow fadeInLeft animated title">
                                     <div className="footer-toggle">
                                         <div className="footer-logo-main-black mb-3">
-                                            <Link to="index.html">
+                                            <Link to="/" onClick={handleTabClick}>
                                                 <img src={logo} alt="Logo" />
                                             </Link>
                                         </div>
@@ -546,14 +546,14 @@ const Footer = () => {
                                         </div>
                                         <div className="footer-toggle">
                                             <p>Accompany us on our growth journey to glean insights from our experiences</p>
-                                            <form onSubmit={onSubmit} className='emailForm'>
+                                            <form onSubmit={onubmit} className='emailForm'>
                                                 <input
                                                     type="email"
                                                     id='email'
                                                     name='email'
                                                     placeholder="Enter Your Email"
                                                     value={data.email}
-                                                    onChange={onChange}
+                                                    onChange={onhange}
                                                     required
                                                 />
                                                 <button className="mil-button mil-accent-bg mil-fw" type="submit">
@@ -713,9 +713,9 @@ const Footer = () => {
                                     <div className="single-title-wrapper title">
                                         <div className="footer-toggle">
                                             <p>Accompany us on our growth journey to glean insights from our experiences </p>
-                                            <form onSubmit={onSubmit}  className='single-footer-widget'>
+                                            <form onSubmit={onsubmit}  className='single-footer-widget'>
                                                 <input className="mil-rounded-input mil-text-center mil-mb-5" id='email' type="text"
-                                                    placeholder="Your email address" value={data.email} onChange={onChange} name="email" />
+                                                    placeholder="Your email address" value={data.email} onChange={onchange} name="email" />
                                                 <button className="mil-button mil-accent-bg mil-fw" type="submit">
                                                     <span className="text-light">Subscribe</span></button>
                                             </form>

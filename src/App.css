@@ -1314,13 +1314,14 @@ a.dropdown-item img {
 .choose_content h4 {
     color: #333;
 }
+
 .number_choose p::before {
     position: absolute;
     content: '';
     width: 20px;
     height: 2px;
     top: 12px;
-    left: 23px; 
+    left: 23px;
     background-color: #54a2d9;
 }
 
@@ -1746,18 +1747,18 @@ a.dropdown-item img {
     padding: 30px 10px;
 }
 
-.input_sub_box input,select {
+.input_sub_box input,
+select {
     height: 50px;
-}
-.input_sub_box select, option{
     color: #7f7878 !important;
 }
+
 
 .input_sub_box textarea {
     min-height: 150px;
 }
 
-.contact_btn .home_btn{
+.contact_btn .home_btn {
     padding: 14px 20px;
     text-decoration: none;
     background-color: #54a2d9;
@@ -1914,6 +1915,7 @@ a.dropdown-item img {
     bottom: 70px;
     opacity: 1;
 }
+
 .service_page .card {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
     width: 100%;
@@ -1932,50 +1934,61 @@ a.dropdown-item img {
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
+
 .accordion {
     --bs-accordion-bg: transparent;
 }
+
 /* blog  */
-.blog_section{
+.blog_section {
     padding-top: 150px;
 }
-.blog_categories{
+
+.blog_categories {
     padding: 20px;
     background-color: #7673731c;
 }
-.blog_btn a{
-        padding: 12px 20px;
+
+.blog_btn a {
+    padding: 12px 20px;
     background-color: #54a2d9;
 }
-.blog_content, .sub_blog_content p{
+
+.blog_content,
+.sub_blog_content p {
     display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
-.bussines_image img{
+.bussines_image img {
     height: 400px;
-    object-fit: cover; 
+    object-fit: cover;
 }
-.sub_blog_content p{
+
+.sub_blog_content p {
     font-size: 14px;
 }
-.bussines_name span{
+
+.bussines_name span {
     width: 7px;
     height: 7px;
     background-color: #000;
     border-radius: 20px;
 }
-.blog_input input{
+
+.blog_input input {
     background-color: #d1e9fd;
 }
-.blog_input svg{
+
+.blog_input svg {
     left: 90%;
     top: 30%;
     width: 20px;
     height: 20px;
 }
+
 /* .bussines_name li{
     list-style: disc;
 } */
@@ -3632,46 +3645,59 @@ a.dropdown-item img {
         top: 50%;
         left: 0%;
     }
-    .card_body_sub h6{
+
+    .card_body_sub h6 {
         display: -webkit-box;
-      -webkit-line-clamp: 1;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
+
     .technologies_section ul {
         overflow-x: scroll;
     }
+
     .portfolio-section ul {
         overflow-x: scroll;
     }
+
     .nav-tabs .nav-link {
         font-size: 17px;
     }
+
     .blog_section {
         padding-top: 150px;
         padding-bottom: 100px;
     }
+
     .banner,
     .banner2 {
         padding-top: 80px !important;
         padding-bottom: 60px;
     }
-    .service_page,.portfolio-section,.contact_form{
+
+    .service_page,
+    .portfolio-section,
+    .contact_form {
         padding: 100px 0px;
     }
+
     .nav-tabs .nav-link {
         font-size: 14px !important;
     }
-.blog_main_title h5{
-    font-size: 20px;
-}
-.bussines_section{
-    padding: 150px 0px 100px;
-}
-.blog_input svg {
-    left: 87%;
+
+    .blog_main_title h5 {
+        font-size: 20px;
+    }
+
+    .bussines_section {
+        padding: 150px 0px 100px;
+    }
+
+    .blog_input svg {
+        left: 87%;
         top: 35%;
-}
+    }
 }
 
 @media (min-width:375px) {
@@ -4294,6 +4320,7 @@ a.dropdown-item img {
     .image_shadow {
         aspect-ratio: 4 / 1;
     }
+
     .blog_input svg {
         left: 91%;
         top: 35%;
@@ -4530,17 +4557,21 @@ a.dropdown-item img {
     .image_shadow {
         aspect-ratio: 3 / 1.1;
     }
+
     .service_page .card-body {
         aspect-ratio: 3 / 1;
         height: 370px;
     }
+
     .service_page {
         padding: 190px 0px 100px;
     }
+
     .blog_input svg {
         left: 94%;
         top: 35%;
     }
+
     @keyframes animate {
         0% {
             top: -2%;
@@ -4821,29 +4852,38 @@ a.dropdown-item img {
     .image_shadow {
         aspect-ratio: 3 / 0.9;
     }
-    .card_body_sub h6{
+
+    .card_body_sub h6 {
         display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
     }
+
     .technologies_section ul {
         overflow-x: hidden;
     }
+
     .portfolio-section ul {
         overflow-x: hidden;
     }
+
     .service_page .card-body {
         aspect-ratio: 3 / 1;
         height: 350px;
     }
-    .contact_form , .mission_section,.bussines_section  {
+
+    .contact_form,
+    .mission_section,
+    .bussines_section {
         padding: 150px 0px 100px;
     }
+
     .portfolio-section .tab-content {
         white-space: nowrap;
         padding: 40px 0;
     }
+
     .blog_input svg {
         left: 87%;
         top: 33%;
@@ -4856,12 +4896,14 @@ a.dropdown-item img {
         left: -50px;
         padding: 15px 40px;
     }
+
     .service_page .card-body {
         aspect-ratio: 3 / 1;
         height: 350px;
     }
 }
-@media (min-width:1080px){
+
+@media (min-width:1080px) {
     .megamenu {
         min-width: 100%;
         left: -65px;
@@ -4875,6 +4917,7 @@ a.dropdown-item img {
         left: -70px;
     }
 }
+
 @media (min-width:1140px) {
     .megamenu {
         min-width: 100%;
@@ -5060,11 +5103,13 @@ a.dropdown-item img {
     .image_shadow {
         aspect-ratio: 3 / 1.1;
     }
+
     .blog_input svg {
         left: 90%;
         top: 36%;
     }
 }
+
 @media (min-width:1280px) {
     .megamenu {
         min-width: 100%;
@@ -5079,6 +5124,7 @@ a.dropdown-item img {
         left: -80px;
     }
 }
+
 @media (min-width:1400px) {
     .container {
         width: 1320px;
@@ -5208,211 +5254,276 @@ a.dropdown-item img {
 }
 
 @media (min-width:1600px) and (max-width:2100px) {
-    .container{
+    .container {
         min-width: 1920px;
         /* padding: 0 25px; */
         padding: 0px 80px;
     }
+
     .megamenu {
         min-width: 100%;
         left: -14px;
     }
+
     .banner2 {
         height: 100% !important;
     }
+
     .image_sub_box img {
         height: 100%;
     }
-    .header .nav-item{
+
+    .header .nav-item {
         padding: 20px !important;
     }
-    .header .nav-item .nav-link{
+
+    .header .nav-item .nav-link {
         font-size: 20px;
     }
+
     .header form a {
         padding: 14px 30px;
         font-size: 20px;
     }
+
     .view_sec {
         top: 20%;
         left: 50%;
         width: 60%;
         transform: scale(0.6);
     }
-    .view_content{
+
+    .view_content {
         width: 30%;
     }
+
     .review_main_box {
         top: 50%;
         left: 0%;
         width: 40%;
         transform: scale(0.8);
     }
-    .sale_report{
+
+    .sale_report {
         top: -10%;
         left: 0%;
         width: 45%;
         transform: scale(0.8);
     }
+
     .service_sub_box {
         aspect-ratio: 3 / 0.9;
     }
+
     .portfolio-section .tab-content {
         display: flex;
         justify-content: center;
     }
+
     .review_content_2 {
         display: grid;
         aspect-ratio: 3 / 2.0;
         object-fit: contain;
     }
+
     .arrorw_1::before {
         top: -50px;
         left: 310px;
     }
+
     .arrorw::before {
         top: -40px;
         left: 340px;
     }
+
     .arrorw_2::before {
         top: -50px;
         left: 340px;
     }
-    .megamenu_width a{
+
+    .megamenu_width a {
         font-size: 20px;
     }
-    .footer-block__heading{
-        font-size: 38px ;
+
+    .footer-block__heading {
+        font-size: 38px;
     }
-    .footer-toggle{
+
+    .footer-toggle {
         font-size: 20px;
     }
-    .footer-quick-links{
+
+    .footer-quick-links {
         font-size: 20px;
     }
-    .card_body_sub h5{
+
+    .card_body_sub h5 {
         font-size: 26px;
     }
-    .card_body_sub h6,p{
+
+    .card_body_sub h6,
+    p {
         font-size: 20px;
     }
+
     .service_page .card-body {
         height: 430px;
     }
-    .portfolio-section .nav-link{
+
+    .portfolio-section .nav-link {
         font-size: 20px;
     }
-    .section_main_title h1{
+
+    .section_main_title h1 {
         font-size: 48px;
     }
+
     .meet_our_team {
         padding-bottom: 400px !important;
     }
-    .mission_section{
+
+    .mission_section {
         padding: 180px 0px 100px;
     }
-    .contact_form{
+
+    .contact_form {
         padding: 180px 0px 100px;
     }
-    .contact_heading h3{
+
+    .contact_heading h3 {
         font-size: 38px;
     }
-    .contact_heading p{
+
+    .contact_heading p {
         font-size: 20px;
     }
-    .input_sub_box input, textarea{
+
+    .input_sub_box input,
+    textarea {
         font-size: 20px;
     }
-    .contact_btn .home_btn{
+
+    .contact_btn .home_btn {
         font-size: 20px;
     }
+
     .contact_icons_bg svg {
         width: 50px;
         height: 50px;
     }
+
     .icon_links {
         width: 60px;
         height: 60px;
     }
+
     .icon_links svg {
         width: 25px;
         height: 25px;
     }
+
     .nav-tabs .nav-link {
         font-size: 20px;
     }
-    .contact_details a{
+
+    .contact_details a {
         font-size: 20px
     }
-    .custom_width{
+
+    .custom_width {
         width: 30%;
     }
+
     .portfolio-image {
         max-width: 360px;
     }
-    .get-menu{
+
+    .get-menu {
         font-size: 20px;
     }
+
     .get-icon p {
         font-size: 20px;
     }
+
     .get-button a {
         font-size: 20px;
     }
+
     .get {
         left: 0;
         top: 40px;
     }
-    .font_size{
+
+    .font_size {
         font-size: 20px;
     }
-    .social_main_menu svg{
+
+    .social_main_menu svg {
         width: 25px;
         height: 25px;
     }
+
     .social_main_menu a {
         padding: 16px 18px;
     }
-    .footer-social svg{
+
+    .footer-social svg {
         width: 60px;
         height: 60px;
     }
-    .blog_btn a{
+
+    .blog_btn a {
         font-size: 20px;
     }
-    .bolg_heading h5{
+
+    .bolg_heading h5 {
         font-size: 26px;
     }
-    .bolg_heading p{
+
+    .bolg_heading p {
         font-size: 20px;
     }
-    .sub_blog_content h6{
+
+    .sub_blog_content h6 {
         font-size: 22px;
     }
-    .sub_blog_content  p {
+
+    .sub_blog_content p {
         font-size: 18px;
     }
+
     .bussines_image img {
         height: 500px;
     }
-    .bussines_sub_box p{
+
+    .bussines_sub_box p {
         font-size: 18px;
     }
-    .bussines_sub_box h6{
+
+    .bussines_sub_box h6 {
         font-size: 22px;
     }
-    .blog_image img{
+
+    .blog_image img {
         height: 100%;
         padding: 10px;
     }
-    .blog_input input::placeholder{
+
+    .blog_input input::placeholder {
         font-size: 20px;
     }
-    .blog_input svg{
+
+    .blog_input svg {
         left: 92%;
         top: 33%;
         width: 22px;
         height: 22px;
+    }
+
+    .input_sub_box select,
+    option {
+        font-size: 20px
     }
 }
 

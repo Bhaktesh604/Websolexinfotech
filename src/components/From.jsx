@@ -171,6 +171,7 @@ const From = () => {
         subject: "",
         message: ""
     });
+    const [showtextbox, setotherinput] = useState(false);
 
     const onChange = (e) => {
         const { name, value } = e.target;
@@ -178,6 +179,13 @@ const From = () => {
             ...prevdata,
             [name]: value
         }));
+
+        if (name === "subject" && value === "Other") {
+            setotherinput(true);
+        }
+        else if (name === "subject") {
+            setotherinput(false);
+        }
     }
 
     const onSubmit = (e) => {
@@ -205,6 +213,16 @@ const From = () => {
             message: ""
         })
     }
+
+
+    // const onselect = (e)=>{
+    //     if(e.target.value === "Other"){
+    //         setotherinput(true);
+    //     }
+    //     else{
+    //         setotherinput(false);
+    //     }
+    // }
 
     return (
         <>
@@ -344,9 +362,22 @@ const From = () => {
                                                         <option value="Pay-Per-Click Advertising">Pay-Per-Click Advertising</option>
                                                         <option value="Social Media Marketing">Social Media Marketing</option>
                                                         <option value="Email Marketing">Email Marketing</option>
+                                                        <option value="Other" onChange={onselect} >Other</option>
                                                     </select>
                                                 </div>
                                             </div>
+                                            {showtextbox && (
+                                                <input
+                                                    type="text"
+                                                    id="otherTextInput"
+                                                    name="otherText"
+                                                    placeholder="Please specify"
+                                                    className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                    value={data.otherText || ""}
+                                                    onChange={onChange}
+                                                    required
+                                                />
+                                            )}
                                             <div className="input_sub_box col-12 ps-0">
                                                 <div className="m-2">
                                                     <textarea
