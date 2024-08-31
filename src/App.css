@@ -783,7 +783,9 @@ a.dropdown-item img {
     object-fit: contain;
 }
 
-
+.spacing{
+    padding: 150px 0px 100px !important;
+}
 
 
 /* Default styles for larger screens */

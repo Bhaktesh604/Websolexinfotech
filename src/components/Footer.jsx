@@ -400,7 +400,7 @@ import logo from '../Assets/Logo.png';
 import { IoLogoInstagram } from "react-icons/io5";
 import { LuFacebook } from "react-icons/lu";
 import { FiLinkedin } from "react-icons/fi";
-import { FaBehance } from "react-icons/fa";
+import { SlSocialBehance } from "react-icons/sl";
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
 import { error } from 'jquery';
@@ -432,7 +432,7 @@ const Footer = () => {
             }, (error) => {
                 alert(`FAILD... ${error}`);
             });
-            setdata({ email:""})
+        setdata({ email: "" })
     }
 
     return (
@@ -594,7 +594,7 @@ const Footer = () => {
                                             </li>
                                             <li>
                                                 <Link to="https://www.behance.net/unityinfotech" target="_blank">
-                                                    <FaBehance />
+                                                    <SlSocialBehance />
                                                 </Link>
                                             </li>
                                         </ul>
@@ -713,7 +713,7 @@ const Footer = () => {
                                     <div className="single-title-wrapper title">
                                         <div className="footer-toggle">
                                             <p>Accompany us on our growth journey to glean insights from our experiences </p>
-                                            <form onSubmit={onsubmit}  className='single-footer-widget'>
+                                            <form onSubmit={onsubmit} className='single-footer-widget'>
                                                 <input className="mil-rounded-input mil-text-center mil-mb-5" id='email' type="text"
                                                     placeholder="Your email address" value={data.email} onChange={onchange} name="email" />
                                                 <button className="mil-button mil-accent-bg mil-fw" type="submit">
@@ -751,7 +751,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link to="https://www.behance.net/unityinfotech" target="_blank">
-                                        <FaBehance />
+                                    <SlSocialBehance />
                                     </Link>
                                 </li>
                             </ul>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FiUserPlus } from "react-icons/fi";
+import { FaUserPlus } from "react-icons/fa";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { FaSearchPlus } from "react-icons/fa";
 import { GoCheckCircleFill } from "react-icons/go";
@@ -76,7 +76,7 @@ const Jobwork = () => {
                             <div className="col-12 col-md-6 col-xl-3 hover d-flex justify-content-center flex-column text-center arrorw_1 position-relative mb-4 mb-lg-0">
                                 <div className="d-flex justify-content-center mb-3">
                                     <div className="jobicon d-flex justify-content-center align-items-center">
-                                        <FiUserPlus className='icons_job' />
+                                        <FaUserPlus className='icons_job' />
                                     </div>
                                 </div>
                                 <div className="job_content">

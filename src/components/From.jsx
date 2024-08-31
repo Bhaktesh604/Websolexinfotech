@@ -158,7 +158,7 @@ import { MdEmail } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { Link } from 'react-router-dom'
 import EmailJS from 'emailjs-com';
 
@@ -475,7 +475,8 @@ const From = () => {
                                         </li>
                                         <li className="me-3">
                                             <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
-                                                <IoLogoWhatsapp className='text-black fs-5' />
+                                                {/* <IoLogoWhatsapp  className='text-black fs-5'/> */}
+                                                <IoLogoWhatsapp className='text-black fs-5'/>
                                             </Link>
                                         </li>
                                     </ul>

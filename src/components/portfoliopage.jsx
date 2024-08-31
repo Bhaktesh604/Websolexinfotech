@@ -131,7 +131,7 @@ const PortfolioSection = () => {
     //     </div>
     // </section>
 
-    <section className="portfolio-section pt-100">
+    <section className="portfolio-section spacing">
     <div className="container">
         <div className="row">
             <div className="col-lg-12 text-center">
@@ -154,7 +154,7 @@ const PortfolioSection = () => {
                 </li>
             ))}
         </ul>
-        <div className="tab-content">
+        <div className="tab-content pb-0">
             <div className="portfolio-tab-content">
                 <div className="row">
                     <div className="col-12 d-flex flex-wrap flex-md-row">

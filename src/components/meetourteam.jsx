@@ -4,7 +4,7 @@ import harshbhai from '../Assets/Harsh 1.png'
 import baktesh from '../Assets/Bhaktesh.png'
 import { Link } from 'react-router-dom'
 import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
+import { PiInstagramLogoFill } from "react-icons/pi";
 import { FaLinkedinIn } from "react-icons/fa";
 
 
@@ -36,7 +36,7 @@ function Meetourteam() {
                                                 <FaLinkedinIn />
                                             </Link>
                                             <Link to="https://www.instagram.com/vegad_harsh_84/" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
-                                                <FaInstagram />
+                                            <PiInstagramLogoFill />
                                             </Link>
                                             <Link to="https://www.facebook.com/harsh.vegad.779" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
@@ -60,7 +60,7 @@ function Meetourteam() {
                                                 <FaLinkedinIn />
                                             </Link>
                                             <Link to="https://www.instagram.com/_parth_vaghani/" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
-                                                <FaInstagram />
+                                            <PiInstagramLogoFill />
                                             </Link>
                                             <Link to="https://www.facebook.com/vaghani.parth.129" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
@@ -84,7 +84,7 @@ function Meetourteam() {
                                                 <FaLinkedinIn />
                                             </Link>
                                             <Link to="https://www.instagram.com/bhaktesh_gadhiya_" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
-                                                <FaInstagram />
+                                            <PiInstagramLogoFill />
                                             </Link>
                                             <Link to="https://www.facebook.com/bhakatesh.gadhiya" target='_blank' className="icon_links text-bg-light border d-flex align-items-center justify-content-center rounded-2">
                                                 <FaFacebookF />
