@@ -2,7 +2,8 @@ import React from 'react'
 import { FiUserPlus } from "react-icons/fi";
 import { FaCloudUploadAlt } from "react-icons/fa";
 import { FaSearchPlus } from "react-icons/fa";
-import { FcApproval } from "react-icons/fc";
+import { GoCheckCircleFill } from "react-icons/go";
+
 
 const Jobwork = () => {
     return (
@@ -108,7 +109,7 @@ const Jobwork = () => {
                             <div className="col-12 col-md-6 col-xl-3 hover d-flex justify-content-center flex-column text-center mb-4 mb-lg-0">
                                 <div className="d-flex justify-content-center mb-3">
                                     <div className="jobicon d-flex justify-content-center align-items-center">
-                                        <FcApproval className='icons_job' />
+                                        <GoCheckCircleFill className='icons_job'/>
                                     </div>
                                 </div>
                                 <div className="job_content">

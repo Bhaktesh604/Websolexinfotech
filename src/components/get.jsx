@@ -11,7 +11,7 @@ const Get = () => {
     <>
       <section className="get position-relative py-5">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             <div className="get-menu col-12 d-flex justify-content-center justify-content-lg-between flex-wrap rounded-5">
               <div
                 className="get-box col-md-12 col-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0"

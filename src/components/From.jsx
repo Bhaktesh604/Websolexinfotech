@@ -214,6 +214,15 @@ const From = () => {
         })
     }
 
+    
+    const phoneNumber = "8200845977"; // તમારું નંબર દેશકોડ સાથે
+    // const message = "Hello, I came to your website!";
+    // const encodedMessage = encodeURIComponent(message);
+    const url = `https://wa.me/${phoneNumber}?`;
+
+    const handleClick = () => {
+        window.open(url, '_blank'); // નવા ટેબમાં URL ખોલી દેવું
+      };
 
     // const onselect = (e)=>{
     //     if(e.target.value === "Other"){
@@ -338,45 +347,28 @@ const From = () => {
                                                         required
                                                     >
                                                         <option value="" disabled>Select a Subject</option>
-                                                        <option value="React js Development">React js Development</option>
-                                                        <option value="Node js Development">Node js Development</option>
-                                                        <option value="PHP Development">PHP Development</option>
-                                                        <option value="Laravel Development">Laravel Development</option>
-                                                        <option value="WordPress Development">WordPress Development</option>
-                                                        <option value="Shopify Development">Shopify Development</option>
-                                                        <option value="Angular Development">Angular Development</option>
-                                                        <option value="Wix Development">Wix Development</option>
-                                                        <option value="Webflow Development">Webflow Development</option>
-                                                        <option value="Packaging Design">Packaging Design</option>
-                                                        <option value="Info Graphic Design">Info Graphic Design</option>
-                                                        <option value="Logo Design">Logo Design</option>
-                                                        <option value="Branding Identity">Branding Identity</option>
-                                                        <option value="Print Design">Print Design</option>
-                                                        <option value="App Design">App Design</option>
-                                                        <option value="UI/UX Design">UI/UX Design</option>
-                                                        <option value="Web Design">Web Design</option>
-                                                        <option value="IOS">IOS</option>
-                                                        <option value="Android">Android</option>
-                                                        <option value="Cross Platform">Cross Platform</option>
-                                                        <option value="Search Engine Optimization">Search Engine Optimization</option>
-                                                        <option value="Pay-Per-Click Advertising">Pay-Per-Click Advertising</option>
-                                                        <option value="Social Media Marketing">Social Media Marketing</option>
-                                                        <option value="Email Marketing">Email Marketing</option>
+                                                        <option value="React js Development">Web Development</option>
+                                                        <option value="Node js Development">Graphic Design</option>
+                                                        <option value="PHP Development">UI/UX Design</option>
+                                                        <option value="Laravel Development">Mobile Apps</option>
+                                                        <option value="WordPress Development">Digital Marketing</option>
                                                         <option value="Other" onChange={onselect} >Other</option>
                                                     </select>
                                                 </div>
                                             </div>
                                             {showtextbox && (
-                                                <input
-                                                    type="text"
-                                                    id="otherTextInput"
-                                                    name="otherText"
-                                                    placeholder="Please specify"
-                                                    className="p-2 border-0 rounded-2 mb-3 col-12"
-                                                    value={data.otherText || ""}
-                                                    onChange={onChange}
-                                                    required
-                                                />
+                                                <div className="m-2 other_input col-12 input_sub_box">
+                                                    <input
+                                                        type="text"
+                                                        id="otherTextInput"
+                                                        name="otherText"
+                                                        placeholder="Please Specify"
+                                                        className="p-2 border-0 rounded-2 mb-3"
+                                                        value={data.otherText || ""}
+                                                        onChange={onChange}
+                                                        required
+                                                    />
+                                                </div>
                                             )}
                                             <div className="input_sub_box col-12 ps-0">
                                                 <div className="m-2">
@@ -482,7 +474,7 @@ const From = () => {
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#" className="border rounded-3 d-flex align-items-center">
+                                            <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>

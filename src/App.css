@@ -1746,7 +1746,9 @@ a.dropdown-item img {
     background-color: #f0f0f0;
     padding: 30px 10px;
 }
-
+.input_sub_box input:focus-visible{
+    border: 1px solid transparent;
+}
 .input_sub_box input,
 select {
     height: 50px;
@@ -3699,6 +3701,9 @@ select {
         left: 87%;
         top: 35%;
     }
+    .other_input input{
+        min-width: 98%;
+    }
 }
 
 @media (min-width:375px) {
@@ -4326,6 +4331,9 @@ select {
         left: 91%;
         top: 35%;
     }
+    .other_input input{
+        min-width: 96%;
+    }
 }
 
 @media (min-width:768px) {
@@ -4572,7 +4580,9 @@ select {
         left: 94%;
         top: 35%;
     }
-
+    .other_input input{
+        min-width: 98%;
+    }
     @keyframes animate {
         0% {
             top: -2%;
@@ -4712,6 +4722,10 @@ select {
         width: 20%;
     }
 
+    .sale_report {
+        top: -10%;
+        left: -30%;
+    }
     .round_image {
         width: 447px;
         height: 98px;
@@ -4892,12 +4906,13 @@ select {
     .blog_btn a {
         padding: 14px 20px;
     }
+
 }
 
 @media (min-width:1024px) {
     .megamenu {
         min-width: 100%;
-        left: -50px;
+        left: -34px;
         padding: 15px 40px;
     }
 
@@ -5021,7 +5036,9 @@ select {
         top: 60%;
         left: 80%;
     }
-
+    .other_input input{
+        min-width: 97%;
+    }
     .service .section_title {
         text-align: start !important;
     }
@@ -5033,6 +5050,10 @@ select {
         left: -85px;
     }
 
+    .sale_report {
+        top: -10%;
+        left: 0%;
+    }
     .arrorw::before {
         top: -60px;
         left: 210px;
@@ -5311,7 +5332,7 @@ select {
     .sale_report {
         top: -10%;
         left: 0%;
-        width: 45%;
+        width: 54%;
         transform: scale(0.8);
     }
 
@@ -5444,6 +5465,7 @@ select {
 
     .get-menu {
         font-size: 20px;
+        width: 90%;
     }
 
     .get-icon p {
@@ -5525,13 +5547,15 @@ select {
         width: 22px;
         height: 22px;
     }
-
+    .other_input input {
+        min-width: 98%;
+    }
     .input_sub_box select,
     option {
         font-size: 20px
     }
     .nav-tabs .nav-link {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }
     .sale_report h6, .review_contentt  h6 {
         font-size: 24px;
@@ -5541,6 +5565,16 @@ select {
     }
     .view_content h2 {
         font-size: 50px;
+    }
+    .section_main_title a{
+        padding: 14px 30px;
+        font-size: 20px;
+    }
+    .emailForm button span{
+        font-size: 20px;
+    }
+    .image_shadow {
+        aspect-ratio: 3 / 0.7;
     }
 }
 
