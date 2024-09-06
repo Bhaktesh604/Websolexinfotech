@@ -16,6 +16,7 @@ import Blog from './pages/blogpage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Bussines from './components/bussines';
 import Businesspage from './pages/businesspage';
+import Career from './pages/career';
 import {useEffect} from 'react'
 
 
@@ -45,6 +46,7 @@ function App() {
         <Route path="/service/digital" element={<Digital />}/>
         <Route path='/blog' element={<Blog/>} />
         <Route path='/blog/businesspage' element={<Businesspage/>} />
+        <Route path='/Career' element={<Career/>} />
         {/* <Route path='/blog/bussiness' element={<Bussines/>} /> */}
       </Routes>
       <Footer />

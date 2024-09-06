@@ -1761,6 +1761,9 @@ select {
 .input_sub_box textarea {
     min-height: 150px;
 }
+.input_sub_box input:focus-visible{
+    border: none !important;
+}
 
 .contact_btn .home_btn {
     padding: 14px 20px;
@@ -1993,7 +1996,17 @@ select {
     width: 20px;
     height: 20px;
 }
-
+/* career-section */
+.haringsection{
+    padding: 150px 0px 100px;
+}
+.haring_sub_box{
+    border: 1px solid #00000053;
+}
+.career_button a{
+    padding: 12px 20px;
+    background-color: #54a2d9;
+}
 /* .bussines_name li{
     list-style: disc;
 } */
@@ -5079,7 +5092,7 @@ select {
 
     .megamenu {
         min-width: 100%;
-        left: -25px;
+        left: -30px;
     }
 
     .megamenu_width {
@@ -5268,6 +5281,7 @@ select {
     .megamenu {
         min-width: 100%;
         left: -100px;
+        padding: 15px 50px;
     }
 
     .view_sec {
@@ -5279,17 +5293,20 @@ select {
         height: 740px !important;
     }
 }
-
-@media (min-width:1600px) and (max-width:2100px) {
-    .container {
-        min-width: 1920px;
-        /* padding: 0 25px; */
-        padding: 0px 80px;
-    }
-
+/* @media (min-width:1520px) and (max-width:1600px){
     .megamenu {
         min-width: 100%;
-        left: -14px;
+        left: -140px;
+        padding: 15px 40px;
+    }
+} */
+@media (min-width:1600px) {
+.container{
+    min-width: 1520px;
+}
+    .megamenu {
+        min-width: 100%;
+        left: -68px;
     }
 
     .banner2 {
@@ -5317,6 +5334,304 @@ select {
         top: 20%;
         left: 50%;
         width: 60%;
+        transform: scale(0.6);
+    }
+
+    .view_content {
+        width: 36%;
+    }
+
+    .review_main_box {
+        top: 50%;
+        left: 0%;
+        width: 53%;
+        transform: scale(0.8);
+    }
+
+    .sale_report {
+        top: -10%;
+        left: 0%;
+        width: 54%;
+        transform: scale(0.8);
+    }
+
+    .service_sub_box {
+        aspect-ratio: 3 / 1.1;
+    }
+
+    .portfolio-section .tab-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .review_content_2 {
+        display: grid;
+        aspect-ratio: 3 / 2.0;
+        object-fit: contain;
+    }
+
+    .arrorw_1::before {
+        top: -50px;
+        left: 310px;
+    }
+
+    .arrorw::before {
+        top: -40px;
+        left: 340px;
+    }
+
+    .arrorw_2::before {
+        top: -50px;
+        left: 340px;
+    }
+
+    .megamenu_width a {
+        font-size: 20px;
+    }
+
+    .footer-block__heading {
+        font-size: 38px;
+    }
+
+    .footer-toggle {
+        font-size: 20px;
+    }
+
+    .footer-quick-links {
+        font-size: 20px;
+    }
+
+    .card_body_sub h5 {
+        font-size: 26px;
+    }
+
+    .card_body_sub h6,
+    p {
+        font-size: 20px;
+    }
+
+    .service_page .card-body {
+        height: 430px;
+    }
+
+    .portfolio-section .nav-link {
+        font-size: 20px;
+    }
+
+    .section_main_title h1 {
+        font-size: 48px;
+    }
+
+    .meet_our_team {
+        padding-bottom: 400px !important;
+    }
+
+    .mission_section {
+        padding: 180px 0px 100px;
+    }
+
+    .contact_form {
+        padding: 180px 0px 100px;
+    }
+
+    .contact_heading h3 {
+        font-size: 38px;
+    }
+
+    .contact_heading p {
+        font-size: 20px;
+    }
+
+    .input_sub_box input,
+    textarea {
+        font-size: 20px;
+    }
+
+    .contact_btn .home_btn {
+        font-size: 20px;
+    }
+
+    .contact_icons_bg svg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .icon_links {
+        width: 60px;
+        height: 60px;
+    }
+
+    .icon_links svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 20px;
+    }
+
+    .contact_details a {
+        font-size: 20px
+    }
+
+    .custom_width {
+        width: 30%;
+    }
+
+    .portfolio-image {
+        max-width: 360px;
+    }
+
+    .get-menu {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .get-icon p {
+        font-size: 20px;
+    }
+
+    .get-button a {
+        font-size: 20px;
+    }
+
+    .get {
+        left: 0;
+        top: 40px;
+    }
+
+    .font_size {
+        font-size: 20px;
+    }
+
+    .social_main_menu svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social_main_menu a {
+        padding: 16px 18px;
+    }
+
+    .footer-social svg {
+        width: 60px;
+        height: 60px;
+    }
+
+    .blog_btn a {
+        font-size: 20px;
+    }
+
+    .bolg_heading h5 {
+        font-size: 26px;
+    }
+
+    .bolg_heading p {
+        font-size: 20px;
+    }
+
+    .sub_blog_content h6 {
+        font-size: 22px;
+    }
+
+    .sub_blog_content p {
+        font-size: 18px;
+    }
+
+    .bussines_image img {
+        height: 500px;
+    }
+
+    .bussines_sub_box p {
+        font-size: 18px;
+    }
+
+    .bussines_sub_box h6 {
+        font-size: 22px;
+    }
+
+    .blog_image img {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .blog_input input::placeholder {
+        font-size: 20px;
+    }
+
+    .blog_input svg {
+        left: 92%;
+        top: 33%;
+        width: 22px;
+        height: 22px;
+    }
+    .other_input input {
+        min-width: 98%;
+    }
+    .input_sub_box select,
+    option {
+        font-size: 20px
+    }
+    .nav-tabs .nav-link {
+        font-size: 20px !important;
+    }
+    .sale_report h6, .review_contentt  h6 {
+        font-size: 24px;
+    }
+    .view_sec span{
+        font-size: 30px;
+    }
+    .view_content h2 {
+        font-size: 50px;
+    }
+    .section_main_title a{
+        padding: 14px 30px;
+        font-size: 20px;
+    }
+    .emailForm button span{
+        font-size: 20px;
+    }
+    .image_shadow {
+        aspect-ratio: 3 / 0.9;
+    }
+}
+@media (min-width:1920px) {
+    .container {
+        min-width: 1920px;
+        padding: 0px 80px;
+    }
+
+    .megamenu {
+        min-width: 100%;
+        left: -68px;
+    }
+
+    .banner2 {
+        height: 100% !important;
+    }
+
+    .image_sub_box img {
+        height: 100%;
+    }
+
+    .header .nav-item {
+        padding: 20px !important;
+    }
+
+    .header .nav-item .nav-link {
+        font-size: 20px;
+    }
+
+    .header form a {
+        padding: 14px 30px;
+        font-size: 20px;
+    }
+
+    .view_sec {
+        top: 20%;
+        left: 50%;
+        width: 50%;
         transform: scale(0.6);
     }
 

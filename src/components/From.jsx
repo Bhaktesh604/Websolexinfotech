@@ -287,7 +287,7 @@ const From = () => {
                                                         id='name'
                                                         name='name'
                                                         placeholder="Enter Your Name"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12"
                                                         value={data.name}
                                                         onChange={onChange}
                                                         required
@@ -301,7 +301,7 @@ const From = () => {
                                                         id='email'
                                                         name='email'
                                                         placeholder="Enter Your Email"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12"
                                                         value={data.email}
                                                         onChange={onChange}
                                                         required
@@ -315,7 +315,7 @@ const From = () => {
                                                         id='contactnumber'
                                                         name='contactnumber'
                                                         placeholder="Contact Number"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12"
                                                         value={data.contactnumber}
                                                         onChange={onChange}
                                                         required
@@ -341,7 +341,7 @@ const From = () => {
                                                     <select
                                                         id="subject"
                                                         name="subject"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12"
                                                         value={data.subject}
                                                         onChange={onChange}
                                                         required
@@ -363,7 +363,7 @@ const From = () => {
                                                         id="otherTextInput"
                                                         name="otherText"
                                                         placeholder="Please Specify"
-                                                        className="p-2 border-0 rounded-2 mb-3"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3"
                                                         value={data.otherText || ""}
                                                         onChange={onChange}
                                                         required
@@ -376,7 +376,7 @@ const From = () => {
                                                         id='message'
                                                         name='message'
                                                         placeholder="Submit Your Message Request"
-                                                        className="p-2 border-0 rounded-2 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 col-12"
                                                         value={data.message}
                                                         onChange={onChange}
                                                         required

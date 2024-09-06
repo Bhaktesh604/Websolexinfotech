@@ -500,7 +500,7 @@ const Footer = () => {
                                                 <Link to="/portfolio" onClick={handleTabClick} className='px-0'>Portfolio</Link>
                                             </li>
                                             <li className='mb-3'>
-                                                <Link to="#" onClick={handleTabClick} className='px-0'>Career</Link>
+                                                <Link to="/Career" onClick={handleTabClick} className='px-0'>Career</Link>
                                             </li>
                                             <li className='mb-3'>
                                                 <Link to="#" onClick={handleTabClick} className='px-0'>Contact</Link>
@@ -671,7 +671,7 @@ const Footer = () => {
                                                 <Link to="/portfolio" onClick={handleTabClick} className='text-decoration-none text-black'>Portfolio</Link>
                                             </li>
                                             <li className='mb-3'>
-                                                <Link to="#" onClick={handleTabClick} className='text-decoration-none text-black'>Career</Link>
+                                                <Link to="/Career" onClick={handleTabClick} className='text-decoration-none text-black'>Career</Link>
                                             </li>
                                             <li className='mb-3'>
                                                 <Link to="/company" onClick={handleTabClick} className='text-decoration-none text-black'>Company</Link>
