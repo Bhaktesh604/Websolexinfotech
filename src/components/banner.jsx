@@ -20,6 +20,9 @@ import graf2 from '../Assets/garf.png'
 
 
 function Banner() {
+    const handleTabClick = (tab) => {
+        window.scrollTo(0, 0);
+    };
     return (
         <>
             {/* <section className="banner position-relative">
@@ -74,7 +77,8 @@ function Banner() {
                                     <h2 className='text-light fs-1'>Empowering Your Digital Transformation</h2>
                                     <p className='text-light'>At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
                                     <div className="banner_button2 d-flex pb-5 border-bottom justify-content-center justify-content-lg-start">
-                                        <a href="javascript:void(0);" className='text-decoration-none text-light bg-light text-dark rounded-pill  me-3 border hover_button1'>Get Started</a>
+                                        {/* <a onClick={handleTabClick} to="/contact" className='text-decoration-none text-light bg-light text-dark rounded-pill  me-3 border hover_button1'>Get Started</a> */}
+                                        <Link onClick={handleTabClick} to="/contact" className='text-decoration-none text-light bg-light text-dark rounded-pill  me-3 border hover_button1'>Get Started</Link>
                                         {/* <a href="javascript:void(0);" className='text-decoration-none text-light d-flex align-items-center  border hover_button2 rounded-pill'><IoIosPlay className='me-1' />Watch Video</a> */}
                                     </div>
                                     <div className="col-12 d-flex flex-wrap justify-content-center justify-content-center  text-center text-sm-start text-md-center text-lg-start mt-3 mt-md-0">

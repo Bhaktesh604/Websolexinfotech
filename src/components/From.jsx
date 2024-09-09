@@ -215,13 +215,12 @@ const From = () => {
     }
 
     
-    const phoneNumber = "8200845977"; // તમારું નંબર દેશકોડ સાથે
-    // const message = "Hello, I came to your website!";
-    // const encodedMessage = encodeURIComponent(message);
+    const phoneNumber = "8200845977"; 
+
     const url = `https://wa.me/${phoneNumber}?`;
 
     const handleClick = () => {
-        window.open(url, '_blank'); // નવા ટેબમાં URL ખોલી દેવું
+        window.open(url, '_blank'); 
       };
 
     // const onselect = (e)=>{
