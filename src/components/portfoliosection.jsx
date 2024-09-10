@@ -29,10 +29,10 @@ import { Link } from 'react-router-dom';
 
 const portfolios = {
     'Web Design': [
-        { id: 1, name: 'web Devlopment', discri: 'web Devlopment', src: image1, alt: 'Rectangle 11.png' },
-        { id: 2, name: 'web Devlopment', discri: 'web Devlopment', src: image2, alt: 'Rectangle 12.png' },
-        { id: 3, name: 'web Devlopment', discri: 'web Devlopment', src: image3, alt: 'Rectangle 13.png' },
-        { id: 4, name: 'web Devlopment', discri: 'web Devlopment', src: image4, alt: 'Rectangle 14.png' },
+        { id: 1, name: 'Web Design', discri: 'Web Design', src: image1, alt: 'Rectangle 11.png' },
+        { id: 2, name: 'Web Design', discri: 'Web Design', src: image2, alt: 'Rectangle 12.png' },
+        { id: 3, name: 'Web Design', discri: 'Web Design', src: image3, alt: 'Rectangle 13.png' },
+        { id: 4, name: 'Web Design', discri: 'Web Design', src: image4, alt: 'Rectangle 14.png' },
     ],
     'App Design': [
         { id: 1, name: 'App Design', discri: 'App Design', src: image5, alt: 'Rectangle 15.png' },

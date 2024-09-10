@@ -433,7 +433,7 @@ function service() {
                       <p className="mb-1 fs-14">Rank higher on search engines and attract more organic traffic with our expert SEO strategies tailored to your business.
                       </p>
                     </div>
-                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                    <div className="social d-flex mt-5  justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -444,7 +444,7 @@ function service() {
               <div className="position-relative  mg-10 mx-md-3 col-12">
                 <div className="card border-0 mb-0">
                   <div className="card-body text-center text-lg-start p-4 border-0">
-                    <div className="card_body_sub">
+                    <div className="card_body_sub  pb-md-4 pb-xl-0">
                       <div className="card_icon rounded-1 d-flex align-items-center justify-content-center justify-content-lg-start  mb-3">
                         <img src={click_through} alt="" className='fs-2  img-fluid col-2 col-md-3 col-lg-2' />
                       </div>
@@ -453,7 +453,7 @@ function service() {
                       <p className="mb-1 fs-14">Maximize your ROI with targeted PPC campaigns that drive immediate and measurable results.
                       </p>
                     </div>
-                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                    <div className="social d-flex mt-5  justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
@@ -493,7 +493,7 @@ function service() {
                       <p className="mb-1 fs-14">Reach your customers directly with personalized email campaigns that convert leads into loyal clients.
                       </p>
                     </div>
-                    <div className="social d-flex mt-4  justify-content-end gap-1">
+                    <div className="social d-flex mt-5  justify-content-end gap-1">
                       <a href="javascript:void(0);"><FaArrowRight className="arrow" /></a>
                     </div>
                   </div>
