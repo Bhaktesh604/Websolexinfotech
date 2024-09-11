@@ -15,6 +15,10 @@ li {
     list-style: none;
 }
 
+a {
+    color: #000;
+}
+
 #root {
     overflow-x: hidden;
 }
@@ -783,7 +787,7 @@ a.dropdown-item img {
     object-fit: contain;
 }
 
-.spacing{
+.spacing {
     padding: 150px 0px 100px !important;
 }
 
@@ -1748,9 +1752,11 @@ a.dropdown-item img {
     background-color: #f0f0f0;
     padding: 30px 10px;
 }
-.input_sub_box input:focus-visible{
+
+.input_sub_box input:focus-visible {
     border: 1px solid transparent;
 }
+
 .input_sub_box input,
 select {
     height: 50px;
@@ -1761,7 +1767,8 @@ select {
 .input_sub_box textarea {
     min-height: 150px;
 }
-.input_sub_box input:focus-visible{
+
+.input_sub_box input:focus-visible {
     border: none !important;
 }
 
@@ -1780,6 +1787,31 @@ select {
 .contact_sub_boxx {
     padding: 16px;
     aspect-ratio: 3/1.2;
+    color: #000;
+    transition: all .3s;
+}
+
+.contact_sub_boxx:hover {
+    background-color: #54a2d9;
+    color: #fff !important;
+}
+
+.contact_sub_boxx:hover .contact_details a {
+    color: #fff;
+}
+
+.contact_icons_bg svg {
+    transition: .3s ease;
+}
+
+.contact_sub_boxx:hover .contact_icons_bg svg {
+    background-color: #fff;
+    color: #54a2d9 !important;
+    transition: .3s ease;
+}
+
+.contact_details a {
+    color: #000;
 }
 
 .social_main_menu a {
@@ -1996,17 +2028,21 @@ select {
     width: 20px;
     height: 20px;
 }
+
 /* career-section */
-.haringsection{
+.haringsection {
     padding: 150px 0px 100px;
 }
-.haring_sub_box{
+
+.haring_sub_box {
     border: 1px solid #00000053;
 }
-.career_button a{
+
+.career_button a {
     padding: 12px 20px;
     background-color: #54a2d9;
 }
+
 /* .bussines_name li{
     list-style: disc;
 } */
@@ -3716,7 +3752,8 @@ select {
         left: 87%;
         top: 35%;
     }
-    .other_input input{
+
+    .other_input input {
         min-width: 98%;
     }
 }
@@ -4346,7 +4383,8 @@ select {
         left: 91%;
         top: 35%;
     }
-    .other_input input{
+
+    .other_input input {
         min-width: 96%;
     }
 }
@@ -4565,7 +4603,7 @@ select {
     }
 
     .banner2 {
-        height: 1100px !important;  
+        height: 1100px !important;
     }
 
     .view_sec {
@@ -4595,9 +4633,11 @@ select {
         left: 94%;
         top: 35%;
     }
-    .other_input input{
+
+    .other_input input {
         min-width: 98%;
     }
+
     @keyframes animate {
         0% {
             top: -2%;
@@ -4741,6 +4781,7 @@ select {
         top: -10%;
         left: -30%;
     }
+
     .round_image {
         width: 447px;
         height: 98px;
@@ -4918,6 +4959,7 @@ select {
         left: 87%;
         top: 33%;
     }
+
     .blog_btn a {
         padding: 14px 20px;
     }
@@ -5051,9 +5093,11 @@ select {
         top: 60%;
         left: 80%;
     }
-    .other_input input{
+
+    .other_input input {
         min-width: 97%;
     }
+
     .service .section_title {
         text-align: start !important;
     }
@@ -5069,6 +5113,7 @@ select {
         top: -10%;
         left: 0%;
     }
+
     .arrorw::before {
         top: -60px;
         left: 210px;
@@ -5293,6 +5338,7 @@ select {
         height: 740px !important;
     }
 }
+
 /* @media (min-width:1520px) and (max-width:1600px){
     .megamenu {
         min-width: 100%;
@@ -5301,9 +5347,10 @@ select {
     }
 } */
 @media (min-width:1600px) {
-.container{
-    min-width: 1520px;
-}
+    .container {
+        min-width: 1520px;
+    }
+
     .megamenu {
         min-width: 100%;
         left: -68px;
@@ -5566,36 +5613,47 @@ select {
         width: 22px;
         height: 22px;
     }
+
     .other_input input {
         min-width: 98%;
     }
+
     .input_sub_box select,
     option {
         font-size: 20px
     }
+
     .nav-tabs .nav-link {
         font-size: 20px !important;
     }
-    .sale_report h6, .review_contentt  h6 {
+
+    .sale_report h6,
+    .review_contentt h6 {
         font-size: 24px;
     }
-    .view_sec span{
+
+    .view_sec span {
         font-size: 30px;
     }
+
     .view_content h2 {
         font-size: 50px;
     }
-    .section_main_title a{
+
+    .section_main_title a {
         padding: 14px 30px;
         font-size: 20px;
     }
-    .emailForm button span{
+
+    .emailForm button span {
         font-size: 20px;
     }
+
     .image_shadow {
         aspect-ratio: 3 / 0.9;
     }
 }
+
 @media (min-width:1920px) {
     .container {
         min-width: 1920px;
@@ -5864,32 +5922,42 @@ select {
         width: 22px;
         height: 22px;
     }
+
     .other_input input {
         min-width: 98%;
     }
+
     .input_sub_box select,
     option {
         font-size: 20px
     }
+
     .nav-tabs .nav-link {
         font-size: 20px !important;
     }
-    .sale_report h6, .review_contentt  h6 {
+
+    .sale_report h6,
+    .review_contentt h6 {
         font-size: 24px;
     }
-    .view_sec span{
+
+    .view_sec span {
         font-size: 30px;
     }
+
     .view_content h2 {
         font-size: 50px;
     }
-    .section_main_title a{
+
+    .section_main_title a {
         padding: 14px 30px;
         font-size: 20px;
     }
-    .emailForm button span{
+
+    .emailForm button span {
         font-size: 20px;
     }
+
     .image_shadow {
         aspect-ratio: 3 / 0.7;
     }
@@ -5971,4 +6039,3 @@ select {
         left: -740px;
     }
 } */
-

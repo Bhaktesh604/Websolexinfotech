@@ -163,6 +163,7 @@ import { Link } from 'react-router-dom'
 import EmailJS from 'emailjs-com';
 
 
+
 const From = () => {
 
     const [data, setdata] = useState({
@@ -172,6 +173,20 @@ const From = () => {
         message: ""
     });
     const [showtextbox, setotherinput] = useState(false);
+
+    const [errors, seterror] = useState({
+        email: "",
+        contactnumber: "",
+    })
+
+    const validateemail = () => {
+        const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return regex.test(email);
+    }
+    const validatenumber = () => {
+        const regex = /^[6-9]\d{9}$/;
+        return regex.test(number);
+    }
 
     const onChange = (e) => {
         const { name, value } = e.target;
@@ -186,10 +201,48 @@ const From = () => {
         else if (name === "subject") {
             setotherinput(false);
         }
+        if (name === "email") {
+            if (validateemail(value)) {
+                seterror(preverror => ({
+                    ...preverror,
+                    email: "please enter a valid email address"
+                }))
+            } else {
+                seterror(preverror => ({
+                    ...preverror,
+                    email: "",
+                }))
+            }
+        }
+        if (name === "contactnumber") {
+            if (validateemail(value)) {
+                seterror(preverror => ({
+                    ...preverror,
+                    contactnumber: "please enter a valid email address"
+                }))
+            } else {
+                seterror(preverror => ({
+                    ...preverror,
+                    contactnumber: "",
+                }))
+            }
+        }
+        if (name === 'name') {
+            seterror(preverror=>({
+                ...preverror,
+                name:""
+            }))
+        }
     }
 
     const onSubmit = (e) => {
         e.preventDefault();
+
+        if (errors.email || errors.contactnumber) {
+            alert("please correct email and contactnumber ")
+            return;
+        }
+
         const emailParams = {
             name: data.name,
             email: data.email,
@@ -214,14 +267,14 @@ const From = () => {
         })
     }
 
-    
-    const phoneNumber = "8200845977"; 
+
+    const phoneNumber = "8200845977";
 
     const url = `https://wa.me/${phoneNumber}?`;
 
     const handleClick = () => {
-        window.open(url, '_blank'); 
-      };
+        window.open(url, '_blank');
+    };
 
     // const onselect = (e)=>{
     //     if(e.target.value === "Other"){
@@ -422,7 +475,7 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Mobile</h4>
-                                                    <a href="tel:8200845977" className='text-black'>+91 82008-45977</a>
+                                                    <a href="tel:8200845977" >+91 82008-45977</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -448,7 +501,7 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Email</h4>
-                                                    <a href="mailto:websolexinfotech@gmail.com" className='text-black'>websolexinfotech@gmail.com</a>
+                                                    <a href="mailto:websolexinfotech@gmail.com">websolexinfotech@gmail.com</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -475,7 +528,7 @@ const From = () => {
                                         <li className="me-3">
                                             <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
                                                 {/* <IoLogoWhatsapp  className='text-black fs-5'/> */}
-                                                <IoLogoWhatsapp className='text-black fs-5'/>
+                                                <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>
                                     </ul>

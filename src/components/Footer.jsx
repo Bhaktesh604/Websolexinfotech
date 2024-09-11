@@ -426,7 +426,7 @@ const Footer = () => {
         const emailParams = {
             email: data.email,
         }
-        emailjs.send('service_soybehv', 'template_4t4vayi', emailParams, 'yC07B7kWN5O46D558')
+        emailjs.send('service_csia6iy', 'template_confirmation', emailParams, 'NuQv9XskxV05oXLmu')
             .then((response) => {
                 alert(`SUCCESS! ${response.status} - ${response.text}`);
             }, (error) => {
