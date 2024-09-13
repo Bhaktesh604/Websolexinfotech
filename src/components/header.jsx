@@ -496,7 +496,7 @@ const Header = (pagetitle) => {
                         <div className="row">
                             <nav className="navbar navbar-expand-lg py-3 px-2 px-md-0">
                                 <div className="container-fluid d-flex">
-                                    <Link className="navbar-brand col-2" to="#"><img src={logo} alt="Logo" /></Link>
+                                    <Link className="navbar-brand col-2" to="/" onClick={handleTabClick}><img src={logo} alt="Logo" /></Link>
                                     <button
                                         className={`navbar-toggler ${isCollapsed ? '' : 'collapsed'}`}
                                         type="button"

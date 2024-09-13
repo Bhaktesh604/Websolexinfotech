@@ -176,7 +176,7 @@ const From = () => {
     });
 
     const [showtextbox, setotherinput] = useState(false);
-    const [successMessage, setSuccessMessage] = useState(''); // State to handle success message
+    const [successMessage, setSuccessMessage] = useState(''); 
     const [dangerMessage, setsdangerMessage] = useState('');
     const [email, setEmail] = useState('');
     const [contactnumber, setContactNumber] = useState('');
@@ -286,18 +286,10 @@ const From = () => {
         window.open(url, '_blank');
     };
 
-    // const onselect = (e)=>{
-    //     if(e.target.value === "Other"){
-    //         setotherinput(true);
-    //     }
-    //     else{
-    //         setotherinput(false);
-    //     }
-    // }
 
     return (
         <>
-            <section className="contact_form  pt-100 ">
+            <section className="contact_form  ">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">
@@ -318,38 +310,6 @@ const From = () => {
                             <div className="col-12 col-xl-6 mb-5 mb-xl-0">
                                 <div className="contact_form_sub rounded-3 m-xl-3">
                                     <h2 className="mb-4 text-center">Get in Touch with Us</h2>
-                                    {/* <form>
-                                        <div className="input_main_menu d-flex flex-wrap">
-                                            <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
-                                                    <input type="text" placeholder="Enter Your Name"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
-                                                </div>
-                                            </div>
-                                            <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
-                                                    <input type="text" placeholder="Enter Your Email"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
-                                                </div>
-                                            </div>
-                                            <div className="input_sub_box col-12 ps-0">
-                                                <div className="m-2">
-                                                    <input type="text" placeholder="Subject"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12" />
-                                                </div>
-                                            </div>
-                                            <div className="input_sub_box col-12 ps-0">
-                                                <div className="m-2">
-                                                    <textarea name="" placeholder="Submit Your Message Request"
-                                                        className="p-2 border-0 rounded-2  col-12" id=""></textarea>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
-                                            <input type="send" class="home_btn border text-light rounded-3 m-2 fw-semibold" title="Send Your Message!"
-                                                tabindex="_blank">Send Message</input>
-                                        </div>
-                                    </form> */}
                                     <form onSubmit={onSubmit}>
                                         <div className="input_main_menu d-flex flex-wrap">
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
@@ -400,26 +360,12 @@ const From = () => {
                                             {errors.contactnumber && (
                                                 <small className='text-danger'> {errors.contactnumber} </small>
                                             )}
-                                            {/* <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
-                                                    <input
-                                                        type="text"
-                                                        id='subject'
-                                                        name='subject'
-                                                        placeholder="Subject"
-                                                        className="p-2 border-0 rounded-2 mb-3 col-12"
-                                                        value={data.subject}
-                                                        onChange={onChange}
-                                                        required
-                                                    />
-                                                </div>
-                                            </div> */}
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <select
                                                         id="subject"
                                                         name="subject"
-                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12"
+                                                        className="py-2 ps-3 pe-2 border-0 rounded-2 mb-3 col-12 bg-white"
                                                         value={data.subject}
                                                         onChange={onChange}
                                                         required
@@ -541,11 +487,6 @@ const From = () => {
                                                 <FaFacebookF className='text-black fs-5' />
                                             </Link>
                                         </li>
-                                        {/* <li className="me-3">
-                                            <Link to="#" target='_blank' className="border rounded-3 d-flex align-items-center">
-                                                <FaTwitter className='text-black fs-5' />
-                                            </Link>
-                                        </li> */}
                                         <li className="me-3">
                                             <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaLinkedinIn className='text-black fs-5' />
@@ -553,7 +494,6 @@ const From = () => {
                                         </li>
                                         <li className="me-3">
                                             <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
-                                                {/* <IoLogoWhatsapp  className='text-black fs-5'/> */}
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>

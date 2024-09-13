@@ -3714,6 +3714,9 @@ select {
     .portfolio-section ul {
         overflow-x: scroll;
     }
+    .contact_form{
+        padding: 130px 0px 50px;
+    }
 
     .nav-tabs .nav-link {
         font-size: 17px;
@@ -4385,6 +4388,9 @@ select {
 
     .other_input input {
         min-width: 96%;
+    }
+    .contact_form {
+        padding: 180px 0px 100px;
     }
 }
 

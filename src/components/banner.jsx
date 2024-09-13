@@ -151,25 +151,6 @@ function Banner() {
                                         <div className=" col-6 ">
                                             <img src={graf2} alt="" className='col-9'/>
                                         </div>
-                                        {/* <p className='fw-bold'>Group Memory</p>
-                                        <div className="d-flex align-items-center mb-3">
-                                            <div className="col-4 pe-3">
-                                                <img src={review_img1} alt="" className='col-12 h-100 border-0 rounded-circle'/>
-                                            </div>
-                                            <div className="">
-                                                <h6 className='mb-0'>+918200856187</h6>
-                                                <p className='mb-0'>Parth Vaghani</p>
-                                            </div>
-                                        </div>
-                                        <div className="d-flex align-items-center">
-                                            <div className="col-4 pe-3">
-                                                <img src={review_img2} alt="" className='col-12 h-100 border-0 rounded-circle'/>
-                                            </div>
-                                            <div className="">
-                                                <h6 className='mb-0'>+918200856187</h6>
-                                                <p className='mb-0'>Parth Vaghani</p>
-                                            </div>
-                                        </div> */}
                                     </div>
                                     <div className="sale_report  d-sm-flex position-absolute justify-content-between bg-light p-3 rounded-4 col-7 col-md-6  col-lg-10 col-xl-7 col-xxl-6 ">
                                         <div className="me-sm-3 mb-3">
