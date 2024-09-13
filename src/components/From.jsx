@@ -297,7 +297,7 @@ const From = () => {
 
     return (
         <>
-            <section className="contact_form  py-50 ">
+            <section className="contact_form  pt-100 ">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">

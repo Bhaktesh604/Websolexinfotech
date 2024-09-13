@@ -3731,8 +3731,7 @@ select {
     }
 
     .service_page,
-    .portfolio-section,
-    .contact_form {
+    .portfolio-section {
         padding: 100px 0px;
     }
 
