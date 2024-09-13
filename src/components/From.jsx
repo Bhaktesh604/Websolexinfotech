@@ -159,12 +159,14 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { Link } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import EmailJS from 'emailjs-com';
+import '../forms.css'
 
 
 
 const From = () => {
+    const navigate = useNavigate()
 
     const [data, setdata] = useState({
         name: "",
@@ -172,8 +174,12 @@ const From = () => {
         subject: "",
         message: ""
     });
-    const [showtextbox, setotherinput] = useState(false);
 
+    const [showtextbox, setotherinput] = useState(false);
+    const [successMessage, setSuccessMessage] = useState(''); // State to handle success message
+    const [dangerMessage, setsdangerMessage] = useState('');
+    const [email, setEmail] = useState('');
+    const [contactnumber, setContactNumber] = useState('');
     const [errors, seterror] = useState({
         email: "",
         contactnumber: "",
@@ -183,9 +189,10 @@ const From = () => {
         const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return regex.test(email);
     }
+    
     const validatenumber = () => {
         const regex = /^[6-9]\d{9}$/;
-        return regex.test(number);
+        return regex.test(contactnumber);
     }
 
     const onChange = (e) => {
@@ -195,13 +202,8 @@ const From = () => {
             [name]: value
         }));
 
-        if (name === "subject" && value === "Other") {
-            setotherinput(true);
-        }
-        else if (name === "subject") {
-            setotherinput(false);
-        }
-        if (name === "email") {
+        
+        if (name === 'email') {
             if (validateemail(value)) {
                 seterror(preverror => ({
                     ...preverror,
@@ -214,8 +216,8 @@ const From = () => {
                 }))
             }
         }
-        if (name === "contactnumber") {
-            if (validateemail(value)) {
+        if (name === 'contactnumber') {
+            if (validatenumber(value)) {
                 seterror(preverror => ({
                     ...preverror,
                     contactnumber: "please enter a valid email address"
@@ -228,10 +230,16 @@ const From = () => {
             }
         }
         if (name === 'name') {
-            seterror(preverror=>({
+            seterror(preverror => ({
                 ...preverror,
-                name:""
+                name: ""
             }))
+        }
+        if (name === "subject" && value === "Other") {
+            setotherinput(true);
+        }
+        else if (name === "subject") {
+            setotherinput(false);
         }
     }
 
@@ -253,18 +261,20 @@ const From = () => {
 
         EmailJS.send('service_soybehv', 'template_73gw0e4', emailParams, 'yC07B7kWN5O46D558')
             .then((response) => {
-                alert(`SUCCESS! ${response.status} - ${response.text}`);
+                // setSuccessMessage(`SUCCESS! ${response.status} - ${response.text}`);
+                navigate('/thankyou');
+                
             }, (error) => {
-                alert(`FAILED... ${error}`)
+                setsdangerMessage(`FAILED... ${error}`)
             });
+            setdata({
+                name: "",
+                email: "",
+                contactnumber: "",
+                subject: "",
+                message: ""
+            })
 
-        setdata({
-            name: "",
-            email: "",
-            contactnumber: "",
-            subject: "",
-            message: ""
-        })
     }
 
 
@@ -294,6 +304,16 @@ const From = () => {
                             <h3 className="fw-semibold mb-4">Let’s Connect and Create Something Amazing!</h3>
                             <p>We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!</p>
                         </div>
+                        {successMessage && (
+                            <div className="alert alert-success mt-4" role="alert">
+                                {successMessage}
+                            </div>
+                        )}
+                        {dangerMessage && (
+                            <div className="alert alert-danger mt-4" role="danger">
+                                {dangerMessage}
+                            </div>
+                        )}
                         <div className="col-12 d-flex flex-wrap align-items-center">
                             <div className="col-12 col-xl-6 mb-5 mb-xl-0">
                                 <div className="contact_form_sub rounded-3 m-xl-3">
@@ -360,6 +380,9 @@ const From = () => {
                                                     />
                                                 </div>
                                             </div>
+                                            {errors.email && (
+                                                <small className='text-danger'> {errors.email} </small>
+                                            )}
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <input
@@ -374,6 +397,9 @@ const From = () => {
                                                     />
                                                 </div>
                                             </div>
+                                            {errors.contactnumber && (
+                                                <small className='text-danger'> {errors.contactnumber} </small>
+                                            )}
                                             {/* <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <input
@@ -440,10 +466,10 @@ const From = () => {
                                             <button
                                                 type="submit"
                                                 className="home_btn border text-light rounded-3 m-2 fw-semibold"
-                                                title="Send Your Message!"
-                                            >
+                                                title="Send Your Message!">
                                                 Send Message
                                             </button>
+
                                         </div>
                                     </form>
 
