@@ -161,7 +161,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { Link,useNavigate } from 'react-router-dom'
 import EmailJS from 'emailjs-com';
-import '../forms.css'
+import '../forms.css';
+import { AiFillInstagram } from "react-icons/ai";
 
 
 
@@ -408,7 +409,7 @@ const From = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="contact_btn mt-4 d-flex d-xxl-block justify-content-center">
+                                        <div className="contact_btn mt-4 d-flex justify-content-center">
                                             <button
                                                 type="submit"
                                                 className="home_btn border text-light rounded-3 m-2 fw-semibold"
@@ -434,7 +435,7 @@ const From = () => {
                                                 </div>
                                                 <div className="contact_details">
                                                     <h4>Address</h4>
-                                                    <p title='A-103 IT Park Mota Varachha Road Surat Gujarat' className="mb-0">A-103 IT Park Mota Varachha Road Surat Gujarat</p>
+                                                    <p title='A-103 IT Park Mota Varachha Road Surat Gujarat' className="mb-0">A-103 IT Park Mota Varachha Road Surat Gujarat.</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -488,13 +489,18 @@ const From = () => {
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
-                                                <FaLinkedinIn className='text-black fs-5' />
+                                            <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
+                                                <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>
                                         <li className="me-3">
-                                            <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
-                                                <IoLogoWhatsapp className='text-black fs-5' />
+                                            <Link to="https://www.instagram.com/websolex_infotech/" target='_blank' className="border rounded-3 d-flex align-items-center">
+                                                <AiFillInstagram  className='text-black fs-5'/>
+                                            </Link>
+                                        </li>
+                                        <li className="me-3">
+                                            <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
+                                                <FaLinkedinIn className='text-black fs-5' />
                                             </Link>
                                         </li>
                                     </ul>

@@ -66,8 +66,19 @@ const styles = {
 const ThankYou = () => {
     return (
         <div className='thankyou_page py-100'>
+            {/* <div className="container">
+                <div className="row">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-body">
+                            <h2 class="fs-5">Popover in a modal</h2>
+                            <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
+                            <h2 class="fs-5">Tooltips in a modal</h2>
+                            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
+                        </div>
+                    </div>
+                </div>
+            </div> */}
             <div style={styles.message}>
-                {/* <i style={styles.checkmark} className="fas fa-check"></i> */}
                 <FontAwesomeIcon style={styles.checkmark} icon={faCheck} size="2x" color="green" />
                 <h1 style={styles.title}>THANK YOU!</h1>
                 <p style={styles.pera} >
