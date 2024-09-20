@@ -403,15 +403,16 @@ import { FiLinkedin } from "react-icons/fi";
 import { SlSocialBehance } from "react-icons/sl";
 import { Link } from 'react-router-dom';
 import emailjs from 'emailjs-com';
-import { error } from 'jquery';
+import { useNavigate } from 'react-router-dom';
+
 
 const Footer = () => {
-
+    const navigate = useNavigate()
+    const [data, setdata] = useState({ email: "" });
     const handleTabClick = (tab) => {
         window.scrollTo(0, 0);
 
     };
-    const [data, setdata] = useState({ email: "" });
 
     const onhange = (e) => {
         const { name, value } = e.target;
@@ -428,7 +429,7 @@ const Footer = () => {
         }
         emailjs.send('service_csia6iy', 'template_confirmation', emailParams, 'NuQv9XskxV05oXLmu')
             .then((response) => {
-                alert(`SUCCESS! ${response.status} - ${response.text}`);
+                navigate('/thankyou');
             }, (error) => {
                 alert(`FAILD... ${error}`);
             });
@@ -714,8 +715,13 @@ const Footer = () => {
                                         <div className="footer-toggle">
                                             <p>Accompany us on our growth journey to glean insights from our experiences </p>
                                             <form onSubmit={onsubmit} className='single-footer-widget'>
-                                                <input className="mil-rounded-input mil-text-center mil-mb-5" id='email' type="text"
-                                                    placeholder="Your email address" value={data.email} onChange={onchange} name="email" />
+                                                <input className="mil-rounded-input mil-text-center mil-mb-5" type="email"
+                                                    id='email'
+                                                    name='email'
+                                                    placeholder="Enter Your Email"
+                                                    value={data.email}
+                                                    onChange={onhange}
+                                                    required />
                                                 <button className="mil-button mil-accent-bg mil-fw" type="submit">
                                                     <span className="text-light">Subscribe</span></button>
                                             </form>
@@ -751,7 +757,7 @@ const Footer = () => {
                                 </li>
                                 <li>
                                     <Link to="https://www.behance.net/unityinfotech" target="_blank">
-                                    <SlSocialBehance />
+                                        <SlSocialBehance />
                                     </Link>
                                 </li>
                             </ul>

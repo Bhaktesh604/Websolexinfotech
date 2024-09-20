@@ -6,6 +6,8 @@ import logo4 from '../Assets/logoimg4.png';
 import logo5 from '../Assets/logoimg5.png';
 import logo6 from '../Assets/logoimg6.png';
 import logo7 from '../Assets/logoimg7.png';
+import logo8 from '../Assets/logoimg8.png';
+import logo9 from '../Assets/logoimg9.png';
 import '../App.css';
 
 function Clientside() {
@@ -90,6 +92,11 @@ function Clientside() {
                                 <img src={logo6} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
+                        <div className="box col-md-6 col-xl-3">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                                <img src={logo8} className="img-fluid image_shadow" alt="Dreamliner Logo" />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="clients col-12 text-center  mb-md-3">
@@ -97,6 +104,11 @@ function Clientside() {
                         <div className="box col-md-6 col-xl-3">
                             <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
                                 <img src={logo7} className="img-fluid image_shadow" alt="Dreamliner Logo" />
+                            </div>
+                        </div>
+                        <div className="box col-md-6 col-xl-3">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                                <img src={logo9} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                     </div>

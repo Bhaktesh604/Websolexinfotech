@@ -1,5 +1,6 @@
-import React from 'react';
-import './thankyou.css'; // Import your external CSS file if needed
+// import React from 'react';
+import React, { useState, useEffect } from 'react';
+import './thankyou.css'; 
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
@@ -63,21 +64,43 @@ const styles = {
     }
 };
 
+
 const ThankYou = () => {
+
+    // const [isPopupOpen, setIsPopupOpen] = useState(true); 
+
+    // const closePopup = () => {
+    //     setIsPopupOpen(false);
+    // };
+
+    // useEffect(() => {
+    //     const timer = setTimeout(() => {
+    //         closePopup();
+    //     }, 5000); 
+    //     return () => clearTimeout(timer); 
+    // }, []);
+
     return (
+        // <>
+        //   {isPopupOpen && (
+        //         <div className='modal-overlay py-100'>
+        //             <div className='modal-content'>
+        //                 <div className='checkmark'>
+        //                     <FontAwesomeIcon icon={faCheck} />
+        //                 </div>
+        //                 <h1 className='title'>THANK YOU!</h1>
+        //                 <p className='message'>
+        //                     Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.
+        //                 </p>
+        //                 <button className='close-button' onClick={closePopup}>
+        //                     Close
+        //                 </button>
+        //             </div>
+        //         </div>
+        //     )}
+        // </>
+
         <div className='thankyou_page py-100'>
-            {/* <div className="container">
-                <div className="row">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-body">
-                            <h2 class="fs-5">Popover in a modal</h2>
-                            <p>This <button class="btn btn-secondary" data-bs-toggle="popover" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</button> triggers a popover on click.</p>
-                            <h2 class="fs-5">Tooltips in a modal</h2>
-                            <p><a href="#" data-bs-toggle="tooltip" title="Tooltip">This link</a> and <a href="#" data-bs-toggle="tooltip" title="Tooltip">that link</a> have tooltips on hover.</p>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
             <div style={styles.message}>
                 <FontAwesomeIcon style={styles.checkmark} icon={faCheck} size="2x" color="green" />
                 <h1 style={styles.title}>THANK YOU!</h1>
@@ -90,3 +113,51 @@ const ThankYou = () => {
 };
 
 export default ThankYou;
+
+
+
+// import React from 'react';
+// import React, { useState, useEffect } from 'react';
+// import './thankyou.css'; // Import your external CSS file if needed
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faCheck } from '@fortawesome/free-solid-svg-icons';
+
+// const ThankYou = () => {
+//     const [isPopupOpen, setIsPopupOpen] = useState(true); // Control the visibility of the popup
+
+//     // Function to close the popup
+//     const closePopup = () => {
+//         setIsPopupOpen(false);
+//     };
+
+//     // Auto-close the popup after 5 seconds (optional)
+//     useEffect(() => {
+//         const timer = setTimeout(() => {
+//             closePopup();
+//         }, 5000); // Close after 5 seconds
+//         return () => clearTimeout(timer); // Cleanup on component unmount
+//     }, []);
+
+//     return (
+//         <>
+//             {isPopupOpen && (
+//                 <div className='modal-overlay py-100'>
+//                     <div className='modal-content'>
+//                         <div className='checkmark'>
+//                             <FontAwesomeIcon icon={faCheck} />
+//                         </div>
+//                         <h1 className='title'>THANK YOU!</h1>
+//                         <p className='message'>
+//                             Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.
+//                         </p>
+//                         <button className='close-button' onClick={closePopup}>
+//                             Close
+//                         </button>
+//                     </div>
+//                 </div>
+//             )}
+//         </>
+//     );
+// };
+
+// export default ThankYou;
