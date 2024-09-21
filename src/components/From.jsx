@@ -290,7 +290,7 @@ const From = () => {
 
     return (
         <>
-            <section className="contact_form  ">
+            <section className="contact_form">
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">
@@ -316,7 +316,7 @@ const From = () => {
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
                                                 <div className="m-2">
                                                     <input
-                                                        type="text"
+                                                        type="text" 
                                                         id='name'
                                                         name='name'
                                                         placeholder="Enter Your Name"

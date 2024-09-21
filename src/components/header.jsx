@@ -401,7 +401,8 @@ const Header = (pagetitle) => {
                         <div className="row">
                             <nav className="navbar navbar-expand-lg">
                                 <div className="container-fluid">
-                                    <Link className="navbar-brand col-2" to="/" onClick={handleTabClick} ><img src={logo} alt="WebSolex Infotech" /></Link>
+                                    <Link className="navbar-brand col-2" to="/"  onClick={() => { handleTabClick('Home'); setTitle('WebSolex Infotech || Home');
+                                    }}><img src={logo} alt="WebSolex Infotech" /></Link>
                                     <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={!isCollapsed}>
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
@@ -409,7 +410,7 @@ const Header = (pagetitle) => {
                                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link ${activeTab === 'Home' ? 'active text-primary fw-bold' : ''}`} to="/"
-                                                     onClick={() => {
+                                                    onClick={() => {
                                                         handleTabClick('Home');
                                                         setTitle('WebSolex Infotech || Home');
                                                     }}
@@ -423,7 +424,7 @@ const Header = (pagetitle) => {
                                                         handleTabClick('Services');
                                                         setTitle('WebSolex Infotech || Services');
                                                     }}
-                                                     onMouseEnter={() => setMouseEnter(true)} >
+                                                    onMouseEnter={() => setMouseEnter(true)} >
                                                     Services
                                                 </Link>
                                                 {
@@ -449,7 +450,7 @@ const Header = (pagetitle) => {
                                             </li>
                                             <li className="nav-item p-3 text-center">
                                                 <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
-                                                 
+
                                                     onClick={() => {
                                                         handleTabClick('Portfolio');
                                                         setTitle('WebSolex Infotech || Portfolio');
