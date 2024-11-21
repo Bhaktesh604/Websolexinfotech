@@ -11,7 +11,7 @@
   <!-- <meta name="author" content="Parth Vaghani or WebSolex Infotech" /> -->
   <!-- <meta http-equiv="refresh" content="5" /> -->
   <meta name="theme-color" content="#000000" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="icon" id="fav" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
   <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -82,6 +82,22 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5MRC5LND" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
+   <script>
+    function changeFavicon(iconUrl){
+    const fav = document.getElementById('fav');
+    fav.href=iconUrl
+  }
+  document.addEventListener("visibilitychange",()=>{
+    if(document.hidden){
+      changeFavicon('https://www.cambridge.org/elt/blog/wp-content/uploads/2019/07/Sad-Face-Emoji.png')
+      document.title = "Hey, come back!";
+    }
+    else{
+       changeFavicon('%PUBLIC_URL%/favicon.ico')
+        document.title = "websolex infotech";
+    }
+  })
+   </script>
 </body>
 
 </html>

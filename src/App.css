@@ -5164,9 +5164,7 @@ select {
     }
 
     .review_content_2 {
-        display: grid;
         aspect-ratio: 3 / 2.8;
-        object-fit: contain;
     }
 
     .review_content_2 p {
@@ -5726,9 +5724,7 @@ select {
     }
 
     .review_content_2 {
-        display: grid;
         aspect-ratio: 3 / 2.0;
-        object-fit: contain;
     }
 
     .arrorw_1::before {

@@ -1,5 +1,4 @@
 
-
 // import React, { useState } from 'react';
 // import logo from '../Assets/Logo.png';
 // import { Link } from 'react-router-dom';
@@ -236,6 +235,7 @@
 
 // export default Header;
 
+
 import React, { useEffect, useState } from 'react';
 import logo from '../Assets/Logo.png';
 import { Link } from 'react-router-dom';
@@ -270,6 +270,8 @@ const Header = (pagetitle) => {
         setIsCollapsed(true);
 
     };
+
+
     // const handleTabClick = (tab) => {
     //     setActiveTab(tab);
     //     window.scrollTo(0, 0);
@@ -279,7 +281,6 @@ const Header = (pagetitle) => {
     // const toggleNavbar = () => {
     //     setIsCollapsed(!isCollapsed);
     // };
-
 
 
     const ServiceTab = [
