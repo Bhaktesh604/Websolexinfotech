@@ -28,11 +28,7 @@ import Thankyou from './components/thankyou';
 
 
 function App() {
-  useEffect(() => {
-    document.title = "WebSolex Infotech | Custom Software & Web Development Services";
-    document.querySelector('meta[name="description"]').setAttribute("content", "WebSolex Infotech - Your trusted partner for custom software solutions, web development, and digital transformation services.");
-    document.querySelector('meta[name="keywords"]').setAttribute("content", "WebSolex Infotech, WebSolex, web development, software development, custom software solutions, IT services, mobile app development, e-commerce development, digital marketing, cloud solutions, UI/UX design, frontend development, backend development, React.js development, technology solutions");
-  }, []);
+  
 
   return (
     <Router>
