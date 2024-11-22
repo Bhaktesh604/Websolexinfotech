@@ -16,10 +16,10 @@ const ChooseSection = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 text-center mb-5">
-                        <h1 className='fw-bold'>Why Choose Us</h1>
+                        <h1 className='fw-bold wow animate__animated animate__fadeInDown'>Why Choose Us</h1>
                     </div>
                     {reasons.map(reason => (
-                        <div key={reason.id} className="col-12 col-md-6 col-xl-4 mb-4">
+                        <div key={reason.id} className="col-12 col-md-6 col-xl-4 mb-4 wow animate__animated animate__fadeInRight ">
                             <div className="d-flex">
                                 <div className="number_choose position-relative me-4">
                                     <p className="mb-0 fw-bold">{reason.id < 10 ? `0${reason.id}` : reason.id}</p>

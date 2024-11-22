@@ -73,7 +73,7 @@ function Banner() {
                     <div className="row">
                         <div className="col-12 d-flex flex-wrap">
                             <div className="col-12 col-lg-7 col-xl-6 mb-5 mb-lg-0">
-                                <div className="banner_content2 mt-5  text-center text-lg-start">
+                                <div className="banner_content2 mt-5  text-center text-lg-start wow animate__animated animate__fadeInLeft">
                                     <h2 className='text-light fs-1'>Empowering Your Digital Transformation</h2>
                                     <p className='text-light'>At WebSolex Infotech, we specialize in delivering cutting-edge technology solutions that drive innovation and efficiency. From website development to application design, UI/UX services, graphics design, and digital marketing, we provide a full suite of IT services tailored to your needs. Let's build your digital future together.</p>
                                     <div className="banner_button2 d-flex pb-5 border-bottom justify-content-center justify-content-lg-start">
@@ -108,7 +108,7 @@ function Banner() {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-5 col-xl-6">
-                                <div className="image_sub_box d-flex justify-content-center position-relative">
+                                <div className="image_sub_box d-flex justify-content-center position-relative wow animate__animated animate__fadeInRight">
                                     <img src={banner_img} alt="" className='col-12 col-md-9 col-xl-8 rounded-4' />
                                     <div className="review_main_box position-absolute bg-light p-3 d-flex align-items-center justify-content-between rounded-pill col-sm-8 col-md-6 col-lg-10 col-xl-7 col-xxl-6">
                                         <div className="review_image">

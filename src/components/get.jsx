@@ -14,7 +14,7 @@ const Get = () => {
           <div className="row justify-content-center">
             <div className="get-menu col-12 d-flex justify-content-center justify-content-lg-between flex-wrap rounded-5">
               <div
-                className="get-box col-md-12 col-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0"
+                className="get-box col-md-12 col-lg-4 d-flex flex-column flex-lg-row align-items-center justify-content-center justify-content-lg-start mb-3 mb-lg-0 wow animate__animated animate__fadeInLeft"
               >
                 <div className="get-icon me-0 me-lg-3 mb-2 mb-xl-0">
                   <Link to="tel:+918200845977" className="d-flex justify-content-center align-items-center">
@@ -28,13 +28,13 @@ const Get = () => {
                   <p className="mb-0 text-white">+91 82008 45977</p>
                 </div>
               </div>
-              <div className="get-icon col-md-12 col-lg-4 text-center mb-4 mb-lg-0">
+              <div className="get-icon col-md-12 col-lg-4 text-center mb-4 mb-lg-0 wow animate__animated animate__fadeInDown">
                 <p className="mb-3 mb-sm-0">
                 We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!
                 </p>
               </div>
               <div
-                className="get-button col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center"
+                className="get-button col-12 col-lg-4 d-flex justify-content-center justify-content-lg-end align-items-center wow animate__animated animate__fadeInRight"
               >
                 <div className="get_encar">
                   <Link onClick={handleTabClick} to="/contact" className=" d-flex align-items-center text-decoration-none">Make Appointment</Link>

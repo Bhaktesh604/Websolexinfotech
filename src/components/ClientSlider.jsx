@@ -1,4 +1,5 @@
 import React from 'react';
+
 import logo1 from '../Assets/logoimg1.png';
 import logo2 from '../Assets/logoimg2.png';
 import logo3 from '../Assets/logoimg3.png';
@@ -54,27 +55,27 @@ function Clientside() {
         <div className="container  px-md-5 py-5">
             <div className="row mb-md-4 align-items-center justify-content-center"> 
                 <div className="section_main_title text-center mb-3 mb-md-5">
-                    <h1 className='fw-bold'>Valued Clients</h1>
+                    <h1 className='fw-bold wow animate__animated animate__fadeInDown'>Valued Clients</h1>
                 </div>
                 <div className="clients col-12 text-center  mb-md-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">
                         <div className="box col-md-6 col-xl-3">
                             <div className="box_body m-2 rounded-1  border-bottom ">
-                                <img src={logo1} className="img-fluid image_shadow" alt="Dreamliner Logo" />
+                                <img src={logo1} className="img-fluid image_shadow wow animate__animated animate__fadeInLeft" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom  ">
+                            <div className="box_body m-2 rounded-1  border-bottom wow animate__animated animate__fadeInLeft ">
                                 <img src={logo2} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom  ">
+                            <div className="box_body m-2 rounded-1  border-bottom  wow animate__animated animate__fadeInRight">
                                 <img src={logo3} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom  ">
+                            <div className="box_body m-2 rounded-1  border-bottom  wow animate__animated animate__fadeInRight">
                                 <img src={logo4} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
@@ -83,17 +84,17 @@ function Clientside() {
                 <div className="clients col-12 text-center  mb-md-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 wow animate__animated animate__fadeInLeft">
                                 <img src={logo5} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 wow animate__animated animate__fadeInLeft">
                                 <img src={logo6} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3  wow animate__animated animate__fadeInRight">
                                 <img src={logo8} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
@@ -102,12 +103,12 @@ function Clientside() {
                 <div className="clients col-12 text-center  mb-md-3">
                     <div className="col-12 d-flex flex-wrap  col-12 justify-content-center">
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 wow animate__animated animate__fadeInLeft">
                                 <img src={logo7} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>
                         <div className="box col-md-6 col-xl-3">
-                            <div className="box_body m-2 rounded-1  border-bottom pb-3 ">
+                            <div className="box_body m-2 rounded-1  border-bottom pb-3 wow animate__animated animate__fadeInRight">
                                 <img src={logo9} className="img-fluid image_shadow" alt="Dreamliner Logo" />
                             </div>
                         </div>

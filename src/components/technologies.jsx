@@ -105,12 +105,12 @@ const TechnologiesSection = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-12 mb-4 text-center">
-                        <h1 className='fw-bold'>Technological Mastery</h1>
+                        <h1 className='fw-bold wow animate__animated animate__fadeInDown  '>Technological Mastery</h1>
                     </div>
                     <div className="col-12">
                         <ul className="nav nav-tabs justify-content-lg-center border-0">
                             {tabs.map(tab => (
-                                <li className="nav-item px-1 px-lg-3" key={tab}>
+                                <li className="nav-item px-1 px-lg-3 wow animate__animated animate__fadeInUp" key={tab}>
                                     <a
                                         className={`nav-link ${activeTab === tab ? 'active' : ''}`}
                                         href="#!"
@@ -126,7 +126,7 @@ const TechnologiesSection = () => {
                         <div className="tab-content">
                             <div className="row justify-content-center flex-wrap ">
                                 {technologies[activeTab].map(tech => (
-                                    <div key={tech.id} className="col-6 col-md-3 col-lg-2 rounded-1 text-center d-flex ">
+                                    <div key={tech.id} className="col-6 col-md-3 col-lg-2 rounded-1 text-center d-flex wow animate__animated animate__fadeInBottomLeft">
                                         <div className="card pb-3">
                                             <div className="d-flex col-12 justify-content-center  my-3   rounded-5">
                                                 <img src={tech.src} alt={tech.alt} className=" border-0 img-fluid col-7 col-xxl-6 rounded-5 p-3" />

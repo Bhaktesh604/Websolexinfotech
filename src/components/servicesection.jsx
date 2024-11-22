@@ -49,7 +49,7 @@ const ServiceSection = () => {
                     <div className="col-12 d-flex flex-wrap align-items-center">
                         <div className="col-12 col-xl-4 d-flex align-items-center mb-3 mb-lg-5 mb-xl-0 ">
                             <div className="section_title service_title mb-5 mb-lg-0 wow fadeInDown animated text-center text-md-start" data-wow-delay="0.3s">
-                                <div className="section_main_title text-center text-xl-start">
+                                <div className="section_main_title text-center text-xl-start wow animate__animated animate__fadeInLeft">
                                     <h1 className="mb-2">Comprehensive IT Solutions
                                     </h1>
                                     <p className="mb-4">Unlock the potential of your business with our all-encompassing IT services. From consulting to implementation, we have you covered.
@@ -64,7 +64,7 @@ const ServiceSection = () => {
                         <div className="col-12 col-xl-8 d-flex  flex-wrap">
                             {services.map(service => (
                                 <div key={service.id} className="col-12 col-md-6  ">
-                                    <div className="service_sub_box overflow-hidden  d-lg-flex p-3 my-lg-2 mx-lg-2 mb-4 mb-lg-3 me-md-3 ">
+                                    <div className="service_sub_box overflow-hidden  d-lg-flex p-3 my-lg-2 mx-lg-2 mb-4 mb-lg-3 me-md-3 wow animate__animated animate__fadeInUp">
                                         <div className="icon col-lg-1 me-0 me-lg-4 mb-4 mb-lg-0 d-flex d-lg-block align-align-items-center justify-content-center">
                                             <img src={service.icon} alt="" className='col-2 col-lg-12' />
                                         </div>

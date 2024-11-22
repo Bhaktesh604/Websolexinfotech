@@ -441,8 +441,8 @@ const Footer = () => {
             <section className="footer-area pt-50 pt-100 d-none d-lg-block">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12 d-flex flex-wrap">
-                            <div className="col-lg-4 footer-cms">
+                        <div className="col-12 d-flex flex-wrap ">
+                            <div className="col-lg-4 footer-cms wow animate__animated animate__fadeInUp">
                                 <div className="single-footer-widget text-md-left footer-left wow fadeInLeft animated title">
                                     <div className="footer-toggle">
                                         <div className="footer-logo-main-black mb-3">
@@ -490,7 +490,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-2 footer-cms">
+                            <div className="col-lg-2 footer-cms wow animate__animated animate__fadeInUp">
                                 <div className="single-footer-widget text-md-left wow fadeInDown animated">
                                     <div className="single-title-wrapper title">
                                         <div className="title-footer">
@@ -516,7 +516,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 wow animate__animated animate__fadeInUp">
                                 <div className="single-footer-widget text-md-left wow fadeInUp animated">
                                     <div className="single-title-wrapper title">
                                         <div className="title-footer">
@@ -539,7 +539,7 @@ const Footer = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-3 wow animate__animated animate__fadeInUp">
                                 <div className="single-footer-widget d-flex flex-column text-md-left wow fadeInRight animated">
                                     <div className="single-title-wrapper title">
                                         <div className="title-footer">
@@ -569,14 +569,14 @@ const Footer = () => {
                         <div className="footer-bottom py-3 border-top">
                             <div className="containerr">
                                 <div className="row align-items-center">
-                                    <div className="col-lg-6 wow fadeInLeft animated">
+                                    <div className="col-lg-6 wow animate__animated animate__fadeInLeft">
                                         <div className="footer-bottom-content">
                                             <div className="footer-bottom-content-copy">
                                                 <p className='mb-0'>Copyright © 2024 Websolex Infotech. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="col-lg-6 wow fadeInRight animated">
+                                    <div className="col-lg-6 wow animate__animated animate__fadeInRight">
                                         <ul className="footer-social d-flex flex-row justify-content-center p-0 ps-lg-3 justify-content-lg-end align-items-right float-right mb-0">
                                             <li>
                                                 <Link to="https://www.facebook.com/profile.php?id=61559410317814" target="_blank">

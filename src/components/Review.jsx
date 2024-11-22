@@ -149,14 +149,14 @@ const Testimonials = () => {
             <div className="container">
                 <div className="row">
                     <div className="section_main_title text-center mb-3 mb-md-5">
-                        <h1 className='fw-bold'>Clients Testimonial</h1>
+                        <h1 className='fw-bold wow animate__animated animate__fadeInDown'>Clients Testimonial</h1>
                     </div>
                    
                     <Slider {...settings}>
                         {testimonials.map((item, index) => (
                             <div key={index} className="item">
                                 <div className="review_sub_box d-block d-md-flex rounded-2 m-2">
-                                    <div className="review_content_2 rounded-2 bg-light p-4">
+                                    <div className="review_content_2 rounded-2 bg-light p-4 wow animate__animated animate__fadeInUp">
                                         <ul className="d-flex mb-3">
                                             {[...Array(5)].map((_, i) => (
                                                 <li key={i} className='me-2'><FaStar className='icon_color' /></li>

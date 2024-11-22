@@ -1,6 +1,10 @@
+import React, { useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+import WOW from 'wow.js';
+import 'animate.css'; 
 
 import './App.css';
 import Header from './components/header';
@@ -20,7 +24,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // import Bussines from './components/bussines';
 import Businesspage from './pages/businesspage';
 import Career from './pages/career';
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import Thankyou from './components/thankyou';
 
 
@@ -28,7 +32,10 @@ import Thankyou from './components/thankyou';
 
 
 function App() {
-  
+  useEffect(() => {
+    const wow = new WOW();
+    wow.init();  // Initialize WOW.js
+  }, []);
 
   return (
     <Router>

@@ -237,6 +237,10 @@
 
 
 import React, { useEffect, useState } from 'react';
+
+// import WOW from 'wow.js';
+// import 'animate.css';
+
 import logo from '../Assets/Logo.png';
 import { Link } from 'react-router-dom';
 import { FaPhone } from "react-icons/fa";
@@ -248,6 +252,8 @@ import mobile from '../Assets/mobile.png'
 import Digital from '../Assets/digital_marketing.png'
 
 const Header = (pagetitle) => {
+
+
     const [isCollapsed, setIsCollapsed] = useState(true);
     const [activeTab, setActiveTab] = useState('Home');
 
@@ -257,7 +263,7 @@ const Header = (pagetitle) => {
 
     useEffect(() => {
         document.title = title;
-    }, [title]); // Now useEffect depends on the `title` state
+    }, [title]); 
 
 
     const toggleNavbar = () => {
@@ -397,12 +403,12 @@ const Header = (pagetitle) => {
     return (
         <>
             <header>
-                <div className="header d-none d-lg-block position-fixed ">
+                <div className="header d-none d-lg-block position-fixed wow animate__animated animate__fadeInDown">
                     <div className="container">
                         <div className="row">
                             <nav className="navbar navbar-expand-lg">
                                 <div className="container-fluid">
-                                    <Link className="navbar-brand col-2" to="/"  onClick={() => { handleTabClick('Home'); setTitle('WebSolex Infotech || Home');
+                                    <Link className="navbar-brand col-2 " to="/"  onClick={() => { handleTabClick('Home'); setTitle('WebSolex Infotech || Home');
                                     }}><img src={logo} alt="WebSolex Infotech" /></Link>
                                     <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={!isCollapsed}>
                                         <span className="navbar-toggler-icon"></span>
