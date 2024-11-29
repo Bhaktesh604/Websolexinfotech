@@ -17,12 +17,12 @@ function Meetourteam() {
                     <div className="row justify-content-center mb-4">
                         <div className="col-lg-12 text-center py-5">
                             <div className="section_title portfolio_title text-center mt-3 mb-4">
-                                <div className="section_main_title">
+                                <div className="section_main_title wow animate__animated animate__fadeInDown">
                                     <h1 className="text-capitalize" >meet our team</h1>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch">
+                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch wow animate__animated animate__fadeInLeft">
                             <div className="position-relative card_options mg-10 mx-md-3">
                                 <div className="card ">
                                     <div className="card-img-top h-auto">
@@ -46,7 +46,7 @@ function Meetourteam() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch">
+                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch wow animate__animated animate__fadeInUp">
                             <div className="position-relative mg-10 mx-md-3">
                                 <div className="card ">
                                     <div className="card-img-top h-auto">
@@ -70,7 +70,7 @@ function Meetourteam() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch">
+                        <div className="col-xl-3 col-lg-4 col-md-6 mb-7 d-flex align-items-stretch wow animate__animated animate__fadeInRight">
                             <div className="position-relative card_options mg-10 mx-md-3">
                                 <div className="card ">
                                     <div className="card-img-top h-auto">

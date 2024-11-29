@@ -136,7 +136,7 @@ const PortfolioSection = () => {
         <div className="row">
             <div className="col-lg-12 text-center">
                 <div className="section_title portfolio_title text-center mt-3 mb-4">
-                    <div className="section_main_title">
+                    <div className="section_main_title wow animate__animated animate__fadeInDown">
                         <h1 className='fw-bold'>Our Latest Works For Your Business</h1>
                     </div>
                 </div>
@@ -144,7 +144,7 @@ const PortfolioSection = () => {
         </div>
         <ul className="nav nav-tabs justify-content-lg-center pt-3 pt-lg-4 border-0 ">
             {Object.keys(portfolios).map(tab => (
-                <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0" key={tab}>
+                <li className="nav-item px-1 px-lg-3 mb-1 mb-lg-0 wow animate__animated animate__fadeInUp" key={tab}>
                     <button
                         className={`nav-link ${activeTab === tab ? 'active' : ''}`}
                         onClick={() => setActiveTab(tab)}
@@ -159,7 +159,7 @@ const PortfolioSection = () => {
                 <div className="row">
                     <div className="col-12 d-flex flex-wrap flex-md-row">
                         {portfolios[activeTab].map(image => (
-                            <div className="col-6 col-md-3 mb-4 d-flex justify-content-center justify-content-md-start " key={image.id}>
+                            <div className="col-6 col-md-3 mb-4 d-flex justify-content-center justify-content-md-start wow animate__animated animate__fadeInUp" key={image.id}>
                                 <div className="card position-relative border-0 m-2">
                                     <Link to="#" className="card_img overflow-hidden z-1 rounded-3 position-relative">
                                         <img

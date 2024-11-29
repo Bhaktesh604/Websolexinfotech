@@ -294,8 +294,8 @@ const From = () => {
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="contact_heading text-center col-12 col-xl-6 mb-4 mb-xxl-5">
-                            <h3 className="fw-semibold mb-4">Let’s Connect and Create Something Amazing!</h3>
-                            <p>We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!</p>
+                            <h3 className="fw-semibold mb-4 wow animate__animated animate__fadeInDown">Let’s Connect and Create Something Amazing!</h3>
+                            <p className='wow animate__animated animate__fadeInDown'>We’re here to answer your questions, discuss your ideas, and help your business grow. Reach out to us anytime we’d love to hear from you!</p>
                         </div>
                         {successMessage && (
                             <div className="alert alert-success mt-4" role="alert">
@@ -310,11 +310,11 @@ const From = () => {
                         <div className="col-12 d-flex flex-wrap align-items-center">
                             <div className="col-12 col-xl-6 mb-5 mb-xl-0">
                                 <div className="contact_form_sub rounded-3 m-xl-3">
-                                    <h2 className="mb-4 text-center">Get in Touch with Us</h2>
+                                    <h2 className="mb-4 text-center wow animate__animated animate__fadeInDown">Get in Touch with Us</h2>
                                     <form onSubmit={onSubmit}>
                                         <div className="input_main_menu d-flex flex-wrap">
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
+                                                <div className="m-2 wow animate__animated animate__fadeInBottomLeft">
                                                     <input
                                                         type="text" 
                                                         id='name'
@@ -328,7 +328,7 @@ const From = () => {
                                                 </div>
                                             </div>
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
+                                                <div className="m-2 wow animate__animated animate__fadeInBottomRight">
                                                     <input
                                                         type="email"
                                                         id='email'
@@ -345,7 +345,7 @@ const From = () => {
                                                 <small className='text-danger'> {errors.email} </small>
                                             )}
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
+                                                <div className="m-2 wow animate__animated animate__fadeInBottomLeft">
                                                     <input
                                                         type="tel"
                                                         id='contactnumber'
@@ -362,7 +362,7 @@ const From = () => {
                                                 <small className='text-danger'> {errors.contactnumber} </small>
                                             )}
                                             <div className="input_sub_box col-12 col-md-6 ps-0">
-                                                <div className="m-2">
+                                                <div className="m-2 wow animate__animated animate__fadeInBottomRight">
                                                     <select
                                                         id="subject"
                                                         name="subject"
@@ -382,7 +382,7 @@ const From = () => {
                                                 </div>
                                             </div>
                                             {showtextbox && (
-                                                <div className="m-2 other_input col-12 input_sub_box">
+                                                <div className="m-2 other_input col-12 input_sub_box wow animate__animated animate__fadeInUpBig">
                                                     <input
                                                         type="text"
                                                         id="otherTextInput"
@@ -396,7 +396,7 @@ const From = () => {
                                                 </div>
                                             )}
                                             <div className="input_sub_box col-12 ps-0">
-                                                <div className="m-2">
+                                                <div className="m-2 wow animate__animated animate__fadeInUp">
                                                     <textarea
                                                         id='message'
                                                         name='message'
@@ -409,7 +409,7 @@ const From = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="contact_btn mt-4 d-flex justify-content-center">
+                                        <div className="contact_btn mt-4 d-flex justify-content-center wow animate__animated animate__slideInLeft">
                                             <button
                                                 type="submit"
                                                 className="home_btn border text-light rounded-3 m-2 fw-semibold"
@@ -424,12 +424,12 @@ const From = () => {
                             </div>
                             <div className="col-12 col-xl-6 pe-0  ">
                                 <div className="contact_company_details_box">
-                                    <h2 className="fw-bold text-center mb-0">Contact Details</h2>
+                                    <h2 className="fw-bold text-center mb-0 wow animate__animated animate__fadeInDown">Contact Details</h2>
                                 </div>
                                 <div className="col-12 d-flex flex-wrap px-0 pt-5 ">
                                     <div className="col-12 col-md-6 ps-0 ">
                                         <div className="me-0 me-md-3 me-xl-2 me-xxl-4">
-                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4">
+                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4 wow animate__animated animate__animated animate__fadeInRight">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                                     <MdLocationPin className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
@@ -442,7 +442,7 @@ const From = () => {
                                     </div>
                                     <div className="col-12 col-md-6 ps-0  ">
                                         <div className="me-0 me-xl-2 me-xxl-4">
-                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4 mb-md-0">
+                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4 mb-md-0 wow animate__animated animate__animated animate__fadeInRight">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                                     <FaPhone className=' d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
@@ -455,7 +455,7 @@ const From = () => {
                                     </div>
                                     <div className="col-12 col-md-6 ps-0 ">
                                         <div className="me-0 me-md-3 me-xl-2 me-xxl-4">
-                                            <div className="contact_sub_boxx  d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4 mb-md-0">
+                                            <div className="contact_sub_boxx  d-xxl-flex col-12 text-center text-xxl-start border rounded-2 mb-4 mb-md-0 wow animate__animated animate__animated animate__fadeInRight">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                                     <FaClock className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
@@ -468,7 +468,7 @@ const From = () => {
                                     </div>
                                     <div className="col-12 col-md-6 ps-0  ">
                                         <div className="me-0 me-xl-2 me-xxl-4">
-                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2  ">
+                                            <div className="contact_sub_boxx d-xxl-flex col-12 text-center text-xxl-start border rounded-2  wow animate__animated animate__animated animate__fadeInRight">
                                                 <div className="contact_icons_bg me-xxl-3 d-flex justify-content-center mb-3 mb-xxl-0">
                                                     <MdEmail className='d-flex text-light  justify-content-center align-items-center rounded-3 p-2' />
                                                 </div>
@@ -481,24 +481,24 @@ const From = () => {
                                     </div>
                                 </div>
                                 <div className="col-12 d-flex flex-column flex-lg-row  mt-5 mt-xl-3 justify-content-between py-5 ps-3 py-sm-4  ps-sm-4 pe-0 align-items-center border-top">
-                                    <h6 className="fw-bold mb-4 mb-md-0 font_size">Social Media:</h6>
+                                    <h6 className="fw-bold mb-4 mb-md-0 font_size wow animate__animated animate__animated animate__slideInRight">Social Media:</h6>
                                     <ul className="social_main_menu d-flex ps-0 mb-0 ">
-                                        <li className="me-3">
+                                        <li className="me-3 wow animate__animated animate__animated animate__slideInRight">
                                             <Link to="https://www.facebook.com/profile.php?id=61559410317814" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaFacebookF className='text-black fs-5' />
                                             </Link>
                                         </li>
-                                        <li className="me-3">
+                                        <li className="me-3 wow animate__animated animate__animated animate__slideInRight">
                                             <Link to="#" onClick={handleClick} className="border rounded-3 d-flex align-items-center">
                                                 <IoLogoWhatsapp className='text-black fs-5' />
                                             </Link>
                                         </li>
-                                        <li className="me-3">
+                                        <li className="me-3 wow animate__animated animate__animated animate__slideInRight">
                                             <Link to="https://www.instagram.com/websolex_infotech/" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <AiFillInstagram  className='text-black fs-5'/>
                                             </Link>
                                         </li>
-                                        <li className="me-3">
+                                        <li className="me-3 wow animate__animated animate__animated animate__slideInRight">
                                             <Link to="https://www.linkedin.com/company/unity-infotechs/mycompany/verification/" target='_blank' className="border rounded-3 d-flex align-items-center">
                                                 <FaLinkedinIn className='text-black fs-5' />
                                             </Link>

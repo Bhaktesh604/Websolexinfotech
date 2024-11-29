@@ -409,14 +409,14 @@ const Header = (pagetitle) => {
                             <nav className="navbar navbar-expand-lg">
                                 <div className="container-fluid">
                                     <Link className="navbar-brand col-2 " to="/"  onClick={() => { handleTabClick('Home'); setTitle('WebSolex Infotech || Home');
-                                    }}><img src={logo} alt="WebSolex Infotech" /></Link>
+                                    }}><img src={logo} alt="WebSolex Infotech"/></Link>
                                     <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-expanded={!isCollapsed}>
                                         <span className="navbar-toggler-icon"></span>
                                     </button>
                                     <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`} id="navbarSupportedContent">
                                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                                             <li className="nav-item p-3 text-center">
-                                                <Link className={`nav-link ${activeTab === 'Home' ? 'active text-primary fw-bold' : ''}`} to="/"
+                                                <Link className={`nav-link  ${activeTab === 'Home' ? 'active text-primary fw-bold' : ''}`} to="/"
                                                     onClick={() => {
                                                         handleTabClick('Home');
                                                         setTitle('WebSolex Infotech || Home');
@@ -455,8 +455,8 @@ const Header = (pagetitle) => {
                                                     </div>
                                                 }
                                             </li>
-                                            <li className="nav-item p-3 text-center">
-                                                <Link className={`nav-link link_hover ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
+                                            <li className="nav-item p-3 text-center ">
+                                                <Link className={`nav-link link_hover  ${activeTab === 'Portfolio' ? 'active text-primary fw-bold' : ''}`}
 
                                                     onClick={() => {
                                                         handleTabClick('Portfolio');
@@ -466,8 +466,8 @@ const Header = (pagetitle) => {
                                                     Portfolio
                                                 </Link>
                                             </li>
-                                            <li className="nav-item py-3 ps-0 pe-3 text-center">
-                                                <Link className={`nav-link link_hover ${activeTab === 'Company' ? 'active text-primary fw-bold' : ''}`}
+                                            <li className="nav-item py-3 ps-0 pe-3 text-center ">
+                                                <Link className={`nav-link link_hover  ${activeTab === 'Company' ? 'active text-primary fw-bold' : ''}`}
                                                     onClick={() => {
                                                         handleTabClick('Company');
                                                         setTitle('WebSolex Infotech || Company');
@@ -476,8 +476,8 @@ const Header = (pagetitle) => {
                                                     Company
                                                 </Link>
                                             </li>
-                                            <li className="nav-item py-3 ps-0 pe-3 text-center">
-                                                <Link className={`nav-link link_hover ${activeTab === 'contact' ? 'active text-primary fw-bold' : ''}`}
+                                            <li className="nav-item py-3 ps-0 pe-3 text-center ">
+                                                <Link className={`nav-link link_hover  ${activeTab === 'contact' ? 'active text-primary fw-bold' : ''}`}
                                                     onClick={() => {
                                                         handleTabClick('contact');
                                                         setTitle('WebSolex Infotech || Contact');

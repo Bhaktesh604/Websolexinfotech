@@ -24,9 +24,9 @@ function Mission() {
                                     <div className="col-12 col-lg-8">
                                         <div className="mission_data_section bg-light rounded-5 p-5">
                                             <div className="mission_title col-12 py-5">
-                                                <h2 className="mb-3 fw-bold fs-1 text-capitalize">mission & vision</h2>
+                                                <h2 className="mb-3 fw-bold fs-1 text-capitalize wow animate__animated animate__fadeInDown">mission & vision</h2>
                                             </div>
-                                            <div className="vision_paragraph col-12 text-center d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+                                            <div className="vision_paragraph col-12 text-center d-flex flex-column flex-lg-row align-items-center align-items-lg-start wow animate__animated animate__fadeInLeft">
                                                 <div className="headings col-12 col-lg-4 text-center text-lg-start">
                                                     <h3 className="mb-3 text-uppercase fw-bold">
                                                         {missionData.mission[1].name}
@@ -36,7 +36,7 @@ function Mission() {
                                                     <p>{missionData.mission[1].discription}</p>
                                                 </div>
                                             </div>
-                                            <div className="mission_paragraph col-12 text-center d-flex flex-column flex-lg-row align-items-center align-items-lg-start">
+                                            <div className="mission_paragraph col-12 text-center d-flex flex-column flex-lg-row align-items-center align-items-lg-start wow animate__animated animate__fadeInRight">
                                                 <div className="headings col-12 col-lg-4 text-center text-lg-start">
                                                     <h3 className="mb-3 text-uppercase fw-bold">
                                                         {missionData.mission[0].name}
@@ -49,10 +49,10 @@ function Mission() {
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-3 col-xl-4 d-flex mt-3 mt-lg-0">
-                                        <div className="mission_img_section col-6 d-flex justify-content-end  flex-row">
+                                        <div className="mission_img_section col-6 d-flex justify-content-end  flex-row wow animate__animated animate__fadeInUp">
                                             <img src={missionData.image[0].src} height="500" className="" alt={missionData.image[0].alt} />
                                         </div>
-                                        <div className="col-9 d-flex flex-column justify-content-start position-relative">
+                                        <div className="col-9 d-flex flex-column justify-content-start position-relative wow animate__animated animate__fadeInRight">
                                             <div className="line_box line_1 position-absolute text-start">
                                                 <div className="counts ">
                                                     <h1 className="m-0 fw-bold" >Since 2022</h1>
