@@ -7,7 +7,7 @@ import blogimg5 from '../Assets/blogimg5.png';
 import insta1 from '../Assets/insta1.png';
 import insta2 from '../Assets/insta2 1.png';
 import insta3 from '../Assets/insta3 1.png';
-import insta4 from '../Assets/insta6.png';
+import insta4 from '../Assets/insta6.6ecf289e27936c6602c9.png';
 import insta5 from '../Assets/insta5 1.png';
 import insta7 from '../Assets/insta7.jpg';
 import { IoSearch } from "react-icons/io5";

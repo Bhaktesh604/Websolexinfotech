@@ -1186,6 +1186,7 @@ a.dropdown-item img {
     background-size: contain;
     width: 56%;
     height: 70%;
+    z-index: 999;
 }
 
 /* Arrows specific styling */
