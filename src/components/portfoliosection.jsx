@@ -127,12 +127,6 @@ const PortfolioSection = () => {
                         >
                           <FaSearchPlus />
                         </Link>
-                        {/* <Link
-                          to="#"
-                          className="text-bg-light rounded-5 d-flex align-items-center justify-content-center"
-                        >
-                          <CiLink />
-                        </Link> */}
                       </div>
                     </Link>
                   </div>

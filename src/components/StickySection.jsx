@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import { useInView } from 'react-hook-inview';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState, useEffect } from "react";
+import { useInView } from "react-hook-inview";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const StickySection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -9,10 +9,10 @@ const StickySection = () => {
   });
 
   const contents = [
-    { id: 1, text: 'Content 1' },
-    { id: 2, text: 'Content 2' },
-    { id: 3, text: 'Content 3' },
-    { id: 4, text: 'Content 4' },
+    { id: 1, text: "Content 1" },
+    { id: 2, text: "Content 2" },
+    { id: 3, text: "Content 3" },
+    { id: 4, text: "Content 4" },
   ];
 
   const handleScroll = () => {
@@ -28,17 +28,20 @@ const StickySection = () => {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   return (
-    <div ref={ref} className={`sticky-section ${isVisible ? 'sticky' : ''}`}>
+    <div ref={ref} className={`sticky-section ${isVisible ? "sticky" : ""}`}>
       {contents.map((content, index) => (
-        <div key={content.id} className={`content ${index === activeIndex ? 'active' : ''}`}>
+        <div
+          key={content.id}
+          className={`content ${index === activeIndex ? "active" : ""}`}
+        >
           <h2>{content.text}</h2>
         </div>
       ))}

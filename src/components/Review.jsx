@@ -128,13 +128,6 @@ const Testimonials = () => {
             category: "Business",
             question: img4,
         },
-        // {
-        //     text: "unity infotech immediately grasped our ideas and brought them to life, exceeding our expectations across the board. He is very professional and very efficient. Will be using on future projects. Excellent work",
-        //     img: img5,
-        //     author: "Paresh Vegad",
-        //     category: "Website Devlopment",
-        //     question: img4,
-        // },
         {
             text: "Parth is a total package! He has done Graphics, UI and UX for our business. Everything worked out just perfect, wherever there was any modification required.. he did it without a question. Highly Recommended A++++++ !!!!!",
             img: img6,

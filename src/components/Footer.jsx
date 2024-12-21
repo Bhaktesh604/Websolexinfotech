@@ -436,6 +436,8 @@ const Footer = () => {
         setdata({ email: "" })
     }
 
+    
+
     return (
         <>
             <section className="footer-area pt-50 pt-100 d-none d-lg-block">
