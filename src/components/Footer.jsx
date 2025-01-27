@@ -196,7 +196,7 @@
 //                                 <div className="col-lg-6 wow fadeInLeft animated">
 //                                     <div className="footer-bottom-content">
 //                                         <div className="footer-bottom-content-copy">
-//                                             <p className='mb-0'>Copyright © 2024 Websolex infotech. All Rights Reserved. </p>
+//                                             <p className='mb-0'>Copyright © 2025 Websolex infotech. All Rights Reserved. </p>
 //                                         </div>
 //                                     </div>
 //                                 </div>
@@ -574,7 +574,7 @@ const Footer = () => {
                                     <div className="col-lg-6 wow animate__animated animate__fadeInLeft">
                                         <div className="footer-bottom-content">
                                             <div className="footer-bottom-content-copy">
-                                                <p className='mb-0'>Copyright © 2024 Websolex Infotech. All Rights Reserved.</p>
+                                                <p className='mb-0'>Copyright © 2025 Websolex Infotech. All Rights Reserved.</p>
                                             </div>
                                         </div>
                                     </div>
